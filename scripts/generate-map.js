@@ -109,8 +109,28 @@ async function main() {
     await page.goto(`file://${tempHtmlPath}`, { waitUntil: 'load' });
     await page.waitForFunction('window.renderComplete === true', { timeout: 30000 });
     
+    console.log('Render complete! Taking screenshot...');
     const screenshotPath = path.resolve(__dirname, '../assets/random-point.png');
-    await page.screenshot({ path: screenshotPath });
+    
+    // Take screenshot with a safety check loop to ensure it's never a black screen
+    let isBlackScreen = true;
+    let attempts = 0;
+
+    while (isBlackScreen && attempts < 3) {
+      attempts++;
+      await page.screenshot({ path: screenshotPath });
+      
+      // Read the file and check if it's mostly black pixels (file size too small or blank buffer)
+      const fileStats = fs.statSync(screenshotPath);
+      if (fileStats.size > 50000) { // Valid renders are usually close to 1MB; black renders are tiny
+        isBlackScreen = false;
+      } else {
+        console.warn(`[WARNING]: Render appeared blank/black (attempt ${attempts}). Retrying screenshot...`);
+        await new Promise(resolve => setTimeout(resolve, 5000));
+      }
+    }
+
+    console.log(`Screenshot saved successfully to ${screenshotPath}`);
 
     const captionText = `**${locationName}**\n\nCoordinates: ${targetLat}, ${targetLon}\n\n*${fact}*`;
     fs.writeFileSync(path.resolve(__dirname, '../assets/random-point-caption.md'), captionText);
