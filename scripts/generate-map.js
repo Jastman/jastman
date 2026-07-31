@@ -39,7 +39,7 @@ async function main() {
   try {
     // Assuming your HTML file is in the root directory (one level up from /scripts)
     // Update 'index.html' if your entry file is named differently
-    const targetUrl = `file://${path.resolve(__dirname, '../index.html')}`;
+    const targetUrl = `file://${path.resolve(__dirname, 'cesium-template.html')}`;
     console.log(`Navigating to ${targetUrl}...`);
     
     // Wait until network activity settles to ensure Cesium assets are loaded
