@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth
 <!-- START_LOCATION -->
-![Cesium Daily Map](assets/random-point.png?v=1785520605769)
+![Cesium Daily Map](assets/random-point.png?v=1785522362435)
 
-**Location:** **Covington, Louisiana**
+**Location:** **Mount Kirkpatrick**
 
-Coordinates: 30.47888889, -90.10416667
+Coordinates: -84.33333333, 166.41666667
 
-*Covington is a city in and the parish seat of St. Tammany Parish, Louisiana, United States.  The population was 11,564 at the 2020 United States census. It is located at a fork of the Bogue Falaya and the Tchefuncte River. Covington is part of the Slidell...*
+*Mount Kirkpatrick (84°20′S 166°25′E) is a lofty, generally ice-free mountain in Queen Alexandra Range 5 nautical miles (9.3 km; 5.8 mi) west of Mount Dickerson . At 4,528 metres (14,856 ft) it is the highest point in the Queen Alexandra Range, Antarctica.*
 
-*Last generated: Jul 31, 2026 at 1:56 PM EDT*
+*Last generated: Jul 31, 2026 at 2:26 PM EDT*
 <!-- END_LOCATION -->
 
 *Wherever the globe landed this time. Refreshes daily via GitHub Actions + CesiumJS.
