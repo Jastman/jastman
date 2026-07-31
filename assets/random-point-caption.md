@@ -1,5 +1,5 @@
-**Edmonton International Airport**
+**Cordova, Alabama**
 
-Coordinates: 53.31, -113.57944444
+Coordinates: 33.75416667, -87.19166667
 
-*Edmonton International Airport  (IATA: YEG, ICAO: CYEG), officially branded YEG Edmonton International Airport, is an international airport that serves as the primary air passenger and air cargo facility in the Edmonton Metropolitan Region of the Canadian...*
+*Cordova is a city in Walker County, Alabama, United States. It was formerly a textile mill town. It was incorporated in 1897. As of the 2020 census, Cordova had a population of 1,728.*
