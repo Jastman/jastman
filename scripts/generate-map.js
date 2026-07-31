@@ -1,55 +1,71 @@
-const fs = require("fs");
-const path = require("path");
-const puppeteer = require("puppeteer");
-
-const ROOT = path.join(__dirname, "..");
-const ION_TOKEN = process.env.CESIUM_ION_TOKEN;
-
-if (!ION_TOKEN) {
-  console.error("Missing CESIUM_ION_TOKEN env var. Get one free at ion.cesium.com.");
-  process.exit(1);
-}
+const puppeteer = require('puppeteer');
+const path = require('path');
 
 async function main() {
-  const points = JSON.parse(fs.readFileSync(path.join(__dirname, "points.json"), "utf8"));
-  const point = points[Math.floor(Math.random() * points.length)];
-
-  let template = fs.readFileSync(path.join(__dirname, "cesium-template.html"), "utf8");
-  template = template
-    .replace("ION_TOKEN", ION_TOKEN)
-    .replace("LON, LAT, HEIGHT", `${point.lon}, ${point.lat}, ${point.height}`);
-
-  const tempHtmlPath = path.join(__dirname, "_render.html");
-  fs.writeFileSync(tempHtmlPath, template);
-
+  console.log('Launching headless browser with WebGL support...');
+  
+  // 1. Launch with WebGL (SwiftShader) software rendering flags
   const browser = await puppeteer.launch({
     headless: "new",
-    args: ["--no-sandbox", "--disable-setuid-sandbox", "--use-gl=swiftshader", "--enable-webgl"],
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--use-gl=angle',
+      '--use-angle=swiftshader',
+      '--enable-webgl',
+      '--ignore-gpu-blocklist'
+    ]
+  });
+
+  const page = await browser.newPage();
+
+  // Set the viewport dimensions for your GitHub profile map
+  await page.setViewport({ width: 800, height: 400, deviceScaleFactor: 2 });
+
+  // 2. Catch and log all browser console output and errors to GitHub Actions
+  page.on('console', msg => {
+    console.log(`[Browser Console] ${msg.type().toUpperCase()}: ${msg.text()}`);
+  });
+  
+  page.on('pageerror', error => {
+    console.error(`[Browser Error]: ${error.message}`);
+  });
+  
+  page.on('requestfailed', request => {
+    console.error(`[Network Error]: ${request.url()} failed - ${request.failure()?.errorText}`);
   });
 
   try {
-    const page = await browser.newPage();
-    await page.setViewport({ width: 1200, height: 630 });
-    await page.goto(`file://${tempHtmlPath}`, { waitUntil: "load" });
+    // Assuming your HTML file is in the root directory (one level up from /scripts)
+    // Update 'index.html' if your entry file is named differently
+    const targetUrl = `file://${path.resolve(__dirname, '../index.html')}`;
+    console.log(`Navigating to ${targetUrl}...`);
+    
+    // Wait until network activity settles to ensure Cesium assets are loaded
+    await page.goto(targetUrl, { waitUntil: 'networkidle0' });
 
-    // wait for the flyTo + tile streaming to finish
-    await page.waitForFunction("window.renderComplete === true", { timeout: 20000 });
+    console.log('Waiting for Cesium window.renderComplete flag...');
+    // A 30-second timeout to accommodate slower software rendering on GitHub runners
+    await page.waitForFunction('window.renderComplete === true', { timeout: 30000 });
+    
+    console.log('Render complete! Taking screenshot...');
+    
+    // Output the screenshot to the root folder (update 'map.png' to match your README reference)
+    const screenshotPath = path.resolve(__dirname, '../map.png');
+    await page.screenshot({ path: screenshotPath });
+    
+    console.log(`Screenshot saved successfully to ${screenshotPath}`);
 
-    const assetsDir = path.join(ROOT, "assets");
-    fs.mkdirSync(assetsDir, { recursive: true });
-    await page.screenshot({ path: path.join(assetsDir, "random-point.png") });
-
-    const caption = `**${point.name}**\n\n${point.fact}`;
-    fs.writeFileSync(path.join(assetsDir, "random-point-caption.md"), caption);
-
-    console.log(`Rendered: ${point.name}`);
+  } catch (error) {
+    console.error('Error during map generation:', error);
+    // Force the GitHub Action to fail so you can see the logs
+    process.exit(1); 
   } finally {
-    await browser.close();
-    fs.unlinkSync(tempHtmlPath);
+    if (browser) {
+      await browser.close();
+    }
   }
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+main();
