@@ -78,7 +78,7 @@ async function main() {
     
     console.log('Render complete! Taking screenshot...');
     
-    const screenshotPath = path.resolve(__dirname, '../map.png');
+  const screenshotPath = path.resolve(__dirname, '../assets/random-point.png')
     await page.screenshot({ path: screenshotPath });
     
     console.log(`Screenshot saved successfully to ${screenshotPath}`);
