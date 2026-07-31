@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily Map](assets/random-point.png?v=1785524891595)
+![Cesium Daily Map](assets/random-point.png?v=1785526493086)
 
-**Location:** **Apple Park, Cupertino**
+**Victoria Falls, Zambia/Zimbabwe**
 
-Coordinates: 37.3349, -122.009
+Coordinates: -17.9243, 25.856
 
-*Nicknamed 'The Spaceship,' this massive ring-shaped building is a marvel of curved glass.*
+*Considered the largest waterfall in the world by the combined width and height of its falling water sheet.*
 
-*Last generated: Jul 31, 2026 at 3:08 PM EDT*
+*Last generated: Jul 31, 2026 at 3:34 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
