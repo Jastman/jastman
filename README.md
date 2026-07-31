@@ -43,9 +43,16 @@ status: "Compiling..."
 
 ---
 
+### 📍 Random point of interest
+
+![Random Cesium render](https://raw.githubusercontent.com/Jastman/jastman/main/assets/random-point.png)
+
+Wherever the globe landed this time. Refreshes daily via GitHub Actions + CesiumJS.
+
+---
+
 ### 📫 Connect with me
-[X/Twitter]([url](https://x.com/jasteinerman))
+[X/Twitter](https://www.x.com/jasteinerman)
 [LinkedIn](https://www.linkedin.com/in/jasteinerman)
-[Threads]([url](https://www.threads.com/@jasteinerman))
 
 ---
