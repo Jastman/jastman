@@ -1,5 +1,5 @@
-**Bruneck**
+**Edmonton International Airport**
 
-Coordinates: 46.8, 11.93333333
+Coordinates: 53.31, -113.57944444
 
-*Bruneck (Austrian German: [ˈbrʊnɛk] ; Italian: Brunico, pronounced [bruˈniːko] or [ˈbruːniko]; Ladin: Bornech [borˈnek] or Burnech [burˈnek]; Latin: Brunecium or Brunopolis) is the largest city in the Puster Valley in the Italian province of South Tyrol.*
+*Edmonton International Airport  (IATA: YEG, ICAO: CYEG), officially branded YEG Edmonton International Airport, is an international airport that serves as the primary air passenger and air cargo facility in the Edmonton Metropolitan Region of the Canadian...*
