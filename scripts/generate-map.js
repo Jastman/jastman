@@ -11,10 +11,11 @@ async function main() {
       '--no-sandbox',
       '--disable-setuid-sandbox',
       '--disable-dev-shm-usage',
-      '--use-gl=angle',
-      '--use-angle=swiftshader',
+      '--disable-gpu',                  // Force software rendering pathway
+      '--use-gl=swiftshader',           // Direct SwiftShader WebGL implementation
       '--enable-webgl',
-      '--ignore-gpu-blocklist'
+      '--ignore-gpu-blocklist',
+      '--allow-file-access-from-files'  // Prevent CORS blocks when loading Cesium assets via file://
     ]
   });
 
