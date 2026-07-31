@@ -28,9 +28,8 @@ graph TD
         end
     end
 
-    ---
 
-## 🛠️ How It Works
+    ## 🛠️ How It Works
 
 * **Daily Automation:** Triggered via GitHub Actions on a cron schedule (`0 10 * * *` UTC / 6:00 AM EDT) and manual workflow dispatch.
 * **Hybrid Data Pipeline:** A Node.js orchestrator flips a coin on each run to select a location using a 50/50 strategy between a curated list of architectural/natural wonders (`points.json`) and a random geolocated Wikipedia article filtered through safety guardrails.
