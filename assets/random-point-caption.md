@@ -1,5 +1,5 @@
-**The Palm Jumeirah, Dubai**
+**Arkansas Army National Guard**
 
-Coordinates: 25.1124, 55.1389
+Coordinates: 34.81522222, -92.28858333
 
-*An archipelago of artificial islands created using land reclamation, shaped like a massive palm tree.*
+*The Arkansas Army National Guard (ARARNG) is a component of the Arkansas National Guard and the United States National Guard. National coordination of various state National Guard units are maintained through the National Guard Bureau. Arkansas Army National Guard units are trained and equipped as part...*

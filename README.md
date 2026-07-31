@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily Map](assets/random-point.png?v=1785524409919)
+![Cesium Daily Map](assets/random-point.png?v=1785524798045)
 
-**Location:** **The Palm Jumeirah, Dubai**
+**Location:** **Arkansas Army National Guard**
 
-Coordinates: 25.1124, 55.1389
+Coordinates: 34.81522222, -92.28858333
 
-*An archipelago of artificial islands created using land reclamation, shaped like a massive palm tree.*
+*The Arkansas Army National Guard (ARARNG) is a component of the Arkansas National Guard and the United States National Guard. National coordination of various state National Guard units are maintained through the National Guard Bureau. Arkansas Army National Guard units are trained and equipped as part...*
 
-*Last generated: Jul 31, 2026 at 3:00 PM EDT*
+*Last generated: Jul 31, 2026 at 3:06 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
