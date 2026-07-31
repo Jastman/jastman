@@ -42,16 +42,15 @@
         const targetLat = LAT;
         const rawHeight = HEIGHT;
 
-        // Cinematic framing variables
         const randomHeading = Math.floor(Math.random() * 360);
         const centerCartesian = Cesium.Cartesian3.fromDegrees(targetLon, targetLat, 0);
 
-        // Calculate a safe cinematic range distance so it frames buildings and natural wonders grandly
-        const rangeDistance = Math.max(rawHeight * 0.8, 800);
+        // Tighter range distance so buildings fill the frame nicely
+        const rangeDistance = Math.max(rawHeight * 0.5, 450);
 
         const headingPitchRange = new Cesium.HeadingPitchRange(
           Cesium.Math.toRadians(randomHeading),
-          Cesium.Math.toRadians(-40), // Cinematic 40-degree downward angle for 3D depth
+          Cesium.Math.toRadians(-45), 
           rangeDistance
         );
 
@@ -59,9 +58,10 @@
           offset: headingPitchRange,
           duration: 0,
           complete: function() {
+            // Bumped to 25 seconds to give SwiftShader time to load sharp textures
             setTimeout(() => {
               window.renderComplete = true;
-            }, 15000); 
+            }, 25000); 
           }
         });
 

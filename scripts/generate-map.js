@@ -2,67 +2,48 @@ const puppeteer = require('puppeteer');
 const path = require('path');
 const fs = require('fs');
 
-// Blacklist filter to screen out schools, education, and sensitive/violent topics
 function isUnwantedLocation(title, extract) {
   const text = `${title} ${extract}`.toLowerCase();
-  
   const bannedKeywords = [
-    // Schools / Education (unless unique architecture/history handled elsewhere, filter out standard ones)
     'high school', 'middle school', 'elementary school', 'primary school', 'kindergarten', 
     'school district', 'public school', 'private school', 'prep school', 'boarded school',
-    // Violence / Tragedies / Sensitive topics
     'shooting', 'massacre', 'attack', 'bombing', 'terrorist', 'terrorism', 'assassination',
     'murder', 'homicide', 'slaughter', 'riot', 'disaster', 'tragedy', 'cemetery', 'graveyard',
     'prison', 'penitentiary', 'jail'
   ];
-
-  for (const word of bannedKeywords) {
-    if (text.includes(word)) {
-      return true; // Unwanted match found
-    }
-  }
-  return false; // Safe
+  return bannedKeywords.some(word => text.includes(word));
 }
 
-// Helper function to fetch a random geolocated article from Wikipedia with filtering
 async function fetchDynamicPointFromWiki() {
-  const maxAttempts = 5;
-  
-  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
-    // 1. Fetch 50 random Wikipedia articles
+  for (let attempt = 1; attempt <= 3; attempt++) {
     const randomUrl = 'https://en.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&rnlimit=50&format=json&origin=*';
     const randomRes = await fetch(randomUrl);
     const randomData = await randomRes.json();
     const pageIds = randomData.query.random.map(p => p.id).join('|');
 
-    // 2. Query those pages for coordinates and extracts
     const dataUrl = `https://en.wikipedia.org/w/api.php?action=query&pageids=${pageIds}&prop=coordinates|extracts&exintro=1&exchars=300&explaintext=1&format=json&origin=*`;
     const dataRes = await fetch(dataUrl);
     const data = await dataRes.json();
 
-    // 3. Scan for the first valid, filtered page
     for (const pageId in data.query.pages) {
       const page = data.query.pages[pageId];
       if (page.coordinates && page.coordinates.length > 0) {
         const name = page.title;
         const extract = page.extract ? page.extract.replace(/\n/g, ' ').trim() : '';
 
-        // Run through our safety filter
-        if (isUnwantedLocation(name, extract)) {
-          console.log(`[FILTERED OUT] Skipped unwanted location: "${name}"`);
-          continue;
-        }
+        if (isUnwantedLocation(name, extract)) continue;
 
-        const lon = page.coordinates[0].lon;
-        const lat = page.coordinates[0].lat;
-        const height = 2500; // Safe default height for clean aerial framing
-        const fact = extract || 'A random location discovered via Wikipedia.';
-
-        return { name, lon, lat, height, fact };
+        return {
+          name,
+          lon: page.coordinates[0].lon,
+          lat: page.coordinates[0].lat,
+          height: 1200,
+          fact: extract || 'A random location discovered via Wikipedia.'
+        };
       }
     }
   }
-  throw new Error("Exceeded max attempts to find a clean Wikipedia location.");
+  throw new Error("Failed to find clean Wikipedia point.");
 }
 
 async function main() {
@@ -77,101 +58,75 @@ async function main() {
   let htmlContent = fs.readFileSync(templatePath, 'utf8');
   let todayPoint;
 
-  try {
-    console.log('Attempting to fetch dynamic daily point from Wikipedia...');
-    todayPoint = await fetchDynamicPointFromWiki();
-    console.log(`Successfully generated dynamic point: ${todayPoint.name}`);
-  } catch (error) {
-    console.warn(`[WARNING]: ${error.message} Falling back to static points.json.`);
-    
-    // Fallback logic
+  // Hybrid Approach: 50% chance to use curated list, 50% chance for Wikipedia
+  const useCurated = Math.random() < 0.5;
+
+  if (useCurated) {
+    console.log('Picking randomly from your curated 100-item list...');
     const fallbackPoints = JSON.parse(fs.readFileSync(pointsPath, 'utf8'));
-    const start = new Date(new Date().getFullYear(), 0, 0);
-    const diff = (new Date() - start) + ((start.getTimezoneOffset() - new Date().getTimezoneOffset()) * 60 * 1000);
-    const dayOfYear = Math.floor(diff / (1000 * 60 * 60 * 24));
-    
-    todayPoint = fallbackPoints[dayOfYear % fallbackPoints.length];
+    // Truly random pick from the 100 items
+    const randomIndex = Math.floor(Math.random() * fallbackPoints.length);
+    todayPoint = fallbackPoints[randomIndex];
+  } else {
+    try {
+      console.log('Attempting to fetch dynamic daily point from Wikipedia...');
+      todayPoint = await fetchDynamicPointFromWiki();
+      console.log(`Successfully generated dynamic point: ${todayPoint.name}`);
+    } catch (error) {
+      console.warn(`[WARNING]: ${error.message} Falling back to static points.json.`);
+      const fallbackPoints = JSON.parse(fs.readFileSync(pointsPath, 'utf8'));
+      todayPoint = fallbackPoints[Math.floor(Math.random() * fallbackPoints.length)];
+    }
   }
 
   const targetLon = todayPoint.lon || todayPoint.lng;
   const targetLat = todayPoint.lat;
-  const targetHeight = todayPoint.height || 2500;
+  const targetHeight = todayPoint.height || 1500;
   const locationName = todayPoint.name || 'Unknown Location';
   const fact = todayPoint.fact || '';
 
-  console.log(`Targeting Coordinates: Lon ${targetLon}, Lat ${targetLat}, Height ${targetHeight}`);
+  console.log(`Targeting: ${locationName} (Lon: ${targetLon}, Lat: ${targetLat})`);
 
   htmlContent = htmlContent.replace(/LON/g, targetLon)
                            .replace(/LAT/g, targetLat)
                            .replace(/HEIGHT/g, targetHeight);
                            
   const token = process.env.CESIUM_ION_TOKEN || '';
-  if (!token) console.warn('WARNING: CESIUM_ION_TOKEN environment variable is missing.');
   htmlContent = htmlContent.replace('INJECT_TOKEN_HERE', token);
 
   const tempHtmlPath = path.resolve(__dirname, 'temp-render.html');
   fs.writeFileSync(tempHtmlPath, htmlContent);
 
-  console.log('Launching headless browser with WebGL (SwiftShader)...');
-  
   const browser = await puppeteer.launch({
     headless: "new",
-    args: [
-      '--no-sandbox',
-      '--disable-setuid-sandbox',
-      '--disable-dev-shm-usage',
-      '--disable-gpu',                  
-      '--use-gl=swiftshader',           
-      '--enable-webgl',
-      '--ignore-gpu-blocklist',
-      '--allow-file-access-from-files'
-    ]
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu', '--use-gl=swiftshader', '--enable-webgl', '--ignore-gpu-blocklist', '--allow-file-access-from-files']
   });
 
   const page = await browser.newPage();
   await page.setViewport({ width: 800, height: 400, deviceScaleFactor: 2 });
 
-  page.on('console', msg => console.log(`[Browser Console] ${msg.type().toUpperCase()}: ${msg.text()}`));
-  page.on('pageerror', error => console.error(`[Browser Error]: ${error.message}`));
-
   try {
-    const targetUrl = `file://${tempHtmlPath}`;
-    console.log(`Navigating to ${targetUrl}...`);
-    
-    await page.goto(targetUrl, { waitUntil: 'load' });
-
-    console.log('Waiting for Cesium window.renderComplete flag...');
+    await page.goto(`file://${tempHtmlPath}`, { waitUntil: 'load' });
     await page.waitForFunction('window.renderComplete === true', { timeout: 30000 });
-    
-    console.log('Render complete! Taking screenshot...');
     
     const screenshotPath = path.resolve(__dirname, '../assets/random-point.png');
     await page.screenshot({ path: screenshotPath });
-    console.log(`Screenshot saved successfully to ${screenshotPath}`);
 
     const captionText = `**${locationName}**\n\nCoordinates: ${targetLat}, ${targetLon}\n\n*${fact}*`;
-    const captionPath = path.resolve(__dirname, '../assets/random-point-caption.md');
-    fs.writeFileSync(captionPath, captionText);
+    fs.writeFileSync(path.resolve(__dirname, '../assets/random-point-caption.md'), captionText);
 
     const readmePath = path.resolve(__dirname, '../README.md');
     if (fs.existsSync(readmePath)) {
       let readmeContent = fs.readFileSync(readmePath, 'utf8');
       const regex = /<!-- START_LOCATION -->[\s\S]*<!-- END_LOCATION -->/;
-      
       const now = new Date();
       const runDate = now.toLocaleDateString('en-US', { timeZone: 'America/New_York', month: 'short', day: 'numeric', year: 'numeric' });
       const runTime = now.toLocaleTimeString('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
-      const timestamp = Date.now();
       
-      const injectedMarkdown = `<!-- START_LOCATION -->\n![Cesium Daily Map](assets/random-point.png?v=${timestamp})\n\n**Location:** ${captionText}\n\n*Last generated: ${runDate} at ${runTime}*\n<!-- END_LOCATION -->`;
-      
+      const injectedMarkdown = `<!-- START_LOCATION -->\n![Cesium Daily Map](assets/random-point.png?v=${Date.now()})\n\n**Location:** ${captionText}\n\n*Last generated: ${runDate} at ${runTime}*\n<!-- END_LOCATION -->`;
       readmeContent = readmeContent.replace(regex, injectedMarkdown);
       fs.writeFileSync(readmePath, readmeContent);
     }
-
-  } catch (error) {
-    console.error('Error during map generation:', error);
-    process.exit(1); 
   } finally {
     if (browser) await browser.close();
     if (fs.existsSync(tempHtmlPath)) fs.unlinkSync(tempHtmlPath);
