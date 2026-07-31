@@ -4,7 +4,7 @@
     "lon": -43.2105,
     "lat": -22.9519,
     "height": 900,
-    "fact": "One of the most photogrammetry-scanned landmarks on Earth, it shows up in nearly every 3D Tiles demo reel."
+    "fact": "One of the most photogrammetry-scanned landmarks on Earth, showing up in nearly every 3D Tiles demo reel."
   },
   {
     "name": "Half Dome, Yosemite",
@@ -14,25 +14,25 @@
     "fact": "Its granite face has been laser-scanned so many times it practically has its own point cloud fandom."
   },
   {
-    "name": "Mount Everest",
+    "name": "Mount Everest, Himalayas",
     "lon": 86.9250,
     "lat": 27.9881,
     "height": 12000,
     "fact": "Its official height has been re-surveyed multiple times, most recently jointly by Nepal and China in 2020."
   },
   {
-    "name": "Sydney Opera House",
+    "name": "Sydney Opera House, Australia",
     "lon": 151.2153,
     "lat": -33.8568,
     "height": 800,
     "fact": "Its curved shells were originally impossible to engineer until someone realized they could all be cut from the same sphere."
   },
   {
-    "name": "Grand Canyon",
+    "name": "Grand Canyon, Arizona",
     "lon": -112.1401,
     "lat": 36.1069,
     "height": 6000,
-    "fact": "It's a favorite terrain-tile stress test since it has both massive scale and brutal elevation change."
+    "fact": "A favorite terrain-tile stress test since it has both massive scale and brutal elevation changes."
   },
   {
     "name": "Burj Khalifa, Dubai",
@@ -46,28 +46,28 @@
     "lon": -79.3871,
     "lat": 43.6426,
     "height": 1200,
-    "fact": "Held the record for world's tallest freestanding structure for over 30 years."
+    "fact": "Held the record for the world's tallest freestanding structure for over 30 years."
   },
   {
-    "name": "Antarctica, McMurdo Station",
+    "name": "McMurdo Station, Antarctica",
     "lon": 166.6863,
     "lat": -77.8419,
     "height": 8000,
-    "fact": "One of the few places on Earth where satellite imagery updates are more exciting than the news."
+    "fact": "One of the few places on Earth where satellite imagery updates are more exciting than the local news."
   },
   {
-    "name": "Great Pyramid of Giza",
+    "name": "Great Pyramid of Giza, Egypt",
     "lon": 31.1342,
     "lat": 29.9792,
     "height": 1500,
     "fact": "Its base is level to within about 2 centimeters, still baffling modern engineers."
   },
   {
-    "name": "Silicon Valley, California",
-    "lon": -122.1430,
-    "lat": 37.4419,
-    "height": 15000,
-    "fact": "Ground zero for most of the AR/VR headsets currently gathering dust in people's closets."
+    "name": "Apple Park, Cupertino",
+    "lon": -122.0090,
+    "lat": 37.3349,
+    "height": 1200,
+    "fact": "Nicknamed 'The Spaceship,' this massive ring-shaped building is a marvel of curved glass."
   },
   {
     "name": "Mount Fuji, Japan",
@@ -77,10 +77,626 @@
     "fact": "Its near-perfect symmetry makes it one of the most recognizable digital elevation models in any dataset."
   },
   {
-    "name": "Iceland's Þingvellir Rift",
+    "name": "Þingvellir Rift, Iceland",
     "lon": -21.1293,
     "lat": 64.2559,
     "height": 4000,
-    "fact": "You can literally stand between two tectonic plates as they slowly pull apart."
+    "fact": "You can literally stand between the North American and Eurasian tectonic plates as they slowly pull apart."
+  },
+  {
+    "name": "MIT Stata Center, Cambridge",
+    "lon": -71.0906,
+    "lat": 42.3615,
+    "height": 800,
+    "fact": "Its deconstructivist architecture is so wildly complex it practically demands to be viewed in a 3D environment."
+  },
+  {
+    "name": "Moscone Center, San Francisco",
+    "lon": -122.4016,
+    "lat": 37.7842,
+    "height": 1200,
+    "fact": "The epicenter of game developer conferences and the birthplace of countless immersive tech hackathons."
+  },
+  {
+    "name": "Downtown Philadelphia, Pennsylvania",
+    "lon": -75.1652,
+    "lat": 39.9526,
+    "height": 1500,
+    "fact": "Home to William Penn atop City Hall, looking over a dense, thriving spatial computing and tech community."
+  },
+  {
+    "name": "Times Square, New York City",
+    "lon": -73.9855,
+    "lat": 40.7580,
+    "height": 1500,
+    "fact": "A glowing hub of digital displays, massive crowds, and a frequent backdrop for immersive tech awards ceremonies."
+  },
+  {
+    "name": "Wembley Stadium, London",
+    "lon": -0.2795,
+    "lat": 51.5560,
+    "height": 1200,
+    "fact": "An iconic venue for international soccer tournaments, featuring a massive 133-meter-tall arch."
+  },
+  {
+    "name": "Alpe d'Huez, France",
+    "lon": 6.0687,
+    "lat": 45.0915,
+    "height": 6000,
+    "fact": "One of the most legendary climbs in cycling, its 21 switchbacks look incredible rendered in 3D terrain."
+  },
+  {
+    "name": "Meta Headquarters, Menlo Park",
+    "lon": -122.1483,
+    "lat": 37.4850,
+    "height": 1200,
+    "fact": "Ground zero for major developments in extended reality, spatial computing platforms, and open-source models."
+  },
+  {
+    "name": "Eiffel Tower, Paris",
+    "lon": 2.2945,
+    "lat": 48.8584,
+    "height": 1500,
+    "fact": "Originally intended to be a temporary installation, it is now one of the most recognizable structures on the globe."
+  },
+  {
+    "name": "Machu Picchu, Peru",
+    "lon": -72.5450,
+    "lat": -13.1631,
+    "height": 3000,
+    "fact": "An Incan citadel set high in the Andes Mountains, providing some of the most dramatic 3D terrain elevation data available."
+  },
+  {
+    "name": "Colosseum, Rome",
+    "lon": 12.4922,
+    "lat": 41.8902,
+    "height": 800,
+    "fact": "The largest ancient amphitheater ever built, offering a fascinating structural scan for geospatial visualization."
+  },
+  {
+    "name": "Estadio Azteca, Mexico City",
+    "lon": -99.1504,
+    "lat": 19.3029,
+    "height": 2000,
+    "fact": "A historic soccer cathedral that has hosted two FIFA World Cup finals and sits at a demanding high altitude."
+  },
+  {
+    "name": "Petra, Jordan",
+    "lon": 35.4444,
+    "lat": 30.3285,
+    "height": 2500,
+    "fact": "Famous for its rock-cut architecture, this archaeological site is nestled deep within narrow desert canyons."
+  },
+  {
+    "name": "Taj Mahal, India",
+    "lon": 78.0421,
+    "lat": 27.1751,
+    "height": 1000,
+    "fact": "An immense mausoleum of white marble, renowned for its perfect symmetry and intricate optical illusions."
+  },
+  {
+    "name": "Angkor Wat, Cambodia",
+    "lon": 103.8670,
+    "lat": 13.4125,
+    "height": 1500,
+    "fact": "The largest religious monument in the world, spanning a massive temple complex integrated closely with the jungle."
+  },
+  {
+    "name": "Golden Gate Bridge, San Francisco",
+    "lon": -122.4783,
+    "lat": 37.8199,
+    "height": 1500,
+    "fact": "A suspension bridge connecting San Francisco Bay to the Pacific, famously painted 'International Orange'."
+  },
+  {
+    "name": "Niagara Falls, Canada/USA",
+    "lon": -79.0742,
+    "lat": 43.0799,
+    "height": 1500,
+    "fact": "A group of three massive waterfalls that straddle the international border, moving an astonishing volume of water."
+  },
+  {
+    "name": "Mount Kilimanjaro, Tanzania",
+    "lon": 37.3556,
+    "lat": -3.0674,
+    "height": 15000,
+    "fact": "The highest single free-standing mountain above sea level in the world, featuring three distinct volcanic cones."
+  },
+  {
+    "name": "Venice Canals, Italy",
+    "lon": 12.3155,
+    "lat": 45.4408,
+    "height": 1000,
+    "fact": "A city built on more than 100 small islands in a lagoon, making its geospatial mapping heavily reliant on water levels."
+  },
+  {
+    "name": "Sagrada Familia, Barcelona",
+    "lon": 2.1744,
+    "lat": 41.4036,
+    "height": 1000,
+    "fact": "Antoni Gaudí's masterpiece has been under construction since 1882 and features wildly complex organic geometry."
+  },
+  {
+    "name": "Milford Sound, New Zealand",
+    "lon": 167.9276,
+    "lat": -44.6716,
+    "height": 6000,
+    "fact": "A stunning fiord carved by glaciers, surrounded by sheer rock faces that rise thousands of feet straight out of the water."
+  },
+  {
+    "name": "Vatnajökull Glacier, Iceland",
+    "lon": -16.8315,
+    "lat": 64.4128,
+    "height": 12000,
+    "fact": "The largest ice cap in Iceland, covering active volcanoes and providing an intense white-out contrast in 3D data."
+  },
+  {
+    "name": "Empire State Building, New York",
+    "lon": -73.9857,
+    "lat": 40.7488,
+    "height": 1200,
+    "fact": "Constructed in just 410 days during the Great Depression, an unbelievable feat of engineering logistics."
+  },
+  {
+    "name": "Camp Nou, Barcelona",
+    "lon": 2.1228,
+    "lat": 41.3809,
+    "height": 1000,
+    "fact": "The largest stadium in Spain and Europe, a legendary stomping ground for some of soccer's greatest players."
+  },
+  {
+    "name": "Col de du Tourmalet, France",
+    "lon": 0.1772,
+    "lat": 42.9083,
+    "height": 5000,
+    "fact": "The highest paved mountain pass in the French Pyrenees, infamous for its punishing gradients in grand tour cycling."
+  },
+  {
+    "name": "Marina Bay Sands, Singapore",
+    "lon": 103.8598,
+    "lat": 1.2834,
+    "height": 1200,
+    "fact": "Features a massive 340-meter-long SkyPark balancing across three separate 55-story hotel towers."
+  },
+  {
+    "name": "Petronas Twin Towers, Malaysia",
+    "lon": 101.7115,
+    "lat": 3.1578,
+    "height": 1500,
+    "fact": "Connected by a double-decker skybridge that is designed to slide in and out of the towers to prevent wind damage."
+  },
+  {
+    "name": "Table Mountain, South Africa",
+    "lon": 18.4035,
+    "lat": -33.9628,
+    "height": 4000,
+    "fact": "A flat-topped mountain forming a prominent landmark overlooking the city of Cape Town."
+  },
+  {
+    "name": "Mount St. Helens, Washington",
+    "lon": -122.1927,
+    "lat": 46.1912,
+    "height": 10000,
+    "fact": "The 1980 eruption blew 1,300 feet off the top of the mountain, leaving a massive, highly-scanned horseshoe crater."
+  },
+  {
+    "name": "Burj Al Arab, Dubai",
+    "lon": 55.1852,
+    "lat": 25.1412,
+    "height": 1000,
+    "fact": "Designed to mimic the sail of a ship, it stands on an artificial island completely separate from the mainland."
+  },
+  {
+    "name": "Stonehenge, United Kingdom",
+    "lon": -1.8262,
+    "lat": 51.1789,
+    "height": 500,
+    "fact": "A prehistoric stone circle aligned with the solstices, sitting prominently in the middle of a vast chalk moorland."
+  },
+  {
+    "name": "Neuschwanstein Castle, Germany",
+    "lon": 10.7498,
+    "lat": 47.5576,
+    "height": 1500,
+    "fact": "The ultimate fairytale castle perched on a rugged hill in Bavaria, and the inspiration for Disneyland's Sleeping Beauty Castle."
+  },
+  {
+    "name": "The Matterhorn, Swiss/Italian Border",
+    "lon": 7.6585,
+    "lat": 45.9763,
+    "height": 8000,
+    "fact": "A near-perfect pyramidal peak that serves as one of the most iconic and dangerous mountains in the Alps."
+  },
+  {
+    "name": "Guggenheim Museum, Bilbao",
+    "lon": -2.9370,
+    "lat": 43.2686,
+    "height": 500,
+    "fact": "Designed by Frank Gehry using early 3D aerospace software (CATIA) to calculate its impossible titanium curves."
+  },
+  {
+    "name": "Salar de Uyuni, Bolivia",
+    "lon": -67.3397,
+    "lat": -20.1338,
+    "height": 8000,
+    "fact": "The world's largest salt flat. It is so flat and reflective that satellites use it to calibrate their altimeters."
+  },
+  {
+    "name": "Acropolis of Athens, Greece",
+    "lon": 23.7257,
+    "lat": 37.9715,
+    "height": 800,
+    "fact": "An ancient citadel located on a rocky outcrop above the city, containing the remains of the Parthenon."
+  },
+  {
+    "name": "Santiago Bernabéu Stadium, Madrid",
+    "lon": -3.6883,
+    "lat": 40.4530,
+    "height": 1000,
+    "fact": "One of the world's most famous and prestigious football venues, recently wrapped in a massive, futuristic steel facade."
+  },
+  {
+    "name": "The Palm Jumeirah, Dubai",
+    "lon": 55.1389,
+    "lat": 25.1124,
+    "height": 4000,
+    "fact": "An archipelago of artificial islands created using land reclamation, shaped like a massive palm tree."
+  },
+  {
+    "name": "Chichén Itzá, Mexico",
+    "lon": -88.5678,
+    "lat": 20.6843,
+    "height": 800,
+    "fact": "A massive pre-Columbian city built by the Maya people, dominated by the Temple of Kukulcán."
+  },
+  {
+    "name": "Grand Prismatic Spring, Yellowstone",
+    "lon": -110.8382,
+    "lat": 44.5251,
+    "height": 2000,
+    "fact": "The largest hot spring in the US, known for its striking bands of bright colors created by microbial mats."
+  },
+  {
+    "name": "San Siro Stadium, Milan",
+    "lon": 9.1239,
+    "lat": 45.4781,
+    "height": 1000,
+    "fact": "Distinctive for its massive cylindrical concrete towers that support the roof and serve as pedestrian ramps."
+  },
+  {
+    "name": "Arecibo Observatory, Puerto Rico",
+    "lon": -66.7528,
+    "lat": 18.3441,
+    "height": 2000,
+    "fact": "Though the massive radio telescope collapsed in 2020, its enormous sinkhole footprint remains a topographical anomaly."
+  },
+  {
+    "name": "Potala Palace, Tibet",
+    "lon": 91.1172,
+    "lat": 29.6580,
+    "height": 2000,
+    "fact": "Sitting at an elevation of 12,100 feet, this massive fortress-like structure dominates the Lhasa valley."
+  },
+  {
+    "name": "Uluru (Ayers Rock), Australia",
+    "lon": 131.0369,
+    "lat": -25.3444,
+    "height": 5000,
+    "fact": "A massive sandstone monolith in the heart of the Northern Territory's arid 'Red Centre'."
+  },
+  {
+    "name": "Passo dello Stelvio, Italy",
+    "lon": 10.4532,
+    "lat": 46.5292,
+    "height": 4500,
+    "fact": "The highest paved mountain pass in the Eastern Alps, featuring an iconic ribbon of 48 hairpin turns."
+  },
+  {
+    "name": "Hoover Dam, Nevada/Arizona",
+    "lon": -114.7377,
+    "lat": 36.0160,
+    "height": 1500,
+    "fact": "A colossal concrete arch-gravity dam in the Black Canyon of the Colorado River."
+  },
+  {
+    "name": "Giant's Causeway, Northern Ireland",
+    "lon": -6.5116,
+    "lat": 55.2408,
+    "height": 800,
+    "fact": "An area of about 40,000 interlocking basalt columns, the result of an ancient volcanic fissure eruption."
+  },
+  {
+    "name": "Seattle Space Needle, Washington",
+    "lon": -122.3493,
+    "lat": 47.6205,
+    "height": 1000,
+    "fact": "Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude."
+  },
+  {
+    "name": "Cliffs of Moher, Ireland",
+    "lon": -9.4260,
+    "lat": 52.9715,
+    "height": 2000,
+    "fact": "Sea cliffs running for 14 kilometers along the Atlantic Ocean, dropping sharply down to the crashing waves below."
+  },
+  {
+    "name": "Ha Long Bay, Vietnam",
+    "lon": 107.0500,
+    "lat": 20.9101,
+    "height": 4000,
+    "fact": "Features thousands of towering limestone karsts and isles jutting dramatically out of emerald waters."
+  },
+  {
+    "name": "Allianz Arena, Munich",
+    "lon": 11.6246,
+    "lat": 48.2188,
+    "height": 1200,
+    "fact": "Known as the 'inflatable boat' due to its exterior of inflated ETFE plastic panels that can change color."
+  },
+  {
+    "name": "Maracanã Stadium, Rio de Janeiro",
+    "lon": -43.2302,
+    "lat": -22.9121,
+    "height": 1500,
+    "fact": "An iconic soccer venue that held nearly 200,000 spectators during the 1950 World Cup final."
+  },
+  {
+    "name": "Crater Lake, Oregon",
+    "lon": -122.1090,
+    "lat": 42.9446,
+    "height": 10000,
+    "fact": "Formed by the collapse of a volcano, it is the deepest lake in the United States."
+  },
+  {
+    "name": "Delicate Arch, Utah",
+    "lon": -109.4993,
+    "lat": 38.7436,
+    "height": 1000,
+    "fact": "A 52-foot-tall freestanding natural arch carved by wind and sand out of Entrada Sandstone."
+  },
+  {
+    "name": "Victoria Falls, Zambia/Zimbabwe",
+    "lon": 25.8560,
+    "lat": -17.9243,
+    "height": 2000,
+    "fact": "Considered the largest waterfall in the world by the combined width and height of its falling water sheet."
+  },
+  {
+    "name": "The Gherkin (30 St Mary Axe), London",
+    "lon": -0.0803,
+    "lat": 51.5145,
+    "height": 1000,
+    "fact": "Its aerodynamic shape is designed to minimize wind turbulence down at street level."
+  },
+  {
+    "name": "Gateway Arch, St. Louis",
+    "lon": -90.1848,
+    "lat": 38.6247,
+    "height": 1000,
+    "fact": "The world's tallest arch, built as a mathematically perfect inverted catenary curve."
+  },
+  {
+    "name": "Mount Etna, Italy",
+    "lon": 14.9966,
+    "lat": 37.7510,
+    "height": 8000,
+    "fact": "One of the most active volcanoes in the world, constantly altering its own 3D topography."
+  },
+  {
+    "name": "Louvre Museum, Paris",
+    "lon": 2.3376,
+    "lat": 48.8606,
+    "height": 1000,
+    "fact": "The world's most-visited museum, famous for the stark contrast between its historic palace and modern glass pyramid."
+  },
+  {
+    "name": "Panama Canal (Miraflores Locks)",
+    "lon": -79.5930,
+    "lat": 8.9969,
+    "height": 2000,
+    "fact": "An artificial 82 km waterway that connects the Atlantic and Pacific oceans, utilizing a massive lock system."
+  },
+  {
+    "name": "Iguazú Falls, Argentina/Brazil",
+    "lon": -54.4447,
+    "lat": -25.6953,
+    "height": 2000,
+    "fact": "A massive waterfall system comprised of 275 individual drops spread across a 2.7-kilometer edge."
+  },
+  {
+    "name": "Angel Falls, Venezuela",
+    "lon": -62.5356,
+    "lat": 5.9686,
+    "height": 4000,
+    "fact": "The world's tallest uninterrupted waterfall, dropping 3,212 feet from the edge of the Auyán-tepui mountain."
+  },
+  {
+    "name": "Banff National Park (Lake Louise), Canada",
+    "lon": -116.1773,
+    "lat": 51.4254,
+    "height": 4000,
+    "fact": "A glacial lake known for its shocking turquoise color, surrounded by towering, jagged peaks."
+  },
+  {
+    "name": "White Cliffs of Dover, United Kingdom",
+    "lon": 1.3323,
+    "lat": 51.1276,
+    "height": 2000,
+    "fact": "Iconic chalk cliffs facing the Strait of Dover, composed primarily of microscopic skeletal remains."
+  },
+  {
+    "name": "Pamukkale, Turkey",
+    "lon": 29.1173,
+    "lat": 37.9224,
+    "height": 1500,
+    "fact": "Famous for its dazzling white terraces of travertine, created by carbonate minerals left by flowing water."
+  },
+  {
+    "name": "Zhangjiajie National Forest, China",
+    "lon": 110.4346,
+    "lat": 29.3153,
+    "height": 3000,
+    "fact": "Home to towering pillar-like karst formations that famously inspired the floating mountains in the movie Avatar."
+  },
+  {
+    "name": "Great Blue Hole, Belize",
+    "lon": -87.5345,
+    "lat": 17.3160,
+    "height": 2000,
+    "fact": "A giant marine sinkhole near the center of Lighthouse Reef, originally formed as a limestone cave during the last ice age."
+  },
+  {
+    "name": "Koppenberg, Belgium",
+    "lon": 3.5794,
+    "lat": 50.8123,
+    "height": 600,
+    "fact": "A notorious, brutally steep cobblestone climb that often forces professional cyclists off their bikes."
+  },
+  {
+    "name": "Walt Disney Concert Hall, Los Angeles",
+    "lon": -118.2501,
+    "lat": 34.0553,
+    "height": 800,
+    "fact": "Frank Gehry's sweeping metallic surfaces originally reflected so much sunlight they melted nearby traffic cones."
+  },
+  {
+    "name": "Kennedy Space Center (Launch Complex 39A)",
+    "lon": -80.6041,
+    "lat": 28.6083,
+    "height": 1500,
+    "fact": "The historic launch pad where the Apollo 11 mission departed for the moon, now utilized for modern spaceflight."
+  },
+  {
+    "name": "The Great Sphinx of Giza, Egypt",
+    "lon": 31.1376,
+    "lat": 29.9753,
+    "height": 800,
+    "fact": "Carved directly out of a single piece of limestone bedrock, making it the oldest known monumental sculpture in Egypt."
+  },
+  {
+    "name": "Easter Island (Ahu Tongariki), Chile",
+    "lon": -109.2730,
+    "lat": -27.1258,
+    "height": 1000,
+    "fact": "The largest ahu (shrine) on Easter Island, featuring 15 massive restored Moai statues facing inland."
+  },
+  {
+    "name": "CERN (The Globe of Science), Switzerland",
+    "lon": 6.0531,
+    "lat": 46.2334,
+    "height": 1000,
+    "fact": "The surface-level visitor center sitting directly above the massive subterranean Large Hadron Collider ring."
+  },
+  {
+    "name": "Taipei 101, Taiwan",
+    "lon": 121.5645,
+    "lat": 25.0339,
+    "height": 1500,
+    "fact": "Built to withstand Pacific Rim earthquakes, it contains a massive 660-ton tuned mass damper suspended near the top."
+  },
+  {
+    "name": "Oriental Pearl Tower, Shanghai",
+    "lon": 121.4998,
+    "lat": 31.2397,
+    "height": 1500,
+    "fact": "A distinct TV tower characterized by its 11 varying-sized spheres linked by colossal columns."
+  },
+  {
+    "name": "Old Trafford Stadium, Manchester",
+    "lon": -2.2913,
+    "lat": 53.4631,
+    "height": 1000,
+    "fact": "Known as the 'Theatre of Dreams,' it is the largest club football stadium in the United Kingdom."
+  },
+  {
+    "name": "Mont Blanc, France/Italy",
+    "lon": 6.8644,
+    "lat": 45.8326,
+    "height": 12000,
+    "fact": "The highest mountain in the Alps, featuring dramatic, deeply crevassed glaciers dominating its flanks."
+  },
+  {
+    "name": "Chrysler Building, New York",
+    "lon": -73.9767,
+    "lat": 40.7516,
+    "height": 1000,
+    "fact": "An Art Deco masterpiece famous for its terraced crown, secretly constructed inside the building and raised in one piece."
+  },
+  {
+    "name": "Seattle Spheres, Washington",
+    "lon": -122.3396,
+    "lat": 47.6158,
+    "height": 600,
+    "fact": "Three intersecting glass domes serving as an indoor rainforest workspace for Amazon employees in downtown Seattle."
+  },
+  {
+    "name": "Flatiron Building, New York",
+    "lon": -73.9897,
+    "lat": 40.7411,
+    "height": 800,
+    "fact": "A triangular steel-framed landmark that was never actually the tallest building in New York, despite popular belief."
+  },
+  {
+    "name": "La Bombonera, Buenos Aires",
+    "lon": -58.3648,
+    "lat": -34.6356,
+    "height": 800,
+    "fact": "A stadium with a highly unusual 'D' shape, known for acoustics so intense the concrete literally vibrates."
+  },
+  {
+    "name": "Pico de Veleta, Spain",
+    "lon": -3.3647,
+    "lat": 37.0565,
+    "height": 7000,
+    "fact": "The highest paved road in Europe, offering an exhausting, high-altitude challenge for serious cyclists."
+  },
+  {
+    "name": "Gyeongbokgung Palace, Seoul",
+    "lon": 126.9770,
+    "lat": 37.5796,
+    "height": 1000,
+    "fact": "The largest of the Five Grand Palaces built by the Joseon dynasty, sitting beautifully against a mountainous backdrop."
+  },
+  {
+    "name": "Mount Aconcagua, Argentina",
+    "lon": -70.0109,
+    "lat": -32.6532,
+    "height": 15000,
+    "fact": "The highest mountain in the Americas and the highest outside of Asia, boasting massive, sweeping scree slopes."
+  },
+  {
+    "name": "Vessel, Hudson Yards NYC",
+    "lon": -74.0022,
+    "lat": 40.7538,
+    "height": 600,
+    "fact": "A massive, honeycomb-like structural artwork consisting of 154 intricately interconnecting flights of stairs."
+  },
+  {
+    "name": "The Eden Project, UK",
+    "lon": -4.7448,
+    "lat": 50.3621,
+    "height": 800,
+    "fact": "Massive hexagonal and pentagonal ETFE biomes nestled inside a reclaimed china clay pit in Cornwall."
+  },
+  {
+    "name": "Meteor Crater, Arizona",
+    "lon": -111.0222,
+    "lat": 35.0272,
+    "height": 4000,
+    "fact": "The world's best-preserved meteorite impact site, forming a perfect 4,000-foot-wide bowl in the desert."
+  },
+  {
+    "name": "Lotus Temple, New Delhi",
+    "lon": 77.2588,
+    "lat": 28.5535,
+    "height": 800,
+    "fact": "A Bahá'í House of Worship composed of 27 free-standing marble-clad 'petals' arranged in clusters."
+  },
+  {
+    "name": "Kjeragbolten, Norway",
+    "lon": 6.5750,
+    "lat": 59.0322,
+    "height": 3000,
+    "fact": "A massive 5-cubic-meter glacial boulder suspended in a mountain crevice 3,228 feet directly above an abyss."
   }
 ]

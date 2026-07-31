@@ -16,11 +16,12 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 - 👟 **Off-screen:** sneaker collector, reads way too much alt-history fiction
 
 ---
-### 📍 Random point of interest
+### 🌍 Daily Render: A Random Corner of the Earth
+![Cesium Daily Map](assets/random-point.png?raw=true)
+<!-- START_LOCATION -->
+<!-- END_LOCATION -->
 
-![Random Cesium render](https://raw.githubusercontent.com/Jastman/jastman/main/assets/random-point.png)
-
-Wherever the globe landed this time. Refreshes daily via GitHub Actions + CesiumJS.
+*Wherever the globe landed this time. Refreshes daily via GitHub Actions + CesiumJS.
 
 ---
 
