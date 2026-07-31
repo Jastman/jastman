@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily Map](assets/random-point.png?v=1785523909306)
+![Cesium Daily Map](assets/random-point.png?v=1785524409919)
 
-**Location:** **MIT Stata Center, Cambridge**
+**Location:** **The Palm Jumeirah, Dubai**
 
-Coordinates: 42.3615, -71.0906
+Coordinates: 25.1124, 55.1389
 
-*Its deconstructivist architecture is so wildly complex it practically demands to be viewed in a 3D environment.*
+*An archipelago of artificial islands created using land reclamation, shaped like a massive palm tree.*
 
-*Last generated: Jul 31, 2026 at 2:51 PM EDT*
+*Last generated: Jul 31, 2026 at 3:00 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

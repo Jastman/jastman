@@ -1,5 +1,5 @@
-**MIT Stata Center, Cambridge**
+**The Palm Jumeirah, Dubai**
 
-Coordinates: 42.3615, -71.0906
+Coordinates: 25.1124, 55.1389
 
-*Its deconstructivist architecture is so wildly complex it practically demands to be viewed in a 3D environment.*
+*An archipelago of artificial islands created using land reclamation, shaped like a massive palm tree.*
