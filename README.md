@@ -44,14 +44,10 @@ status: "Compiling..."
 
 ---
 
-### 🎯 Random fact generator
-
-> "There are two hard problems in computer science: cache invalidation, naming things, and off-by-one errors in 3D coordinate transformations."
-
----
-
 ### 📫 Connect with me
 [X/Twitter](https://www.x.com/jasteinerman)
 [LinkedIn](https://www.linkedin.com/in/jasteinerman)
 
 ---
+<img width="1600" height="424" alt="motto" src="https://github.com/user-attachments/assets/8c10608b-6936-4756-b213-a2d26e816a3b" />
+
