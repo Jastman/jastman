@@ -16,6 +16,13 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 - 👟 **Off-screen:** sneaker collector, reads way too much alt-history fiction
 
 ---
+### 📍 Random point of interest
+
+![Random Cesium render](https://raw.githubusercontent.com/Jastman/jastman/main/assets/random-point.png)
+
+Wherever the globe landed this time. Refreshes daily via GitHub Actions + CesiumJS.
+
+---
 
 ### 🛠️ The tech playground
 
@@ -37,22 +44,12 @@ status: "Compiling..."
 
 ---
 
-### 🎯 Random fact generator
-
-> "There are two hard problems in computer science: cache invalidation, naming things, and off-by-one errors in 3D coordinate transformations."
-
----
-
-### 📍 Random point of interest
-
-![Random Cesium render](https://raw.githubusercontent.com/Jastman/jastman/main/assets/random-point.png)
-
-Wherever the globe landed this time. Refreshes daily via GitHub Actions + CesiumJS.
-
----
-
 ### 📫 Connect with me
 [X/Twitter](https://www.x.com/jasteinerman)
 [LinkedIn](https://www.linkedin.com/in/jasteinerman)
 
 ---
+<p align="center">
+  <img width="1600" height="424" alt="motto" src="https://github.com/user-attachments/assets/8c10608b-6936-4756-b213-a2d26e816a3b" width="100%" />
+</p>
+
