@@ -18,13 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth
 <!-- START_LOCATION -->
-![Cesium Daily Map](assets/random-point.png?v=1785519057428)
+![Cesium Daily Map](assets/random-point.png?v=1785520605769)
 
-**Location:** **Cordova, Alabama**
+**Location:** **Covington, Louisiana**
 
-Coordinates: 33.75416667, -87.19166667
+Coordinates: 30.47888889, -90.10416667
 
-*Cordova is a city in Walker County, Alabama, United States. It was formerly a textile mill town. It was incorporated in 1897. As of the 2020 census, Cordova had a population of 1,728.*
+*Covington is a city in and the parish seat of St. Tammany Parish, Louisiana, United States.  The population was 11,564 at the 2020 United States census. It is located at a fork of the Bogue Falaya and the Tchefuncte River. Covington is part of the Slidell...*
+
+*Last generated: Jul 31, 2026 at 1:56 PM EDT*
 <!-- END_LOCATION -->
 
 *Wherever the globe landed this time. Refreshes daily via GitHub Actions + CesiumJS.
