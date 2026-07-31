@@ -2,36 +2,67 @@ const puppeteer = require('puppeteer');
 const path = require('path');
 const fs = require('fs');
 
-// Helper function to fetch a random geolocated article from Wikipedia
-async function fetchDynamicPointFromWiki() {
-  // 1. Fetch 50 random Wikipedia articles
-  const randomUrl = 'https://en.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&rnlimit=50&format=json&origin=*';
-  const randomRes = await fetch(randomUrl);
-  const randomData = await randomRes.json();
-  const pageIds = randomData.query.random.map(p => p.id).join('|');
+// Blacklist filter to screen out schools, education, and sensitive/violent topics
+function isUnwantedLocation(title, extract) {
+  const text = `${title} ${extract}`.toLowerCase();
+  
+  const bannedKeywords = [
+    // Schools / Education (unless unique architecture/history handled elsewhere, filter out standard ones)
+    'high school', 'middle school', 'elementary school', 'primary school', 'kindergarten', 
+    'school district', 'public school', 'private school', 'prep school', 'boarded school',
+    // Violence / Tragedies / Sensitive topics
+    'shooting', 'massacre', 'attack', 'bombing', 'terrorist', 'terrorism', 'assassination',
+    'murder', 'homicide', 'slaughter', 'riot', 'disaster', 'tragedy', 'cemetery', 'graveyard',
+    'prison', 'penitentiary', 'jail'
+  ];
 
-  // 2. Query those 50 pages specifically for coordinates and an introductory text extract
-  const dataUrl = `https://en.wikipedia.org/w/api.php?action=query&pageids=${pageIds}&prop=coordinates|extracts&exintro=1&exchars=250&explaintext=1&format=json&origin=*`;
-  const dataRes = await fetch(dataUrl);
-  const data = await dataRes.json();
-
-  // 3. Find the first page that actually contains coordinates
-  for (const pageId in data.query.pages) {
-    const page = data.query.pages[pageId];
-    if (page.coordinates && page.coordinates.length > 0) {
-      const name = page.title;
-      const lon = page.coordinates[0].lon;
-      const lat = page.coordinates[0].lat;
-      // Default height for Wiki points since they don't provide altitude
-      const height = 1500; 
-      
-      // Clean up the text extract to act as our fun fact
-      const fact = page.extract ? page.extract.replace(/\n/g, ' ').trim() : 'A random location discovered via Wikipedia.';
-
-      return { name, lon, lat, height, fact };
+  for (const word of bannedKeywords) {
+    if (text.includes(word)) {
+      return true; // Unwanted match found
     }
   }
-  throw new Error("No coordinates found in this Wikipedia batch.");
+  return false; // Safe
+}
+
+// Helper function to fetch a random geolocated article from Wikipedia with filtering
+async function fetchDynamicPointFromWiki() {
+  const maxAttempts = 5;
+  
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    // 1. Fetch 50 random Wikipedia articles
+    const randomUrl = 'https://en.wikipedia.org/w/api.php?action=query&list=random&rnnamespace=0&rnlimit=50&format=json&origin=*';
+    const randomRes = await fetch(randomUrl);
+    const randomData = await randomRes.json();
+    const pageIds = randomData.query.random.map(p => p.id).join('|');
+
+    // 2. Query those pages for coordinates and extracts
+    const dataUrl = `https://en.wikipedia.org/w/api.php?action=query&pageids=${pageIds}&prop=coordinates|extracts&exintro=1&exchars=300&explaintext=1&format=json&origin=*`;
+    const dataRes = await fetch(dataUrl);
+    const data = await dataRes.json();
+
+    // 3. Scan for the first valid, filtered page
+    for (const pageId in data.query.pages) {
+      const page = data.query.pages[pageId];
+      if (page.coordinates && page.coordinates.length > 0) {
+        const name = page.title;
+        const extract = page.extract ? page.extract.replace(/\n/g, ' ').trim() : '';
+
+        // Run through our safety filter
+        if (isUnwantedLocation(name, extract)) {
+          console.log(`[FILTERED OUT] Skipped unwanted location: "${name}"`);
+          continue;
+        }
+
+        const lon = page.coordinates[0].lon;
+        const lat = page.coordinates[0].lat;
+        const height = 2500; // Safe default height for clean aerial framing
+        const fact = extract || 'A random location discovered via Wikipedia.';
+
+        return { name, lon, lat, height, fact };
+      }
+    }
+  }
+  throw new Error("Exceeded max attempts to find a clean Wikipedia location.");
 }
 
 async function main() {
@@ -53,7 +84,7 @@ async function main() {
   } catch (error) {
     console.warn(`[WARNING]: ${error.message} Falling back to static points.json.`);
     
-    // The Fallback Logic: Pick today's point from the 100-item array
+    // Fallback logic
     const fallbackPoints = JSON.parse(fs.readFileSync(pointsPath, 'utf8'));
     const start = new Date(new Date().getFullYear(), 0, 0);
     const diff = (new Date() - start) + ((start.getTimezoneOffset() - new Date().getTimezoneOffset()) * 60 * 1000);
@@ -62,26 +93,22 @@ async function main() {
     todayPoint = fallbackPoints[dayOfYear % fallbackPoints.length];
   }
 
-  // Extract variables for template and caption
   const targetLon = todayPoint.lon || todayPoint.lng;
   const targetLat = todayPoint.lat;
-  const targetHeight = todayPoint.height || 1500;
+  const targetHeight = todayPoint.height || 2500;
   const locationName = todayPoint.name || 'Unknown Location';
   const fact = todayPoint.fact || '';
 
   console.log(`Targeting Coordinates: Lon ${targetLon}, Lat ${targetLat}, Height ${targetHeight}`);
 
-  // Inject variables into the HTML template
   htmlContent = htmlContent.replace(/LON/g, targetLon)
                            .replace(/LAT/g, targetLat)
                            .replace(/HEIGHT/g, targetHeight);
                            
   const token = process.env.CESIUM_ION_TOKEN || '';
   if (!token) console.warn('WARNING: CESIUM_ION_TOKEN environment variable is missing.');
-  
   htmlContent = htmlContent.replace('INJECT_TOKEN_HERE', token);
 
-  // Save the temporary HTML file
   const tempHtmlPath = path.resolve(__dirname, 'temp-render.html');
   fs.writeFileSync(tempHtmlPath, htmlContent);
 
@@ -118,45 +145,28 @@ async function main() {
     
     console.log('Render complete! Taking screenshot...');
     
-    // Save image to the assets folder
     const screenshotPath = path.resolve(__dirname, '../assets/random-point.png');
     await page.screenshot({ path: screenshotPath });
     console.log(`Screenshot saved successfully to ${screenshotPath}`);
 
-    // Update the caption Markdown file
     const captionText = `**${locationName}**\n\nCoordinates: ${targetLat}, ${targetLon}\n\n*${fact}*`;
     const captionPath = path.resolve(__dirname, '../assets/random-point-caption.md');
     fs.writeFileSync(captionPath, captionText);
-    console.log(`Caption updated for: ${locationName}`);
 
-    // Update the README.md dynamically with a cache-busting timestamp (Make sure you have the HTML comments in your README!)
     const readmePath = path.resolve(__dirname, '../README.md');
     if (fs.existsSync(readmePath)) {
       let readmeContent = fs.readFileSync(readmePath, 'utf8');
       const regex = /<!-- START_LOCATION -->[\s\S]*<!-- END_LOCATION -->/;
       
-      // Generate a clean date and time string in Eastern Time
       const now = new Date();
-      const runDate = now.toLocaleDateString('en-US', { 
-        timeZone: 'America/New_York', 
-        month: 'short', 
-        day: 'numeric', 
-        year: 'numeric' 
-      });
-      const runTime = now.toLocaleTimeString('en-US', {
-        timeZone: 'America/New_York',
-        hour: 'numeric',
-        minute: '2-digit',
-        timeZoneName: 'short'
-      });
-
+      const runDate = now.toLocaleDateString('en-US', { timeZone: 'America/New_York', month: 'short', day: 'numeric', year: 'numeric' });
+      const runTime = now.toLocaleTimeString('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
       const timestamp = Date.now();
       
-      // Inject the image, the caption, and the last generated date/time
       const injectedMarkdown = `<!-- START_LOCATION -->\n![Cesium Daily Map](assets/random-point.png?v=${timestamp})\n\n**Location:** ${captionText}\n\n*Last generated: ${runDate} at ${runTime}*\n<!-- END_LOCATION -->`;
+      
       readmeContent = readmeContent.replace(regex, injectedMarkdown);
       fs.writeFileSync(readmePath, readmeContent);
-      console.log(`README.md updated with latest location and date: ${runDate}`);
     }
 
   } catch (error) {

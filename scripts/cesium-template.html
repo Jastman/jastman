@@ -31,7 +31,6 @@
       navigationInstructionsInitiallyVisible: false
     });
 
-    // Hide the default globe to prevent the blue sphere from interfering with 3D Tiles
     viewer.scene.globe.show = false;
 
     async function loadTiles() {
@@ -39,40 +38,27 @@
         const googleTileset = await Cesium.Cesium3DTileset.fromIonAssetId(2275207);
         viewer.scene.primitives.add(googleTileset);
 
-        // Parsed from Node injection
         const targetLon = LON;
         const targetLat = LAT;
         const rawHeight = HEIGHT;
 
-        // ADAPTIVE FRAMING LOGIC:
-        // Determine if this is a tight urban building/monument or a massive natural wonder
-        const isStructure = rawHeight <= 2000;
-        
-        // Structures get a much closer zoom and a tighter, more dramatic tilt
-        // Natural wonders stay further back with a wider overview pitch
-        const cameraHeight = isStructure ? Math.max(rawHeight, 450) : rawHeight;
-        const pitchAngle = isStructure ? -35 : -50; 
-
-        // Randomize the heading slightly (0 to 360 degrees) so the view angle changes organically
+        // Cinematic framing variables
         const randomHeading = Math.floor(Math.random() * 360);
-
         const centerCartesian = Cesium.Cartesian3.fromDegrees(targetLon, targetLat, 0);
 
-        // Use Cesium's HeadingPitchRange to frame the target perfectly in the center of the screen,
-        // applying an intelligent offset based on the camera angle.
-        const rangeDistance = isStructure ? 600 : cameraHeight * 0.6;
-        
+        // Calculate a safe cinematic range distance so it frames buildings and natural wonders grandly
+        const rangeDistance = Math.max(rawHeight * 0.8, 800);
+
         const headingPitchRange = new Cesium.HeadingPitchRange(
           Cesium.Math.toRadians(randomHeading),
-          Cesium.Math.toRadians(pitchAngle),
+          Cesium.Math.toRadians(-40), // Cinematic 40-degree downward angle for 3D depth
           rangeDistance
         );
 
         viewer.camera.flyToBoundingSphere(new Cesium.BoundingSphere(centerCartesian, 0), {
           offset: headingPitchRange,
-          duration: 0, // Instant transition for headless runner
+          duration: 0,
           complete: function() {
-            // 15-second delay to ensure SwiftShader fully streams the 3D geometry
             setTimeout(() => {
               window.renderComplete = true;
             }, 15000); 
