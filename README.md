@@ -49,5 +49,7 @@ status: "Compiling..."
 [LinkedIn](https://www.linkedin.com/in/jasteinerman)
 
 ---
-<img width="1600" height="424" alt="motto" src="https://github.com/user-attachments/assets/8c10608b-6936-4756-b213-a2d26e816a3b" />
+<p align="center">
+  <img width="1600" height="424" alt="motto" src="https://github.com/user-attachments/assets/8c10608b-6936-4756-b213-a2d26e816a3b" width="100%" />
+</p>
 
