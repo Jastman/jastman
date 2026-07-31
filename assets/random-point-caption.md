@@ -1,5 +1,5 @@
-**MIT Stata Center, Cambridge**
+**Westmoore High School**
 
-Coordinates: 42.3615, -71.0906
+Coordinates: 35.343135, -97.534304
 
-*Its deconstructivist architecture is so wildly complex it practically demands to be viewed in a 3D environment.*
+*Westmoore High School is an American four-year public high school located in south Oklahoma City, Oklahoma. The school was founded in 1988 and serves the ninth through the twelfth grades as part of the Moore Public School District. Westmoore was the second...*

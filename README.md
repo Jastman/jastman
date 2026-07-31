@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily Map](assets/random-point.png?v=1785522624996)
+![Cesium Daily Map](assets/random-point.png?v=1785523417574)
 
-**Location:** **MIT Stata Center, Cambridge**
+**Location:** **Westmoore High School**
 
-Coordinates: 42.3615, -71.0906
+Coordinates: 35.343135, -97.534304
 
-*Its deconstructivist architecture is so wildly complex it practically demands to be viewed in a 3D environment.*
+*Westmoore High School is an American four-year public high school located in south Oklahoma City, Oklahoma. The school was founded in 1988 and serves the ninth through the twelfth grades as part of the Moore Public School District. Westmoore was the second...*
 
-*Last generated: Jul 31, 2026 at 2:30 PM EDT*
+*Last generated: Jul 31, 2026 at 2:43 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
