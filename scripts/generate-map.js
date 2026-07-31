@@ -135,13 +135,28 @@ async function main() {
       let readmeContent = fs.readFileSync(readmePath, 'utf8');
       const regex = /<!-- START_LOCATION -->[\s\S]*<!-- END_LOCATION -->/;
       
-      // Append a timestamp to the image URL so GitHub is forced to fetch the newest version
+      // Generate a clean date and time string in Eastern Time
+      const now = new Date();
+      const runDate = now.toLocaleDateString('en-US', { 
+        timeZone: 'America/New_York', 
+        month: 'short', 
+        day: 'numeric', 
+        year: 'numeric' 
+      });
+      const runTime = now.toLocaleTimeString('en-US', {
+        timeZone: 'America/New_York',
+        hour: 'numeric',
+        minute: '2-digit',
+        timeZoneName: 'short'
+      });
+
       const timestamp = Date.now();
-      const injectedMarkdown = `<!-- START_LOCATION -->\n![Cesium Daily Map](assets/random-point.png?v=${timestamp})\n\n**Location:** ${captionText}\n<!-- END_LOCATION -->`;
       
+      // Inject the image, the caption, and the last generated date/time
+      const injectedMarkdown = `<!-- START_LOCATION -->\n![Cesium Daily Map](assets/random-point.png?v=${timestamp})\n\n**Location:** ${captionText}\n\n*Last generated: ${runDate} at ${runTime}*\n<!-- END_LOCATION -->`;
       readmeContent = readmeContent.replace(regex, injectedMarkdown);
       fs.writeFileSync(readmePath, readmeContent);
-      console.log('README.md updated with latest location and cache-busted image.');
+      console.log(`README.md updated with latest location and date: ${runDate}`);
     }
 
   } catch (error) {
