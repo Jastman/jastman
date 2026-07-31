@@ -9,51 +9,25 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 
 ### 💡 The quick version
-
+## [Portfolio](https://jasteinerman.lovable.app/)
 - 🌐 **Day job:** DevRel at Cesium, helping devs actually get CesiumJS and 3D Tiles to work
-- 🥽 **Background:** 13+ years in XR/AR before this, AR/VR at Meta, Spatial.io, PTC, Dow Chemical
+- 🥽 **Background:** 14+ years in Community/DevRel & AR/VR @ Meta, Spatial.io, PTC
 - 🏠 **Hardware corner:** slowly, chaotically smart-home-ifying my house
-- 👟 **Off-screen:** sneaker collector, reads way too much alt-history fiction
+- 👟 **Off-screen:** sneaker collector, occasional Hollywood extra, parent
 
 ---
-### 🌍 Daily Render: A Random Corner of the Earth
+### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily Map](assets/random-point.png?v=1785519057428)
-
-**Location:** **Cordova, Alabama**
-
-Coordinates: 33.75416667, -87.19166667
-
-*Cordova is a city in Walker County, Alabama, United States. It was formerly a textile mill town. It was incorporated in 1897. As of the 2020 census, Cordova had a population of 1,728.*
 <!-- END_LOCATION -->
 
-*Wherever the globe landed this time. Refreshes daily via GitHub Actions + CesiumJS.
-
----
-
-### 🛠️ The tech playground
-
-| Realm | Tools of the trade |
-| --- | --- |
-| **Spatial & 3D** | CesiumJS, 3D Tiles, WebXR, Three.js, Unity |
-| **Code & scripting** | JavaScript/TypeScript, Python |
-| **Vibe** | `npm install world-domination --save-dev` |
-
----
-
-### 🧪 Current side-quest
-
-```yaml
-project: "Spatial Web Magic"
-description: "Bridging real-world geospatial data into immersive, interactive 3D browser experiences"
-status: "Compiling..."
-```
+<small>Refreshes daily via GitHub Actions + CesiumJS.</small>
 
 ---
 
 ### 📫 Connect with me
 [X/Twitter](https://www.x.com/jasteinerman)
 [LinkedIn](https://www.linkedin.com/in/jasteinerman)
+[Threads](https://www.threads.com/@jasteinerman)
 
 ---
 <p align="center">
