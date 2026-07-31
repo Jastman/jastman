@@ -1,5 +1,5 @@
-**Arkansas Army National Guard**
+**Apple Park, Cupertino**
 
-Coordinates: 34.81522222, -92.28858333
+Coordinates: 37.3349, -122.009
 
-*The Arkansas Army National Guard (ARARNG) is a component of the Arkansas National Guard and the United States National Guard. National coordination of various state National Guard units are maintained through the National Guard Bureau. Arkansas Army National Guard units are trained and equipped as part...*
+*Nicknamed 'The Spaceship,' this massive ring-shaped building is a marvel of curved glass.*
