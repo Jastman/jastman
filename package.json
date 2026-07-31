@@ -1,0 +1,11 @@
+{
+  "name": "cesium-readme-map",
+  "version": "1.0.0",
+  "description": "Generates a random Cesium-rendered point of interest for a GitHub profile README",
+  "scripts": {
+    "generate": "node scripts/generate-map.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}
