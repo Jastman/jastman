@@ -18,6 +18,13 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth
 <!-- START_LOCATION -->
+![Cesium Daily Map](assets/random-point.png?v=1785519057428)
+
+**Location:** **Cordova, Alabama**
+
+Coordinates: 33.75416667, -87.19166667
+
+*Cordova is a city in Walker County, Alabama, United States. It was formerly a textile mill town. It was incorporated in 1897. As of the 2020 census, Cordova had a population of 1,728.*
 <!-- END_LOCATION -->
 
 *Wherever the globe landed this time. Refreshes daily via GitHub Actions + CesiumJS.
