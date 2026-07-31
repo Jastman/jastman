@@ -1,16 +1,51 @@
-## Hi there 👋
+# Hey there, I'm Jake 👋
 
-<!--
-**Jastman/jastman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```spatial-computing
+[ Status: Translating 3D matrices into reality ] 🥽✨
+```
 
-Here are some ideas to get you started:
+I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesium](https://cesium.com). If it renders in 3D or runs on a tiny computer somewhere in my house, I've probably poked at it.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 💡 The quick version
+
+- 🌐 **Day job:** DevRel at Cesium, helping devs actually get CesiumJS and 3D Tiles to work
+- 🥽 **Background:** 13+ years in XR/AR before this, AR/VR at Meta, Spatial.io, PTC, Dow Chemical
+- 🏠 **Hardware corner:** slowly, chaotically smart-home-ifying my house
+- 👟 **Off-screen:** sneaker collector, reads way too much alt-history fiction
+
+---
+
+### 🛠️ The tech playground
+
+| Realm | Tools of the trade |
+| --- | --- |
+| **Spatial & 3D** | CesiumJS, 3D Tiles, WebXR, Three.js, Unity |
+| **Code & scripting** | JavaScript/TypeScript, Python |
+| **Vibe** | `npm install world-domination --save-dev` |
+
+---
+
+### 🧪 Current side-quest
+
+```yaml
+project: "Spatial Web Magic"
+description: "Bridging real-world geospatial data into immersive, interactive 3D browser experiences"
+status: "Compiling..."
+```
+
+---
+
+### 🎯 Random fact generator
+
+> "There are two hard problems in computer science: cache invalidation, naming things, and off-by-one errors in 3D coordinate transformations."
+
+---
+
+### 📫 Connect with me
+[X/Twitter]([url](https://x.com/jasteinerman))
+[LinkedIn](https://www.linkedin.com/in/jasteinerman)
+[Threads]([url](https://www.threads.com/@jasteinerman))
+
+---
