@@ -123,7 +123,7 @@ async function main() {
       const runDate = now.toLocaleDateString('en-US', { timeZone: 'America/New_York', month: 'short', day: 'numeric', year: 'numeric' });
       const runTime = now.toLocaleTimeString('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
       
-      cconst timestamp = Date.now();
+      const timestamp = Date.now();
       const injectedMarkdown = `<!-- START_LOCATION -->\n![Cesium Daily Map](assets/random-point.png?v=${timestamp})\n\n${captionText}\n\n*Last generated: ${runDate} at ${runTime}*\n<!-- END_LOCATION -->`;
       readmeContent = readmeContent.replace(regex, injectedMarkdown);
       fs.writeFileSync(readmePath, readmeContent);
