@@ -1,0 +1,35 @@
+name: Update random Cesium point
+
+on:
+  schedule:
+    - cron: "0 13 * * *" # daily at 1pm UTC, tweak as you like
+  workflow_dispatch: {} # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate map screenshot
+        env:
+          CESIUM_ION_TOKEN: ${{ secrets.CESIUM_ION_TOKEN }}
+        run: npm run generate
+
+      - name: Commit updated image
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/random-point.png assets/random-point-caption.md
+          git diff --quiet --cached || git commit -m "Update random Cesium point"
+          git push
