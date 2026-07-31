@@ -1,5 +1,5 @@
-**Victoria Falls, Zambia/Zimbabwe**
+**Seattle Spheres, Washington**
 
-Coordinates: -17.9243, 25.856
+Coordinates: 47.6158, -122.3396
 
-*Considered the largest waterfall in the world by the combined width and height of its falling water sheet.*
+*Three intersecting glass domes serving as an indoor rainforest workspace for Amazon employees in downtown Seattle.*
