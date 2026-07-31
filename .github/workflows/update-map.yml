@@ -33,6 +33,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/random-point.png assets/random-point-caption.md
+          git add assets/random-point.png assets/random-point-caption.md README.md
           git diff --quiet --cached || git commit -m "Update random Cesium point"
           git push

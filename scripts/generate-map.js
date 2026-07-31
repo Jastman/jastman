@@ -129,14 +129,19 @@ async function main() {
     fs.writeFileSync(captionPath, captionText);
     console.log(`Caption updated for: ${locationName}`);
 
-    // Update the README.md dynamically (Make sure you have the HTML comments in your README!)
+    // Update the README.md dynamically with a cache-busting timestamp (Make sure you have the HTML comments in your README!)
     const readmePath = path.resolve(__dirname, '../README.md');
     if (fs.existsSync(readmePath)) {
       let readmeContent = fs.readFileSync(readmePath, 'utf8');
       const regex = /<!-- START_LOCATION -->[\s\S]*<!-- END_LOCATION -->/;
-      readmeContent = readmeContent.replace(regex, `<!-- START_LOCATION -->\n**Location:** ${captionText}\n<!-- END_LOCATION -->`);
+      
+      // Append a timestamp to the image URL so GitHub is forced to fetch the newest version
+      const timestamp = Date.now();
+      const injectedMarkdown = `<!-- START_LOCATION -->\n![Cesium Daily Map](assets/random-point.png?v=${timestamp})\n\n**Location:** ${captionText}\n<!-- END_LOCATION -->`;
+      
+      readmeContent = readmeContent.replace(regex, injectedMarkdown);
       fs.writeFileSync(readmePath, readmeContent);
-      console.log('README.md updated with latest location info.');
+      console.log('README.md updated with latest location and cache-busted image.');
     }
 
   } catch (error) {

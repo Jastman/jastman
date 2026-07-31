@@ -17,7 +17,6 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth
-![Cesium Daily Map](assets/random-point.png?raw=true)
 <!-- START_LOCATION -->
 <!-- END_LOCATION -->
 
