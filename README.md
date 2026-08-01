@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily Map](assets/random-point.png?v=1785526820205)
+![Cesium Daily Map](assets/random-point.png?v=1785583103562)
 
-**Seattle Spheres, Washington**
+**Uluru (Ayers Rock), Australia**
 
-Coordinates: 47.6158, -122.3396
+Coordinates: -25.3444, 131.0369
 
-*Three intersecting glass domes serving as an indoor rainforest workspace for Amazon employees in downtown Seattle.*
+*A massive sandstone monolith in the heart of the Northern Territory's arid 'Red Centre'.*
 
-*Last generated: Jul 31, 2026 at 3:40 PM EDT*
+*Last generated: Aug 1, 2026 at 7:18 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

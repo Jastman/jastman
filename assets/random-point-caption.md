@@ -1,5 +1,5 @@
-**Seattle Spheres, Washington**
+**Uluru (Ayers Rock), Australia**
 
-Coordinates: 47.6158, -122.3396
+Coordinates: -25.3444, 131.0369
 
-*Three intersecting glass domes serving as an indoor rainforest workspace for Amazon employees in downtown Seattle.*
+*A massive sandstone monolith in the heart of the Northern Territory's arid 'Red Centre'.*
