@@ -1,5 +1,5 @@
-**Uluru (Ayers Rock), Australia**
+**Milford Sound, New Zealand**
 
-Coordinates: -25.3444, 131.0369
+Coordinates: -44.6716, 167.9276
 
-*A massive sandstone monolith in the heart of the Northern Territory's arid 'Red Centre'.*
+*A stunning fiord carved by glaciers, surrounded by sheer rock faces that rise thousands of feet straight out of the water.*

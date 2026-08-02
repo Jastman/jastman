@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily Map](assets/random-point.png?v=1785583103562)
+![Cesium Daily Map](assets/random-point.png?v=1785669497898)
 
-**Uluru (Ayers Rock), Australia**
+**Milford Sound, New Zealand**
 
-Coordinates: -25.3444, 131.0369
+Coordinates: -44.6716, 167.9276
 
-*A massive sandstone monolith in the heart of the Northern Territory's arid 'Red Centre'.*
+*A stunning fiord carved by glaciers, surrounded by sheer rock faces that rise thousands of feet straight out of the water.*
 
-*Last generated: Aug 1, 2026 at 7:18 AM EDT*
+*Last generated: Aug 2, 2026 at 7:18 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
