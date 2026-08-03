@@ -1,5 +1,5 @@
-**Milford Sound, New Zealand**
+**Glendalough, Western Australia**
 
-Coordinates: -44.6716, 167.9276
+Coordinates: -31.919, 115.82
 
-*A stunning fiord carved by glaciers, surrounded by sheer rock faces that rise thousands of feet straight out of the water.*
+*Glendalough ( GLEN-də-loh; also  GLEN-də-lokh) is a suburb of Perth, Western Australia in the local government area of the City of Stirling, about 6 kilometres from Perth's central business district along the Mitchell Freeway. It was named after the Catholic hermitage of Glendalough in Ireland, meaning...*
