@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily Map](assets/random-point.png?v=1785761774140)
+![Cesium Daily Map](assets/random-point.png?v=1785845022213)
 
-**Glendalough, Western Australia**
+**The Palm Jumeirah, Dubai**
 
-Coordinates: -31.919, 115.82
+Coordinates: 25.1124, 55.1389
 
-*Glendalough ( GLEN-də-loh; also  GLEN-də-lokh) is a suburb of Perth, Western Australia in the local government area of the City of Stirling, about 6 kilometres from Perth's central business district along the Mitchell Freeway. It was named after the Catholic hermitage of Glendalough in Ireland, meaning...*
+*An archipelago of artificial islands created using land reclamation, shaped like a massive palm tree.*
 
-*Last generated: Aug 3, 2026 at 8:56 AM EDT*
+*Last generated: Aug 4, 2026 at 8:03 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
