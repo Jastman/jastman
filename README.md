@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily Map](assets/random-point.png?v=1785845022213)
+![Cesium Daily Map](assets/random-point.png?v=1785931283258)
 
-**The Palm Jumeirah, Dubai**
+**Ha Long Bay, Vietnam**
 
-Coordinates: 25.1124, 55.1389
+Coordinates: 20.9101, 107.05
 
-*An archipelago of artificial islands created using land reclamation, shaped like a massive palm tree.*
+*Features thousands of towering limestone karsts and isles jutting dramatically out of emerald waters.*
 
-*Last generated: Aug 4, 2026 at 8:03 AM EDT*
+*Last generated: Aug 5, 2026 at 8:01 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
