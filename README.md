@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily Map](assets/random-point.png?v=1785931283258)
+![Cesium Daily Map](assets/random-point.png?v=1786017879772)
 
-**Ha Long Bay, Vietnam**
+**Battle of San Jacinto**
 
-Coordinates: 20.9101, 107.05
+Coordinates: 29.74888889, -95.08027778
 
-*Features thousands of towering limestone karsts and isles jutting dramatically out of emerald waters.*
+*The Battle of San Jacinto (Spanish: Batalla de San Jacinto), fought on April 21, 1836, in present-day La Porte and Deer Park, Texas, was the final and decisive battle of the Texas Revolution. Led by General Sam Houston, the Texan Army engaged and defeated General Antonio López de Santa Anna's Mexican...*
 
-*Last generated: Aug 5, 2026 at 8:01 AM EDT*
+*Last generated: Aug 6, 2026 at 8:04 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
