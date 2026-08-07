@@ -1,5 +1,5 @@
-**Battle of San Jacinto**
+**Doral, Florida**
 
-Coordinates: 29.74888889, -95.08027778
+Coordinates: 25.82388889, -80.37166667
 
-*The Battle of San Jacinto (Spanish: Batalla de San Jacinto), fought on April 21, 1836, in present-day La Porte and Deer Park, Texas, was the final and decisive battle of the Texas Revolution. Led by General Sam Houston, the Texan Army engaged and defeated General Antonio López de Santa Anna's Mexican...*
+*Doral is a city in Miami-Dade County, Florida, United States. One of 34 municipalities in the county, it is a principal city in the Miami metropolitan area that is located 5 miles (8 km) west of Miami International Airport and 13 miles (21 km) west of Downtown Miami. Doral occupies 15 square miles (39...*
