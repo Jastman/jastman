@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily Map](assets/random-point.png?v=1786185396203)
+![Cesium Daily Map](assets/random-point.png?v=1786271836697)
 
-**Pocahontas, Illinois**
+**Malvern East**
 
-Coordinates: 38.82333333, -89.53944444
+Coordinates: -37.878, 145.06
 
-*Pocahontas is a village in Burgess Township, Bond County, Illinois, United States. The population was 697 at the 2020 census.*
+*Malvern East is a suburb in Melbourne, Victoria, Australia, 12 km south-east of the Melbourne central business district, located within the City of Stonnington local government area. Malvern East recorded a population of 22,296 at the 2021 census. Malvern East is bounded to the north by Wattletree Road...*
 
-*Last generated: Aug 8, 2026 at 6:36 AM EDT*
+*Last generated: Aug 9, 2026 at 6:37 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
