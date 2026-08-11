@@ -1,5 +1,5 @@
-**Mount Everest, Himalayas**
+**Langdon Place, Kentucky**
 
-Coordinates: 27.9881, 86.925
+Coordinates: 38.28666667, -85.585
 
-*Its official height has been re-surveyed multiple times, most recently jointly by Nepal and China in 2020.*
+*Langdon Place is a home rule-class city in Jefferson County, Kentucky, United States. As of the 2020 census, Langdon Place had a population of 870.*

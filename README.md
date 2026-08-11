@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1786473969318)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1786474324496)
 
-**Mount Everest, Himalayas**
+**Langdon Place, Kentucky**
 
-Coordinates: 27.9881, 86.925
+Coordinates: 38.28666667, -85.585
 
-*Its official height has been re-surveyed multiple times, most recently jointly by Nepal and China in 2020.*
+*Langdon Place is a home rule-class city in Jefferson County, Kentucky, United States. As of the 2020 census, Langdon Place had a population of 870.*
 
-*Last generated: Aug 11, 2026 at 2:46 PM EDT*
+*Last generated: Aug 11, 2026 at 2:52 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
