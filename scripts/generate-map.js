@@ -10,6 +10,8 @@ const GIF_FPS = 10;
 const CAPTURE_INTERVAL_MS = 100; // 100ms between frames = 10fps in output
 const ZOOM_DURATION_MS = 20000;  // must match cesium-template duration
 const FINAL_SETTLE_MS = 5000;    // must match cesium-template settle time
+const MIN_FRAME_BYTES = 30000;   // frames smaller than this are black/blank — skip them
+const HOLD_SECONDS = 3;          // seconds to hold the final frame before looping
 
 function isUnwantedLocation(title, extract) {
   const text = `${title} ${extract}`.toLowerCase();
@@ -55,6 +57,7 @@ async function fetchDynamicPointFromWiki() {
 
 async function captureFrames(page, framesDir) {
   let frameIndex = 0;
+  let skipped = 0;
 
   console.log('Waiting for zoom animation to start...');
   await page.waitForFunction('window.zoomStarted === true', { timeout: 30000 });
@@ -63,26 +66,35 @@ async function captureFrames(page, framesDir) {
   const totalFrames = Math.floor(ZOOM_DURATION_MS / CAPTURE_INTERVAL_MS);
 
   for (let i = 0; i < totalFrames; i++) {
-    const framePath = path.join(framesDir, `frame-${String(frameIndex).padStart(5, '0')}.png`);
-    await page.screenshot({ path: framePath });
-    frameIndex++;
-    if (i % 20 === 0) console.log(`  Frame ${i + 1}/${totalFrames}`);
+    const buf = await page.screenshot({ type: 'png' });
+    if (buf.length >= MIN_FRAME_BYTES) {
+      const framePath = path.join(framesDir, `frame-${String(frameIndex).padStart(5, '0')}.png`);
+      fs.writeFileSync(framePath, buf);
+      frameIndex++;
+    } else {
+      skipped++;
+    }
+    if (i % 20 === 0) console.log(`  Frame ${i + 1}/${totalFrames} (${skipped} black skipped)`);
     await new Promise(r => setTimeout(r, CAPTURE_INTERVAL_MS));
   }
 
-  // Wait for final settle, then hold on the last frame for ~1 second
+  // Wait for final settle, then capture hold frames
   console.log('Waiting for final render completion...');
   await page.waitForFunction('window.renderComplete === true', {
     timeout: FINAL_SETTLE_MS + 10000
   });
 
-  for (let i = 0; i < GIF_FPS; i++) {
+  // Take one clean final frame and duplicate it for HOLD_SECONDS
+  const holdFrame = await page.screenshot({ type: 'png' });
+  const holdCount = GIF_FPS * HOLD_SECONDS;
+  for (let i = 0; i < holdCount; i++) {
     const framePath = path.join(framesDir, `frame-${String(frameIndex).padStart(5, '0')}.png`);
-    await page.screenshot({ path: framePath });
+    fs.writeFileSync(framePath, holdFrame);
     frameIndex++;
   }
 
-  console.log(`Captured ${frameIndex} frames total.`);
+  if (frameIndex === 0) throw new Error('All frames were black — tile rendering failed.');
+  console.log(`Captured ${frameIndex} frames (${skipped} black skipped, ${holdCount} hold frames).`);
   return frameIndex;
 }
 
