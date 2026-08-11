@@ -1,11 +1,13 @@
 {
   "name": "cesium-readme-map",
   "version": "1.0.0",
-  "description": "Generates a random Cesium-rendered point of interest for a GitHub profile README",
+  "description": "Generates a daily cinematic world zoom GIF for a GitHub profile README",
   "scripts": {
     "generate": "node scripts/generate-map.js"
   },
   "dependencies": {
+    "canvas": "^2.11.2",
+    "gif-encoder-2": "^1.0.5",
     "puppeteer": "^22.0.0"
   }
 }

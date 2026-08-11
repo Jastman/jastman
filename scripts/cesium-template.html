@@ -19,7 +19,7 @@
     const viewer = new Cesium.Viewer('cesiumContainer', {
       animation: false,
       baseLayerPicker: false,
-      baseLayer: false, 
+      baseLayer: false,
       fullscreenButton: false,
       geocoder: false,
       homeButton: false,
@@ -33,6 +33,11 @@
 
     viewer.scene.globe.show = false;
 
+    // Expose frame-capture hook for Puppeteer
+    window.captureFrame = null;
+    window.renderComplete = false;
+    window.zoomStarted = false;
+
     async function loadTiles() {
       try {
         const googleTileset = await Cesium.Cesium3DTileset.fromIonAssetId(2275207);
@@ -41,36 +46,52 @@
         const targetLon = LON;
         const targetLat = LAT;
         const rawHeight = HEIGHT;
-
         const randomHeading = Math.floor(Math.random() * 360);
         const centerCartesian = Cesium.Cartesian3.fromDegrees(targetLon, targetLat, 0);
 
-        // Tighter range distance so buildings fill the frame nicely
-        const rangeDistance = Math.max(rawHeight * 0.5, 450);
+        // Start high (cinematic orbit altitude) then zoom down
+        const startRange = 18000; // ~18 km up
+        const endRange = Math.max(rawHeight * 0.5, 450);
 
-        const headingPitchRange = new Cesium.HeadingPitchRange(
-          Cesium.Math.toRadians(randomHeading),
-          Cesium.Math.toRadians(-45), 
-          rangeDistance
-        );
-
+        // Instantly position camera at high altitude
         viewer.camera.flyToBoundingSphere(new Cesium.BoundingSphere(centerCartesian, 0), {
-          offset: headingPitchRange,
+          offset: new Cesium.HeadingPitchRange(
+            Cesium.Math.toRadians(randomHeading),
+            Cesium.Math.toRadians(-35),
+            startRange
+          ),
           duration: 0,
           complete: function() {
-            // Bumped to 25 seconds to give SwiftShader time to load sharp textures
+            // Let tiles load at initial position before starting zoom
             setTimeout(() => {
-              window.renderComplete = true;
-            }, 25000); 
+              window.zoomStarted = true;
+
+              // Cinematic zoom: descend from 18km → final altitude over ~20 seconds
+              viewer.camera.flyToBoundingSphere(new Cesium.BoundingSphere(centerCartesian, 0), {
+                offset: new Cesium.HeadingPitchRange(
+                  Cesium.Math.toRadians(randomHeading + 25), // slight orbit during descent
+                  Cesium.Math.toRadians(-45),
+                  endRange
+                ),
+                duration: 20,
+                easingFunction: Cesium.EasingFunction.QUINTIC_IN_OUT,
+                complete: function() {
+                  // Extra settle time for final textures at ground level
+                  setTimeout(() => {
+                    window.renderComplete = true;
+                  }, 5000);
+                }
+              });
+            }, 8000); // Initial tile load wait
           }
         });
 
       } catch (error) {
         console.error('Error loading Google 3D Tiles:', error);
-        window.renderComplete = true; 
+        window.renderComplete = true;
       }
     }
-    
+
     loadTiles();
   </script>
 </body>
