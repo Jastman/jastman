@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily Map](assets/random-point.png?v=1786360286695)
+![Cesium Daily Map](assets/random-point.png?v=1786445549887)
 
-**Delicate Arch, Utah**
+**Upper Augusta Township, Pennsylvania**
 
-Coordinates: 38.7436, -109.4993
+Coordinates: 40.88333333, -76.73305556
 
-*A 52-foot-tall freestanding natural arch carved by wind and sand out of Entrada Sandstone.*
+*Upper Augusta Township is a township in Northumberland County, Pennsylvania, United States. It was formed  in 1846 by the division of Augusta Township (one of the seven original townships of Northumberland County formed in 1772) into Upper and Lower sections.  The population at the 2010 Census was 2...*
 
-*Last generated: Aug 10, 2026 at 7:11 AM EDT*
+*Last generated: Aug 11, 2026 at 6:52 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
