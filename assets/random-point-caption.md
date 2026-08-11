@@ -1,5 +1,5 @@
-**Upper Augusta Township, Pennsylvania**
+**Mount Everest, Himalayas**
 
-Coordinates: 40.88333333, -76.73305556
+Coordinates: 27.9881, 86.925
 
-*Upper Augusta Township is a township in Northumberland County, Pennsylvania, United States. It was formed  in 1846 by the division of Augusta Township (one of the seven original townships of Northumberland County formed in 1772) into Upper and Lower sections.  The population at the 2010 Census was 2...*
+*Its official height has been re-surveyed multiple times, most recently jointly by Nepal and China in 2020.*
