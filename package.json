@@ -1,7 +1,7 @@
 {
   "name": "cesium-readme-map",
   "version": "1.0.0",
-  "description": "Generates a random Cesium-rendered point of interest for a GitHub profile README",
+  "description": "Generates a daily cinematic world zoom GIF for a GitHub profile README",
   "scripts": {
     "generate": "node scripts/generate-map.js"
   },
