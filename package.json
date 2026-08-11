@@ -6,8 +6,6 @@
     "generate": "node scripts/generate-map.js"
   },
   "dependencies": {
-    "canvas": "^2.11.2",
-    "gif-encoder-2": "^1.0.5",
     "puppeteer": "^22.0.0"
   }
 }

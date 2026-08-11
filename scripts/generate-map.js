@@ -1,16 +1,14 @@
 const puppeteer = require('puppeteer');
 const path = require('path');
 const fs = require('fs');
-const GIFEncoder = require('gif-encoder-2');
-const { createCanvas, Image } = require('canvas');
+const { execSync } = require('child_process');
 
-// ─── GIF settings ───────────────────────────────────────────────────────────
+// ─── Capture settings ────────────────────────────────────────────────────────
 const GIF_WIDTH = 800;
 const GIF_HEIGHT = 400;
-const GIF_FPS = 10;            // frames per second in output GIF
-const CAPTURE_INTERVAL_MS = 200; // capture a frame every 200ms during zoom
-const ZOOM_DURATION_MS = 20000;  // must match cesium-template duration (20s)
-const INITIAL_WAIT_MS = 8000;    // must match cesium-template initial wait
+const GIF_FPS = 10;
+const CAPTURE_INTERVAL_MS = 100; // 100ms between frames = 10fps in output
+const ZOOM_DURATION_MS = 20000;  // must match cesium-template duration
 const FINAL_SETTLE_MS = 5000;    // must match cesium-template settle time
 
 function isUnwantedLocation(title, extract) {
@@ -41,9 +39,7 @@ async function fetchDynamicPointFromWiki() {
       if (page.coordinates && page.coordinates.length > 0) {
         const name = page.title;
         const extract = page.extract ? page.extract.replace(/\n/g, ' ').trim() : '';
-
         if (isUnwantedLocation(name, extract)) continue;
-
         return {
           name,
           lon: page.coordinates[0].lon,
@@ -57,10 +53,9 @@ async function fetchDynamicPointFromWiki() {
   throw new Error("Failed to find clean Wikipedia point.");
 }
 
-async function captureFramesDuringZoom(page) {
-  const frames = [];
+async function captureFrames(page, framesDir) {
+  let frameIndex = 0;
 
-  // Wait for zoom to start
   console.log('Waiting for zoom animation to start...');
   await page.waitForFunction('window.zoomStarted === true', { timeout: 30000 });
   console.log('Zoom started — capturing frames...');
@@ -68,61 +63,48 @@ async function captureFramesDuringZoom(page) {
   const totalFrames = Math.floor(ZOOM_DURATION_MS / CAPTURE_INTERVAL_MS);
 
   for (let i = 0; i < totalFrames; i++) {
-    const buf = await page.screenshot({ type: 'png' });
-    frames.push(buf);
-    if (i % 10 === 0) console.log(`  Frame ${i + 1}/${totalFrames}`);
+    const framePath = path.join(framesDir, `frame-${String(frameIndex).padStart(5, '0')}.png`);
+    await page.screenshot({ path: framePath });
+    frameIndex++;
+    if (i % 20 === 0) console.log(`  Frame ${i + 1}/${totalFrames}`);
     await new Promise(r => setTimeout(r, CAPTURE_INTERVAL_MS));
   }
 
-  // Wait for final render to complete and capture a few settled frames
+  // Wait for final settle, then hold on the last frame for ~1 second
   console.log('Waiting for final render completion...');
   await page.waitForFunction('window.renderComplete === true', {
     timeout: FINAL_SETTLE_MS + 10000
   });
 
-  // Grab a few extra frames of the final settled view
-  for (let i = 0; i < 10; i++) {
-    const buf = await page.screenshot({ type: 'png' });
-    frames.push(buf);
-    await new Promise(r => setTimeout(r, 200));
+  for (let i = 0; i < GIF_FPS; i++) {
+    const framePath = path.join(framesDir, `frame-${String(frameIndex).padStart(5, '0')}.png`);
+    await page.screenshot({ path: framePath });
+    frameIndex++;
   }
 
-  return frames;
+  console.log(`Captured ${frameIndex} frames total.`);
+  return frameIndex;
 }
 
-async function encodeGIF(frames, outputPath) {
-  const encoder = new GIFEncoder(GIF_WIDTH, GIF_HEIGHT, 'neuquant', true, frames.length);
-  const canvas = createCanvas(GIF_WIDTH, GIF_HEIGHT);
-  const ctx = canvas.getContext('2d');
-  const delay = Math.round(1000 / GIF_FPS);
+function encodeGIF(framesDir, outputPath) {
+  const paletteFile = path.join(framesDir, 'palette.png');
+  const inputPattern = path.join(framesDir, 'frame-%05d.png');
 
-  const stream = encoder.createReadStream();
-  const writeStream = fs.createWriteStream(outputPath);
-  stream.pipe(writeStream);
+  // Pass 1: generate an optimised palette from the full frame sequence
+  execSync(
+    `ffmpeg -y -framerate ${GIF_FPS} -i "${inputPattern}" ` +
+    `-vf "fps=${GIF_FPS},scale=${GIF_WIDTH}:-1:flags=lanczos,palettegen=stats_mode=diff" ` +
+    `"${paletteFile}"`,
+    { stdio: 'inherit' }
+  );
 
-  encoder.start();
-  encoder.setRepeat(0);   // loop forever
-  encoder.setDelay(delay);
-  encoder.setQuality(10);
-
-  for (const [idx, frameBuf] of frames.entries()) {
-    const img = new Image();
-    await new Promise((resolve, reject) => {
-      img.onload = resolve;
-      img.onerror = reject;
-      img.src = frameBuf;
-    });
-    ctx.drawImage(img, 0, 0, GIF_WIDTH, GIF_HEIGHT);
-    encoder.addFrame(ctx);
-    if (idx % 20 === 0) console.log(`  Encoding frame ${idx + 1}/${frames.length}`);
-  }
-
-  encoder.finish();
-
-  await new Promise((resolve, reject) => {
-    writeStream.on('finish', resolve);
-    writeStream.on('error', reject);
-  });
+  // Pass 2: encode with Bayer dithering and diff-mode rectangle for small file size
+  execSync(
+    `ffmpeg -y -framerate ${GIF_FPS} -i "${inputPattern}" -i "${paletteFile}" ` +
+    `-lavfi "fps=${GIF_FPS},scale=${GIF_WIDTH}:-1:flags=lanczos [x]; [x][1:v] paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle" ` +
+    `"${outputPath}"`,
+    { stdio: 'inherit' }
+  );
 }
 
 async function main() {
@@ -166,13 +148,17 @@ async function main() {
   htmlContent = htmlContent
     .replace(/LON/g, targetLon)
     .replace(/LAT/g, targetLat)
-    .replace(/HEIGHT/g, targetHeight);
-
-  const token = process.env.CESIUM_ION_TOKEN || '';
-  htmlContent = htmlContent.replace('INJECT_TOKEN_HERE', token);
+    .replace(/HEIGHT/g, targetHeight)
+    .replace('INJECT_TOKEN_HERE', process.env.CESIUM_ION_TOKEN || '');
 
   const tempHtmlPath = path.resolve(__dirname, 'temp-render.html');
   fs.writeFileSync(tempHtmlPath, htmlContent);
+
+  const framesDir = path.resolve(__dirname, '../assets/_frames_tmp');
+  fs.mkdirSync(framesDir, { recursive: true });
+
+  const archiveDir = path.resolve(__dirname, '../assets/world-zooms');
+  fs.mkdirSync(archiveDir, { recursive: true });
 
   const browser = await puppeteer.launch({
     headless: "new",
@@ -186,60 +172,55 @@ async function main() {
   const page = await browser.newPage();
   await page.setViewport({ width: GIF_WIDTH, height: GIF_HEIGHT, deviceScaleFactor: 1 });
 
-  // Ensure archive directory exists
-  const archiveDir = path.resolve(__dirname, '../assets/world-zooms');
-  fs.mkdirSync(archiveDir, { recursive: true });
-
-  let gifPath, staticPath;
-
   try {
     await page.goto(`file://${tempHtmlPath}`, { waitUntil: 'load' });
-
-    const frames = await captureFramesDuringZoom(page);
-    console.log(`Captured ${frames.length} frames. Encoding GIF...`);
-
-    // Timestamped archive copy
-    const now = new Date();
-    const datestamp = now.toISOString().slice(0, 10); // YYYY-MM-DD
-    const archiveGifPath = path.join(archiveDir, `${datestamp}-${locationName.replace(/[^a-zA-Z0-9]/g, '-').slice(0, 40)}.gif`);
-
-    gifPath = path.resolve(__dirname, '../assets/random-point.gif');
-    staticPath = path.resolve(__dirname, '../assets/random-point.png');
-
-    await encodeGIF(frames, gifPath);
-    console.log(`GIF saved: ${gifPath}`);
-
-    // Also save to archive
-    fs.copyFileSync(gifPath, archiveGifPath);
-    console.log(`Archived: ${archiveGifPath}`);
-
-    // Keep a static PNG (last frame) as fallback
-    const lastFrame = frames[frames.length - 1];
-    fs.writeFileSync(staticPath, lastFrame);
-    console.log(`Static PNG saved: ${staticPath}`);
-
-    // Write caption
-    const captionText = `**${locationName}**\n\nCoordinates: ${targetLat}, ${targetLon}\n\n*${fact}*`;
-    fs.writeFileSync(path.resolve(__dirname, '../assets/random-point-caption.md'), captionText);
-
-    // Update README
-    const readmePath = path.resolve(__dirname, '../README.md');
-    if (fs.existsSync(readmePath)) {
-      let readmeContent = fs.readFileSync(readmePath, 'utf8');
-      const regex = /<!-- START_LOCATION -->[\s\S]*<!-- END_LOCATION -->/;
-      const runDate = now.toLocaleDateString('en-US', { timeZone: 'America/New_York', month: 'short', day: 'numeric', year: 'numeric' });
-      const runTime = now.toLocaleTimeString('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
-
-      const timestamp = Date.now();
-      const injectedMarkdown = `<!-- START_LOCATION -->\n![Cesium Daily World Zoom](assets/random-point.gif?v=${timestamp})\n\n${captionText}\n\n*Last generated: ${runDate} at ${runTime}*\n<!-- END_LOCATION -->`;
-      readmeContent = readmeContent.replace(regex, injectedMarkdown);
-      fs.writeFileSync(readmePath, readmeContent);
-      console.log('README updated.');
-    }
-
+    await captureFrames(page, framesDir);
   } finally {
-    if (browser) await browser.close();
+    await browser.close();
     if (fs.existsSync(tempHtmlPath)) fs.unlinkSync(tempHtmlPath);
+  }
+
+  // Encode GIF via ffmpeg
+  const gifPath = path.resolve(__dirname, '../assets/random-point.gif');
+  console.log('Encoding GIF with ffmpeg...');
+  encodeGIF(framesDir, gifPath);
+  console.log(`GIF saved: ${gifPath}`);
+
+  // Archive a timestamped copy
+  const now = new Date();
+  const datestamp = now.toISOString().slice(0, 10);
+  const safeName = locationName.replace(/[^a-zA-Z0-9]/g, '-').slice(0, 40);
+  const archivePath = path.join(archiveDir, `${datestamp}-${safeName}.gif`);
+  fs.copyFileSync(gifPath, archivePath);
+  console.log(`Archived: ${archivePath}`);
+
+  // Save last frame as static PNG fallback
+  const frames = fs.readdirSync(framesDir).filter(f => f.endsWith('.png')).sort();
+  fs.copyFileSync(
+    path.join(framesDir, frames[frames.length - 1]),
+    path.resolve(__dirname, '../assets/random-point.png')
+  );
+
+  // Clean up temp frames
+  fs.rmSync(framesDir, { recursive: true, force: true });
+
+  // Write caption
+  const captionText = `**${locationName}**\n\nCoordinates: ${targetLat}, ${targetLon}\n\n*${fact}*`;
+  fs.writeFileSync(path.resolve(__dirname, '../assets/random-point-caption.md'), captionText);
+
+  // Update README
+  const readmePath = path.resolve(__dirname, '../README.md');
+  if (fs.existsSync(readmePath)) {
+    let readmeContent = fs.readFileSync(readmePath, 'utf8');
+    const runDate = now.toLocaleDateString('en-US', { timeZone: 'America/New_York', month: 'short', day: 'numeric', year: 'numeric' });
+    const runTime = now.toLocaleTimeString('en-US', { timeZone: 'America/New_York', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
+    const timestamp = Date.now();
+    const injectedMarkdown =
+      `<!-- START_LOCATION -->\n![Cesium Daily World Zoom](assets/random-point.gif?v=${timestamp})\n\n` +
+      `${captionText}\n\n*Last generated: ${runDate} at ${runTime}*\n<!-- END_LOCATION -->`;
+    readmeContent = readmeContent.replace(/<!-- START_LOCATION -->[\s\S]*<!-- END_LOCATION -->/, injectedMarkdown);
+    fs.writeFileSync(readmePath, readmeContent);
+    console.log('README updated.');
   }
 }
 
