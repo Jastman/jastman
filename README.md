@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1786532625338)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1786619290621)
 
-**Tenby**
+**Seattle Space Needle, Washington**
 
-Coordinates: 51.6745, -4.7044
+Coordinates: 47.6205, -122.3493
 
-*Tenby (Welsh: Dinbych-y-pysgod, lit. 'fortlet of the fish') is a seaside town and community in the county of Pembrokeshire, Wales. It lies within Carmarthen Bay. In 2011, it had a population of 4,696. Notable features include three miles (five kilometres) of sandy beaches and the Pembrokeshire Coast...*
+*Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude.*
 
-*Last generated: Aug 12, 2026 at 7:03 AM EDT*
+*Last generated: Aug 13, 2026 at 7:08 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
