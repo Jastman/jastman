@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1786619290621)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1786705375128)
 
-**Seattle Space Needle, Washington**
+**Walt Disney Concert Hall, Los Angeles**
 
-Coordinates: 47.6205, -122.3493
+Coordinates: 34.0553, -118.2501
 
-*Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude.*
+*Frank Gehry's sweeping metallic surfaces originally reflected so much sunlight they melted nearby traffic cones.*
 
-*Last generated: Aug 13, 2026 at 7:08 AM EDT*
+*Last generated: Aug 14, 2026 at 7:02 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
