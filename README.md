@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1786705375128)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1786789638947)
 
-**Walt Disney Concert Hall, Los Angeles**
+**Victoria Falls, Zambia/Zimbabwe**
 
-Coordinates: 34.0553, -118.2501
+Coordinates: -17.9243, 25.856
 
-*Frank Gehry's sweeping metallic surfaces originally reflected so much sunlight they melted nearby traffic cones.*
+*Considered the largest waterfall in the world by the combined width and height of its falling water sheet.*
 
-*Last generated: Aug 14, 2026 at 7:02 AM EDT*
+*Last generated: Aug 15, 2026 at 6:27 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
