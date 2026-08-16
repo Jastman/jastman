@@ -1,5 +1,5 @@
-**Victoria Falls, Zambia/Zimbabwe**
+**Petronas Twin Towers, Malaysia**
 
-Coordinates: -17.9243, 25.856
+Coordinates: 3.1578, 101.7115
 
-*Considered the largest waterfall in the world by the combined width and height of its falling water sheet.*
+*Connected by a double-decker skybridge that is designed to slide in and out of the towers to prevent wind damage.*

@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1786789638947)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1786876070335)
 
-**Victoria Falls, Zambia/Zimbabwe**
+**Petronas Twin Towers, Malaysia**
 
-Coordinates: -17.9243, 25.856
+Coordinates: 3.1578, 101.7115
 
-*Considered the largest waterfall in the world by the combined width and height of its falling water sheet.*
+*Connected by a double-decker skybridge that is designed to slide in and out of the towers to prevent wind damage.*
 
-*Last generated: Aug 15, 2026 at 6:27 AM EDT*
+*Last generated: Aug 16, 2026 at 6:27 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
