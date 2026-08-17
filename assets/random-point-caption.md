@@ -1,5 +1,5 @@
-**Petronas Twin Towers, Malaysia**
+**Place d'Italie station**
 
-Coordinates: 3.1578, 101.7115
+Coordinates: 48.831483, 2.355692
 
-*Connected by a double-decker skybridge that is designed to slide in and out of the towers to prevent wind damage.*
+*Place d'Italie (French pronunciation: [plas ditali], literally "Italy Square") is a rapid transit station of the Paris Métro located in the heart of the 13th arrondissement of Paris, at the Place d'Italie. It is the southern terminus of Line 5 and is also served by Line 6 and Line 7.*
