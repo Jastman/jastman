@@ -1,5 +1,5 @@
-**Grand Prismatic Spring, Yellowstone**
+**Christ the Redeemer, Rio de Janeiro**
 
-Coordinates: 44.5251, -110.8382
+Coordinates: -22.9519, -43.2105
 
-*The largest hot spring in the US, known for its striking bands of bright colors created by microbial mats.*
+*One of the most photogrammetry-scanned landmarks on Earth, showing up in nearly every 3D Tiles demo reel.*
