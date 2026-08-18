@@ -40,3 +40,11 @@ jobs:
           git add assets/random-point.gif assets/random-point.png assets/random-point-caption.md assets/world-zooms/ README.md
           git diff --quiet --cached || git commit -m "Update daily world zoom GIF"
           git push
+
+      - name: Publish daily render to X
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: npm run publish:x

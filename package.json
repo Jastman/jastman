@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Generates a daily cinematic world zoom GIF for a GitHub profile README",
   "scripts": {
-    "generate": "node scripts/generate-map.js"
+    "generate": "node scripts/generate-map.js",
+    "publish:x": "node scripts/publish-to-x.js"
   },
   "dependencies": {
-    "puppeteer": "^22.0.0"
+    "puppeteer": "^22.0.0",
+    "twitter-api-v2": "^1.29.1"
   }
 }

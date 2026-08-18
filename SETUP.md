@@ -4,8 +4,13 @@
 2. Get a free Cesium ion token at ion.cesium.com if you don't already have one handy from work.
 3. In your repo, go to Settings > Secrets and variables > Actions, and add a secret named `CESIUM_ION_TOKEN` with that token.
 4. Run `npm install` locally once to confirm `generate-map.js` works before relying on the Action (`CESIUM_ION_TOKEN=yourtoken npm run generate`).
-5. Push. The workflow runs daily and on manual trigger (Actions tab > "Update random Cesium point" > Run workflow).
-6. Add this to your README:
+5. To publish each render to X, create an X Developer app with OAuth 1.0a user authentication enabled and Read and Write permissions. Regenerate the access token for the account that should publish, then add these four repository secrets under Settings > Secrets and variables > Actions:
+   - `X_API_KEY`
+   - `X_API_SECRET`
+   - `X_ACCESS_TOKEN`
+   - `X_ACCESS_TOKEN_SECRET`
+6. Push. The workflow runs daily and on manual trigger (Actions tab > "Update random Cesium point" > Run workflow). Each run commits the updated profile assets and publishes the GIF with its location name, coordinates, and description to the X account represented by the access token. X posts are capped at 280 characters.
+7. Add this to your README:
 
 ```markdown
 ### 📍 Random point of interest

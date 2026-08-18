@@ -29,7 +29,7 @@ Coordinates: 44.5251, -110.8382
 *Last generated: Aug 18, 2026 at 9:51 AM EDT*
 <!-- END_LOCATION -->
 
-<small>Refreshes daily via GitHub Actions + CesiumJS.</small>
+<small>Refreshes daily via GitHub Actions + CesiumJS, and publishes the render to X.</small>
 
 ---
 
@@ -42,4 +42,3 @@ Coordinates: 44.5251, -110.8382
 <p align="center">
   <img width="1600" height="424" alt="motto" src="https://github.com/user-attachments/assets/8c10608b-6936-4756-b213-a2d26e816a3b" width="100%" />
 </p>
-
