@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1786963034688)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1787061104938)
 
-**Place d'Italie station**
+**Grand Prismatic Spring, Yellowstone**
 
-Coordinates: 48.831483, 2.355692
+Coordinates: 44.5251, -110.8382
 
-*Place d'Italie (French pronunciation: [plas ditali], literally "Italy Square") is a rapid transit station of the Paris Métro located in the heart of the 13th arrondissement of Paris, at the Place d'Italie. It is the southern terminus of Line 5 and is also served by Line 6 and Line 7.*
+*The largest hot spring in the US, known for its striking bands of bright colors created by microbial mats.*
 
-*Last generated: Aug 17, 2026 at 6:37 AM EDT*
+*Last generated: Aug 18, 2026 at 9:51 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
