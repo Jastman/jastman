@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1787064786771)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1787065329895)
 
-**Seattle Space Needle, Washington**
+**Chichén Itzá, Mexico**
 
-Coordinates: 47.6205, -122.3493
+Coordinates: 20.6843, -88.5678
 
-*Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude.*
+*A massive pre-Columbian city built by the Maya people, dominated by the Temple of Kukulcán.*
 
-*Last generated: Aug 18, 2026 at 10:53 AM EDT*
+*Last generated: Aug 18, 2026 at 11:02 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

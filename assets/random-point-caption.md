@@ -1,5 +1,5 @@
-**Seattle Space Needle, Washington**
+**Chichén Itzá, Mexico**
 
-Coordinates: 47.6205, -122.3493
+Coordinates: 20.6843, -88.5678
 
-*Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude.*
+*A massive pre-Columbian city built by the Maya people, dominated by the Temple of Kukulcán.*
