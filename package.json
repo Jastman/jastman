@@ -6,6 +6,7 @@
     "generate": "node scripts/generate-map.js"
   },
   "dependencies": {
+    "pngjs": "^7.0.0",
     "puppeteer": "^22.0.0"
   }
 }

@@ -1,5 +1,5 @@
-**Grand Prismatic Spring, Yellowstone**
+**Seattle Space Needle, Washington**
 
-Coordinates: 44.5251, -110.8382
+Coordinates: 47.6205, -122.3493
 
-*The largest hot spring in the US, known for its striking bands of bright colors created by microbial mats.*
+*Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude.*

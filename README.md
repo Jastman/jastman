@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1787061104938)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1787064786771)
 
-**Grand Prismatic Spring, Yellowstone**
+**Seattle Space Needle, Washington**
 
-Coordinates: 44.5251, -110.8382
+Coordinates: 47.6205, -122.3493
 
-*The largest hot spring in the US, known for its striking bands of bright colors created by microbial mats.*
+*Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude.*
 
-*Last generated: Aug 18, 2026 at 9:51 AM EDT*
+*Last generated: Aug 18, 2026 at 10:53 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
