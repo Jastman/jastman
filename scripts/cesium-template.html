@@ -16,27 +16,43 @@
   <script>
     Cesium.Ion.defaultAccessToken = 'INJECT_TOKEN_HERE';
 
-    const viewer = new Cesium.Viewer('cesiumContainer', {
-      animation: false,
-      baseLayerPicker: false,
-      baseLayer: false,
-      fullscreenButton: false,
-      geocoder: false,
-      homeButton: false,
-      infoBox: false,
-      sceneModePicker: false,
-      selectionIndicator: false,
-      timeline: false,
-      navigationHelpButton: false,
-      navigationInstructionsInitiallyVisible: false
-    });
-
-    viewer.scene.globe.show = false;
-
     // Expose frame-capture hook for Puppeteer
     window.captureFrame = null;
     window.renderComplete = false;
     window.zoomStarted = false;
+    window.renderError = null;
+
+    function recordRenderError(error) {
+      if (window.renderError) return;
+      window.renderError = error instanceof Error ? error.message : String(error);
+      window.renderComplete = true;
+      console.error('Cesium render error:', window.renderError);
+    }
+
+    window.addEventListener('error', event => recordRenderError(event.error || event.message));
+    window.addEventListener('unhandledrejection', event => recordRenderError(event.reason));
+
+    let viewer;
+    try {
+      viewer = new Cesium.Viewer('cesiumContainer', {
+        animation: false,
+        baseLayerPicker: false,
+        baseLayer: false,
+        fullscreenButton: false,
+        geocoder: false,
+        homeButton: false,
+        infoBox: false,
+        sceneModePicker: false,
+        selectionIndicator: false,
+        timeline: false,
+        navigationHelpButton: false,
+        navigationInstructionsInitiallyVisible: false
+      });
+
+      viewer.scene.globe.show = false;
+    } catch (error) {
+      recordRenderError(error);
+    }
 
     async function loadTiles() {
       try {
@@ -87,12 +103,13 @@
         });
 
       } catch (error) {
-        console.error('Error loading Google 3D Tiles:', error);
-        window.renderComplete = true;
+        recordRenderError(error);
       }
     }
 
-    loadTiles();
+    if (viewer && !window.renderError) {
+      loadTiles();
+    }
   </script>
 </body>
 </html>
