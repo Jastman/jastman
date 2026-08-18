@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1787064153765)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1787064786771)
 
-**Christ the Redeemer, Rio de Janeiro**
+**Seattle Space Needle, Washington**
 
-Coordinates: -22.9519, -43.2105
+Coordinates: 47.6205, -122.3493
 
-*One of the most photogrammetry-scanned landmarks on Earth, showing up in nearly every 3D Tiles demo reel.*
+*Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude.*
 
-*Last generated: Aug 18, 2026 at 10:42 AM EDT*
+*Last generated: Aug 18, 2026 at 10:53 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
