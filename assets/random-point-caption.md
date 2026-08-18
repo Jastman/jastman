@@ -1,5 +1,5 @@
-**Grand Prismatic Spring, Yellowstone**
+**Burj Al Arab, Dubai**
 
-Coordinates: 44.5251, -110.8382
+Coordinates: 25.1412, 55.1852
 
-*The largest hot spring in the US, known for its striking bands of bright colors created by microbial mats.*
+*Designed to mimic the sail of a ship, it stands on an artificial island completely separate from the mainland.*

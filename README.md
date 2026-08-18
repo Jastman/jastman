@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1787061104938)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1787064643931)
 
-**Grand Prismatic Spring, Yellowstone**
+**Burj Al Arab, Dubai**
 
-Coordinates: 44.5251, -110.8382
+Coordinates: 25.1412, 55.1852
 
-*The largest hot spring in the US, known for its striking bands of bright colors created by microbial mats.*
+*Designed to mimic the sail of a ship, it stands on an artificial island completely separate from the mainland.*
 
-*Last generated: Aug 18, 2026 at 9:51 AM EDT*
+*Last generated: Aug 18, 2026 at 10:50 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS, and publishes the render to X.</small>
