@@ -62,12 +62,13 @@
         const targetLon = LON;
         const targetLat = LAT;
         const rawHeight = HEIGHT;
+        const focusHeight = FOCUS_HEIGHT_HERE;
         const randomHeading = Math.floor(Math.random() * 360);
-        const centerCartesian = Cesium.Cartesian3.fromDegrees(targetLon, targetLat, 0);
+        const centerCartesian = Cesium.Cartesian3.fromDegrees(targetLon, targetLat, focusHeight);
 
         // Start high (cinematic orbit altitude) then zoom down
         const startRange = 18000; // ~18 km up
-        const endRange = Math.max(rawHeight * 0.5, 450);
+        const endRange = Math.max(rawHeight * 0.5, 450, focusHeight * 3);
 
         // Instantly position camera at high altitude
         viewer.camera.flyToBoundingSphere(new Cesium.BoundingSphere(centerCartesian, 0), {

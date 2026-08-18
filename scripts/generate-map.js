@@ -288,12 +288,19 @@ async function main() {
 
   let htmlContent = fs.readFileSync(templatePath, 'utf8');
   let todayPoint;
+  const fallbackPoints = JSON.parse(fs.readFileSync(pointsPath, 'utf8'));
+  const requestedLocation = process.env.RENDER_LOCATION?.trim();
 
-  const useCurated = Math.random() < 0.5;
-
-  if (useCurated) {
+  if (requestedLocation) {
+    todayPoint = fallbackPoints.find(point =>
+      point.name.toLowerCase() === requestedLocation.toLowerCase()
+    );
+    if (!todayPoint) {
+      throw new Error(`Requested curated location not found: ${requestedLocation}`);
+    }
+    console.log(`Rendering requested location: ${todayPoint.name}`);
+  } else if (Math.random() < 0.5) {
     console.log('Picking randomly from curated list...');
-    const fallbackPoints = JSON.parse(fs.readFileSync(pointsPath, 'utf8'));
     todayPoint = fallbackPoints[Math.floor(Math.random() * fallbackPoints.length)];
   } else {
     try {
@@ -302,7 +309,6 @@ async function main() {
       console.log(`Dynamic point: ${todayPoint.name}`);
     } catch (error) {
       console.warn(`[WARNING]: ${error.message} Falling back to static points.json.`);
-      const fallbackPoints = JSON.parse(fs.readFileSync(pointsPath, 'utf8'));
       todayPoint = fallbackPoints[Math.floor(Math.random() * fallbackPoints.length)];
     }
   }
@@ -310,6 +316,9 @@ async function main() {
   const targetLon = todayPoint.lon || todayPoint.lng;
   const targetLat = todayPoint.lat;
   const targetHeight = todayPoint.height || 1500;
+  const targetFocusHeight = Number.isFinite(todayPoint.focusHeight)
+    ? todayPoint.focusHeight
+    : 0;
   const locationName = todayPoint.name || 'Unknown Location';
   const fact = todayPoint.fact || '';
 
@@ -318,6 +327,7 @@ async function main() {
   htmlContent = htmlContent
     .replace(/LON/g, targetLon)
     .replace(/LAT/g, targetLat)
+    .replace(/FOCUS_HEIGHT_HERE/g, targetFocusHeight)
     .replace(/HEIGHT/g, targetHeight)
     .replace('INJECT_TOKEN_HERE', process.env.CESIUM_ION_TOKEN || '');
 
