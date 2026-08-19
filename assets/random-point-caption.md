@@ -1,5 +1,5 @@
-**Half Dome, Yosemite**
+**Angkor Wat, Cambodia**
 
-Coordinates: 37.7459, -119.5383
+Coordinates: 13.4125, 103.867
 
-*Its granite face has been laser-scanned so many times it practically has its own point cloud fandom.*
+*The largest religious monument in the world, spanning a massive temple complex integrated closely with the jungle.*

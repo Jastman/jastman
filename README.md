@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1787135638650)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1787154025964)
 
-**Half Dome, Yosemite**
+**Angkor Wat, Cambodia**
 
-Coordinates: 37.7459, -119.5383
+Coordinates: 13.4125, 103.867
 
-*Its granite face has been laser-scanned so many times it practically has its own point cloud fandom.*
+*The largest religious monument in the world, spanning a massive temple complex integrated closely with the jungle.*
 
-*Last generated: Aug 19, 2026 at 6:33 AM EDT*
+*Last generated: Aug 19, 2026 at 11:40 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
