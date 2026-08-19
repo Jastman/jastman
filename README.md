@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1787065329895)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1787135638650)
 
-**Chichén Itzá, Mexico**
+**Half Dome, Yosemite**
 
-Coordinates: 20.6843, -88.5678
+Coordinates: 37.7459, -119.5383
 
-*A massive pre-Columbian city built by the Maya people, dominated by the Temple of Kukulcán.*
+*Its granite face has been laser-scanned so many times it practically has its own point cloud fandom.*
 
-*Last generated: Aug 18, 2026 at 11:02 AM EDT*
+*Last generated: Aug 19, 2026 at 6:33 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

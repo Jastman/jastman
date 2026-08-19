@@ -1,5 +1,5 @@
-**Chichén Itzá, Mexico**
+**Half Dome, Yosemite**
 
-Coordinates: 20.6843, -88.5678
+Coordinates: 37.7459, -119.5383
 
-*A massive pre-Columbian city built by the Maya people, dominated by the Temple of Kukulcán.*
+*Its granite face has been laser-scanned so many times it practically has its own point cloud fandom.*
