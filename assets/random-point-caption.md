@@ -1,5 +1,5 @@
-**Angkor Wat, Cambodia**
+**Columbus, Texas**
 
-Coordinates: 13.4125, 103.867
+Coordinates: 29.70583333, -96.54611111
 
-*The largest religious monument in the world, spanning a massive temple complex integrated closely with the jungle.*
+*Columbus is a city in and the county seat of Colorado County in southeastern Texas, United States. Its population was 3,699 as of the 2020 census. It is located on the Colorado River. The Colorado County Courthouse is listed on the National Register of Historic Places. A Santa Claus museum is located...*

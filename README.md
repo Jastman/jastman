@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1787154025964)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1787222139937)
 
-**Angkor Wat, Cambodia**
+**Columbus, Texas**
 
-Coordinates: 13.4125, 103.867
+Coordinates: 29.70583333, -96.54611111
 
-*The largest religious monument in the world, spanning a massive temple complex integrated closely with the jungle.*
+*Columbus is a city in and the county seat of Colorado County in southeastern Texas, United States. Its population was 3,699 as of the 2020 census. It is located on the Colorado River. The Colorado County Courthouse is listed on the National Register of Historic Places. A Santa Claus museum is located...*
 
-*Last generated: Aug 19, 2026 at 11:40 AM EDT*
+*Last generated: Aug 20, 2026 at 6:35 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
