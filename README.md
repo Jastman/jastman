@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1787222139937)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1787308699213)
 
-**Columbus, Texas**
+**Empire State Building, New York**
 
-Coordinates: 29.70583333, -96.54611111
+Coordinates: 40.7488, -73.9857
 
-*Columbus is a city in and the county seat of Colorado County in southeastern Texas, United States. Its population was 3,699 as of the 2020 census. It is located on the Colorado River. The Colorado County Courthouse is listed on the National Register of Historic Places. A Santa Claus museum is located...*
+*Constructed in just 410 days during the Great Depression, an unbelievable feat of engineering logistics.*
 
-*Last generated: Aug 20, 2026 at 6:35 AM EDT*
+*Last generated: Aug 21, 2026 at 6:38 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
