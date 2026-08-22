@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1787308699213)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1787394492453)
 
-**Empire State Building, New York**
+**Battle of Hunterstown**
 
-Coordinates: 40.7488, -73.9857
+Coordinates: 39.88255, -77.16178333
 
-*Constructed in just 410 days during the Great Depression, an unbelievable feat of engineering logistics.*
+*The Battle of Hunterstown was an American Civil War skirmish at Beaverdam Creek near Hunterstown, Pennsylvania, on July 2, 1863, in which Wade Hampton's Confederate cavalry withdrew after engaging George Armstrong Custer's and Elon Farnsworth's Union cavalry.*
 
-*Last generated: Aug 21, 2026 at 6:38 AM EDT*
+*Last generated: Aug 22, 2026 at 6:28 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
