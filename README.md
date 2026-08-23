@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1787394492453)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1787480959011)
 
-**Battle of Hunterstown**
+**Burj Khalifa, Dubai**
 
-Coordinates: 39.88255, -77.16178333
+Coordinates: 25.1972, 55.2744
 
-*The Battle of Hunterstown was an American Civil War skirmish at Beaverdam Creek near Hunterstown, Pennsylvania, on July 2, 1863, in which Wade Hampton's Confederate cavalry withdrew after engaging George Armstrong Custer's and Elon Farnsworth's Union cavalry.*
+*Tall enough that its upper floors see the sunset several minutes later than street level.*
 
-*Last generated: Aug 22, 2026 at 6:28 AM EDT*
+*Last generated: Aug 23, 2026 at 6:29 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
