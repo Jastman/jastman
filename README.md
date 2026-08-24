@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1787480959011)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1787568101932)
 
-**Burj Khalifa, Dubai**
+**Bobeldijk**
 
-Coordinates: 25.1972, 55.2744
+Coordinates: 52.65361111, 5.00444444
 
-*Tall enough that its upper floors see the sunset several minutes later than street level.*
+*Bobeldijk is a village in the Dutch province of North Holland. It is a part of the municipality of Koggenland, and lies about 5 km west of Hoorn. The village was first mentioned in 1450 as "den Boebeldijck", and means "dike with spike rushes (Eleocharis)". Bobeldijk has place name signs. The village...*
 
-*Last generated: Aug 23, 2026 at 6:29 AM EDT*
+*Last generated: Aug 24, 2026 at 6:41 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
