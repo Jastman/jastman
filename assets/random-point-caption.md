@@ -1,5 +1,5 @@
-**Bobeldijk**
+**Houghton-le-Side**
 
-Coordinates: 52.65361111, 5.00444444
+Coordinates: 54.59, -1.656
 
-*Bobeldijk is a village in the Dutch province of North Holland. It is a part of the municipality of Koggenland, and lies about 5 km west of Hoorn. The village was first mentioned in 1450 as "den Boebeldijck", and means "dike with spike rushes (Eleocharis)". Bobeldijk has place name signs. The village...*
+*Houghton-le-Side is a small village in the borough of Darlington and the ceremonial county of County Durham, England. It is situated a few miles to the south-west of Newton Aycliffe. Details are now maintained within the parish of Walworth.*
