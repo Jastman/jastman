@@ -1,5 +1,5 @@
-**Houghton-le-Side**
+**Cliffs of Moher, Ireland**
 
-Coordinates: 54.59, -1.656
+Coordinates: 52.9715, -9.426
 
-*Houghton-le-Side is a small village in the borough of Darlington and the ceremonial county of County Durham, England. It is situated a few miles to the south-west of Newton Aycliffe. Details are now maintained within the parish of Walworth.*
+*Sea cliffs running for 14 kilometers along the Atlantic Ocean, dropping sharply down to the crashing waves below.*

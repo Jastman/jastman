@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1787654339472)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1787740812875)
 
-**Houghton-le-Side**
+**Cliffs of Moher, Ireland**
 
-Coordinates: 54.59, -1.656
+Coordinates: 52.9715, -9.426
 
-*Houghton-le-Side is a small village in the borough of Darlington and the ceremonial county of County Durham, England. It is situated a few miles to the south-west of Newton Aycliffe. Details are now maintained within the parish of Walworth.*
+*Sea cliffs running for 14 kilometers along the Atlantic Ocean, dropping sharply down to the crashing waves below.*
 
-*Last generated: Aug 25, 2026 at 6:38 AM EDT*
+*Last generated: Aug 26, 2026 at 6:40 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
