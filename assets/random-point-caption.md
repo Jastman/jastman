@@ -1,5 +1,5 @@
-**Cliffs of Moher, Ireland**
+**Crooked River National Grassland**
 
-Coordinates: 52.9715, -9.426
+Coordinates: 44.54, -121.11
 
-*Sea cliffs running for 14 kilometers along the Atlantic Ocean, dropping sharply down to the crashing waves below.*
+*Crooked River National Grassland is a National Grassland located in Jefferson County in the north-central part of the U.S. state of Oregon. It has a land area of 173,629 acres (70,265 ha). It contains two National Wild and Scenic Rivers, the Deschutes River and the Crooked River.  The grassland is managed...*
