@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1787861843104)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1787951542445)
 
-**Crooked River National Grassland**
+**Arecibo Observatory, Puerto Rico**
 
-Coordinates: 44.54, -121.11
+Coordinates: 18.3441, -66.7528
 
-*Crooked River National Grassland is a National Grassland located in Jefferson County in the north-central part of the U.S. state of Oregon. It has a land area of 173,629 acres (70,265 ha). It contains two National Wild and Scenic Rivers, the Deschutes River and the Crooked River.  The grassland is managed...*
+*Though the massive radio telescope collapsed in 2020, its enormous sinkhole footprint remains a topographical anomaly.*
 
-*Last generated: Aug 27, 2026 at 4:17 PM EDT*
+*Last generated: Aug 28, 2026 at 5:12 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
