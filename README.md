@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1787951542445)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1788015595081)
 
-**Arecibo Observatory, Puerto Rico**
+**Burj Al Arab, Dubai**
 
-Coordinates: 18.3441, -66.7528
+Coordinates: 25.1412, 55.1852
 
-*Though the massive radio telescope collapsed in 2020, its enormous sinkhole footprint remains a topographical anomaly.*
+*Designed to mimic the sail of a ship, it stands on an artificial island completely separate from the mainland.*
 
-*Last generated: Aug 28, 2026 at 5:12 PM EDT*
+*Last generated: Aug 29, 2026 at 10:59 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

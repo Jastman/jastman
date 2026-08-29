@@ -1,5 +1,5 @@
-**Arecibo Observatory, Puerto Rico**
+**Burj Al Arab, Dubai**
 
-Coordinates: 18.3441, -66.7528
+Coordinates: 25.1412, 55.1852
 
-*Though the massive radio telescope collapsed in 2020, its enormous sinkhole footprint remains a topographical anomaly.*
+*Designed to mimic the sail of a ship, it stands on an artificial island completely separate from the mainland.*
