@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1788015595081)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1788101350059)
 
-**Burj Al Arab, Dubai**
+**Empire State Building, New York**
 
-Coordinates: 25.1412, 55.1852
+Coordinates: 40.7488, -73.9857
 
-*Designed to mimic the sail of a ship, it stands on an artificial island completely separate from the mainland.*
+*Constructed in just 410 days during the Great Depression, an unbelievable feat of engineering logistics.*
 
-*Last generated: Aug 29, 2026 at 10:59 AM EDT*
+*Last generated: Aug 30, 2026 at 10:49 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

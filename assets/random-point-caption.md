@@ -1,5 +1,5 @@
-**Burj Al Arab, Dubai**
+**Empire State Building, New York**
 
-Coordinates: 25.1412, 55.1852
+Coordinates: 40.7488, -73.9857
 
-*Designed to mimic the sail of a ship, it stands on an artificial island completely separate from the mainland.*
+*Constructed in just 410 days during the Great Depression, an unbelievable feat of engineering logistics.*
