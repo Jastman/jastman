@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1788101350059)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1788197409508)
 
-**Empire State Building, New York**
+**Gothenburg Concert Hall**
 
-Coordinates: 40.7488, -73.9857
+Coordinates: 57.69694444, 11.97916667
 
-*Constructed in just 410 days during the Great Depression, an unbelievable feat of engineering logistics.*
+*Gothenburg Concert Hall (Swedish: Göteborgs konserthus) is a concert hall located in Gothenburg, Sweden, built in 1935. The architect for the facility was Nils Einar Ericsson, a major advocate of Functionalism. However, the Concert Hall has a Neo-Classical exterior look, due to the surrounding area at...*
 
-*Last generated: Aug 30, 2026 at 10:49 AM EDT*
+*Last generated: Aug 31, 2026 at 1:30 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
