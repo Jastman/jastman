@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1788273571341)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1788358427216)
 
-**Reynolds Township, Michigan**
+**Achavanich**
 
-Coordinates: 43.40833333, -85.47916667
+Coordinates: 58.35661111, -3.38963333
 
-*Reynolds Township is a civil township of Montcalm County in the U.S. state of Michigan. The population was 5,431 at the 2020 census.*
+*Achavanich ( ak-ə-VAN-ik; Scottish Gaelic: Achadh a’ Mhanaich) is an unusual megalithic horseshoe-shaped structure near Loch Stemster in Caithness, Scotland.  Meaning "field of the stones", 36 of the original 54 remain today, mostly on the western side of the structure.  The arrangement of these stones...*
 
-*Last generated: Sep 1, 2026 at 10:39 AM EDT*
+*Last generated: Sep 2, 2026 at 10:13 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
