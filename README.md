@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1788358427216)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1788444973823)
 
-**Achavanich**
+**White Cliffs of Dover, United Kingdom**
 
-Coordinates: 58.35661111, -3.38963333
+Coordinates: 51.1276, 1.3323
 
-*Achavanich ( ak-ə-VAN-ik; Scottish Gaelic: Achadh a’ Mhanaich) is an unusual megalithic horseshoe-shaped structure near Loch Stemster in Caithness, Scotland.  Meaning "field of the stones", 36 of the original 54 remain today, mostly on the western side of the structure.  The arrangement of these stones...*
+*Iconic chalk cliffs facing the Strait of Dover, composed primarily of microscopic skeletal remains.*
 
-*Last generated: Sep 2, 2026 at 10:13 AM EDT*
+*Last generated: Sep 3, 2026 at 10:16 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
