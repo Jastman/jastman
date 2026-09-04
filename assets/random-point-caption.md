@@ -1,5 +1,5 @@
-**White Cliffs of Dover, United Kingdom**
+**Kennedy Space Center (Launch Complex 39A)**
 
-Coordinates: 51.1276, 1.3323
+Coordinates: 28.6083, -80.6041
 
-*Iconic chalk cliffs facing the Strait of Dover, composed primarily of microscopic skeletal remains.*
+*The historic launch pad where the Apollo 11 mission departed for the moon, now utilized for modern spaceflight.*
