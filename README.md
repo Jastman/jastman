@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1788530848776)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1788614408834)
 
-**Kennedy Space Center (Launch Complex 39A)**
+**Mont Blanc, France/Italy**
 
-Coordinates: 28.6083, -80.6041
+Coordinates: 45.8326, 6.8644
 
-*The historic launch pad where the Apollo 11 mission departed for the moon, now utilized for modern spaceflight.*
+*The highest mountain in the Alps, featuring dramatic, deeply crevassed glaciers dominating its flanks.*
 
-*Last generated: Sep 4, 2026 at 10:07 AM EDT*
+*Last generated: Sep 5, 2026 at 9:20 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

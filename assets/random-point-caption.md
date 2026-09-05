@@ -1,5 +1,5 @@
-**Kennedy Space Center (Launch Complex 39A)**
+**Mont Blanc, France/Italy**
 
-Coordinates: 28.6083, -80.6041
+Coordinates: 45.8326, 6.8644
 
-*The historic launch pad where the Apollo 11 mission departed for the moon, now utilized for modern spaceflight.*
+*The highest mountain in the Alps, featuring dramatic, deeply crevassed glaciers dominating its flanks.*
