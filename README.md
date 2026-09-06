@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1788614408834)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1788701407305)
 
-**Mont Blanc, France/Italy**
+**Monte Cristo Range (Nevada)**
 
-Coordinates: 45.8326, 6.8644
+Coordinates: 38.139, -117.788
 
-*The highest mountain in the Alps, featuring dramatic, deeply crevassed glaciers dominating its flanks.*
+*The Monte Cristo Range is located in western Nevada in the United States. The range lies southeast of the Excelsior Mountains and east and north of Highway 95 in Esmeralda County. The Bureau of Land Management manages 99.9% of the range.  Sagebrush scrub makes up 63.1% of the mountains, with Shadscale...*
 
-*Last generated: Sep 5, 2026 at 9:20 AM EDT*
+*Last generated: Sep 6, 2026 at 9:30 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
