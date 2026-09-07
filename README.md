@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1788701407305)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1788795575590)
 
-**Monte Cristo Range (Nevada)**
+**Sehome Hill Arboretum**
 
-Coordinates: 38.139, -117.788
+Coordinates: 48.73333333, -122.48
 
-*The Monte Cristo Range is located in western Nevada in the United States. The range lies southeast of the Excelsior Mountains and east and north of Highway 95 in Esmeralda County. The Bureau of Land Management manages 99.9% of the range.  Sagebrush scrub makes up 63.1% of the mountains, with Shadscale...*
+*The Sehome Hill Arboretum is a public park in the Sehome neighborhood of Bellingham, Washington. It comprises 175.5 acres (71.0 ha) of second growth forest on Sehome Hill, adjacent to the campus of Western Washington University. Though called an arboretum, the hilly expanse atop Sehome Hill is not consciously...*
 
-*Last generated: Sep 6, 2026 at 9:30 AM EDT*
+*Last generated: Sep 7, 2026 at 11:39 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
