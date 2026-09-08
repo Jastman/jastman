@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1788795575590)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1788877065777)
 
-**Sehome Hill Arboretum**
+**Banff National Park (Lake Louise), Canada**
 
-Coordinates: 48.73333333, -122.48
+Coordinates: 51.4254, -116.1773
 
-*The Sehome Hill Arboretum is a public park in the Sehome neighborhood of Bellingham, Washington. It comprises 175.5 acres (71.0 ha) of second growth forest on Sehome Hill, adjacent to the campus of Western Washington University. Though called an arboretum, the hilly expanse atop Sehome Hill is not consciously...*
+*A glacial lake known for its shocking turquoise color, surrounded by towering, jagged peaks.*
 
-*Last generated: Sep 7, 2026 at 11:39 AM EDT*
+*Last generated: Sep 8, 2026 at 10:17 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
