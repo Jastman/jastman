@@ -1,5 +1,5 @@
-**Banff National Park (Lake Louise), Canada**
+**Copilco metro station**
 
-Coordinates: 51.4254, -116.1773
+Coordinates: 19.335887, -99.176652
 
-*A glacial lake known for its shocking turquoise color, surrounded by towering, jagged peaks.*
+*Copilco is a station along Line 3 on the Mexico City Metro. Located in the Coyoacán borough, in the south of Mexico City, on Avenida Enríquez Ureña (Eje 10 Sur). It is the penultimate station along the southern portion of Line 3.*

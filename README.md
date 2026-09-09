@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1788877065777)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1788963476145)
 
-**Banff National Park (Lake Louise), Canada**
+**Copilco metro station**
 
-Coordinates: 51.4254, -116.1773
+Coordinates: 19.335887, -99.176652
 
-*A glacial lake known for its shocking turquoise color, surrounded by towering, jagged peaks.*
+*Copilco is a station along Line 3 on the Mexico City Metro. Located in the Coyoacán borough, in the south of Mexico City, on Avenida Enríquez Ureña (Eje 10 Sur). It is the penultimate station along the southern portion of Line 3.*
 
-*Last generated: Sep 8, 2026 at 10:17 AM EDT*
+*Last generated: Sep 9, 2026 at 10:17 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
