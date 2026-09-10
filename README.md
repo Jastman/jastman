@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1788963476145)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1789049493680)
 
-**Copilco metro station**
+**Eiffel Tower, Paris**
 
-Coordinates: 19.335887, -99.176652
+Coordinates: 48.8584, 2.2945
 
-*Copilco is a station along Line 3 on the Mexico City Metro. Located in the Coyoacán borough, in the south of Mexico City, on Avenida Enríquez Ureña (Eje 10 Sur). It is the penultimate station along the southern portion of Line 3.*
+*Originally intended to be a temporary installation, it is now one of the most recognizable structures on the globe.*
 
-*Last generated: Sep 9, 2026 at 10:17 AM EDT*
+*Last generated: Sep 10, 2026 at 10:11 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
