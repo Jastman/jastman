@@ -1,5 +1,5 @@
-**Eiffel Tower, Paris**
+**Mont Blanc, France/Italy**
 
-Coordinates: 48.8584, 2.2945
+Coordinates: 45.8326, 6.8644
 
-*Originally intended to be a temporary installation, it is now one of the most recognizable structures on the globe.*
+*The highest mountain in the Alps, featuring dramatic, deeply crevassed glaciers dominating its flanks.*
