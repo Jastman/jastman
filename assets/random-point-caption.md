@@ -1,5 +1,5 @@
-**Mont Blanc, France/Italy**
+**Potala Palace, Tibet**
 
-Coordinates: 45.8326, 6.8644
+Coordinates: 29.658, 91.1172
 
-*The highest mountain in the Alps, featuring dramatic, deeply crevassed glaciers dominating its flanks.*
+*Sitting at an elevation of 12,100 feet, this massive fortress-like structure dominates the Lhasa valley.*

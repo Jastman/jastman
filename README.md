@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1789135887143)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1789219631101)
 
-**Mont Blanc, France/Italy**
+**Potala Palace, Tibet**
 
-Coordinates: 45.8326, 6.8644
+Coordinates: 29.658, 91.1172
 
-*The highest mountain in the Alps, featuring dramatic, deeply crevassed glaciers dominating its flanks.*
+*Sitting at an elevation of 12,100 feet, this massive fortress-like structure dominates the Lhasa valley.*
 
-*Last generated: Sep 11, 2026 at 10:11 AM EDT*
+*Last generated: Sep 12, 2026 at 9:27 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
