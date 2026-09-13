@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1789219631101)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1789308785514)
 
-**Potala Palace, Tibet**
+**Mount St. Helens, Washington**
 
-Coordinates: 29.658, 91.1172
+Coordinates: 46.1912, -122.1927
 
-*Sitting at an elevation of 12,100 feet, this massive fortress-like structure dominates the Lhasa valley.*
+*The 1980 eruption blew 1,300 feet off the top of the mountain, leaving a massive, highly-scanned horseshoe crater.*
 
-*Last generated: Sep 12, 2026 at 9:27 AM EDT*
+*Last generated: Sep 13, 2026 at 10:13 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

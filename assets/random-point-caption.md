@@ -1,5 +1,5 @@
-**Potala Palace, Tibet**
+**Mount St. Helens, Washington**
 
-Coordinates: 29.658, 91.1172
+Coordinates: 46.1912, -122.1927
 
-*Sitting at an elevation of 12,100 feet, this massive fortress-like structure dominates the Lhasa valley.*
+*The 1980 eruption blew 1,300 feet off the top of the mountain, leaving a massive, highly-scanned horseshoe crater.*
