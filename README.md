@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1789308785514)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1789402583356)
 
-**Mount St. Helens, Washington**
+**Mount Fuji, Japan**
 
-Coordinates: 46.1912, -122.1927
+Coordinates: 35.3606, 138.7274
 
-*The 1980 eruption blew 1,300 feet off the top of the mountain, leaving a massive, highly-scanned horseshoe crater.*
+*Its near-perfect symmetry makes it one of the most recognizable digital elevation models in any dataset.*
 
-*Last generated: Sep 13, 2026 at 10:13 AM EDT*
+*Last generated: Sep 14, 2026 at 12:16 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

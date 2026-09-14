@@ -1,5 +1,5 @@
-**Mount St. Helens, Washington**
+**Mount Fuji, Japan**
 
-Coordinates: 46.1912, -122.1927
+Coordinates: 35.3606, 138.7274
 
-*The 1980 eruption blew 1,300 feet off the top of the mountain, leaving a massive, highly-scanned horseshoe crater.*
+*Its near-perfect symmetry makes it one of the most recognizable digital elevation models in any dataset.*
