@@ -1,5 +1,5 @@
-**Mount Fuji, Japan**
+**Wembley Stadium, London**
 
-Coordinates: 35.3606, 138.7274
+Coordinates: 51.556, -0.2795
 
-*Its near-perfect symmetry makes it one of the most recognizable digital elevation models in any dataset.*
+*An iconic venue for international soccer tournaments, featuring a massive 133-meter-tall arch.*

@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1789402583356)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1789483518575)
 
-**Mount Fuji, Japan**
+**Wembley Stadium, London**
 
-Coordinates: 35.3606, 138.7274
+Coordinates: 51.556, -0.2795
 
-*Its near-perfect symmetry makes it one of the most recognizable digital elevation models in any dataset.*
+*An iconic venue for international soccer tournaments, featuring a massive 133-meter-tall arch.*
 
-*Last generated: Sep 14, 2026 at 12:16 PM EDT*
+*Last generated: Sep 15, 2026 at 10:45 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
