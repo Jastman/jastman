@@ -1,5 +1,5 @@
-**Eastwood, Louisville**
+**Zvolen**
 
-Coordinates: 38.2335, -85.4531
+Coordinates: 48.57055556, 19.1175
 
-*Eastwood is a neighborhood of Louisville, Kentucky, centered along Shelbyville Road (US 60) and Johnson Road.  The ZIP Code for Eastwood is 40018.*
+*Zvolen (Slovak pronunciation: [ˈzʋɔlen] ; Latin: Zolium; Hungarian: Zólyom; German: Altsohl) is a city in central Slovakia, situated at the confluence of the Hron and Slatina rivers. It is known for its historical and cultural attractions. It is surrounded by the Poľana mountain to the east, the Kremnické...*

@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1789569932901)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1789656446480)
 
-**Eastwood, Louisville**
+**Zvolen**
 
-Coordinates: 38.2335, -85.4531
+Coordinates: 48.57055556, 19.1175
 
-*Eastwood is a neighborhood of Louisville, Kentucky, centered along Shelbyville Road (US 60) and Johnson Road.  The ZIP Code for Eastwood is 40018.*
+*Zvolen (Slovak pronunciation: [ˈzʋɔlen] ; Latin: Zolium; Hungarian: Zólyom; German: Altsohl) is a city in central Slovakia, situated at the confluence of the Hron and Slatina rivers. It is known for its historical and cultural attractions. It is surrounded by the Poľana mountain to the east, the Kremnické...*
 
-*Last generated: Sep 16, 2026 at 10:45 AM EDT*
+*Last generated: Sep 17, 2026 at 10:47 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
