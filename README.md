@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1789656446480)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1789740886141)
 
-**Zvolen**
+**Leaf Lake Township, Otter Tail County, Minnesota**
 
-Coordinates: 48.57055556, 19.1175
+Coordinates: 46.41027778, -95.47055556
 
-*Zvolen (Slovak pronunciation: [ˈzʋɔlen] ; Latin: Zolium; Hungarian: Zólyom; German: Altsohl) is a city in central Slovakia, situated at the confluence of the Hron and Slatina rivers. It is known for its historical and cultural attractions. It is surrounded by the Poľana mountain to the east, the Kremnické...*
+*Leaf Lake Township is a township in Otter Tail County, Minnesota, United States. The population was 637 at the 2020 census.*
 
-*Last generated: Sep 17, 2026 at 10:47 AM EDT*
+*Last generated: Sep 18, 2026 at 10:14 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

@@ -1,5 +1,5 @@
-**Zvolen**
+**Leaf Lake Township, Otter Tail County, Minnesota**
 
-Coordinates: 48.57055556, 19.1175
+Coordinates: 46.41027778, -95.47055556
 
-*Zvolen (Slovak pronunciation: [ˈzʋɔlen] ; Latin: Zolium; Hungarian: Zólyom; German: Altsohl) is a city in central Slovakia, situated at the confluence of the Hron and Slatina rivers. It is known for its historical and cultural attractions. It is surrounded by the Poľana mountain to the east, the Kremnické...*
+*Leaf Lake Township is a township in Otter Tail County, Minnesota, United States. The population was 637 at the 2020 census.*
