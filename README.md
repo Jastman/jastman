@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1789740886141)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1789825633894)
 
-**Leaf Lake Township, Otter Tail County, Minnesota**
+**Christ the Redeemer, Rio de Janeiro**
 
-Coordinates: 46.41027778, -95.47055556
+Coordinates: -22.9519, -43.2105
 
-*Leaf Lake Township is a township in Otter Tail County, Minnesota, United States. The population was 637 at the 2020 census.*
+*One of the most photogrammetry-scanned landmarks on Earth, showing up in nearly every 3D Tiles demo reel.*
 
-*Last generated: Sep 18, 2026 at 10:14 AM EDT*
+*Last generated: Sep 19, 2026 at 9:47 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

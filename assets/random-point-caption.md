@@ -1,5 +1,5 @@
-**Leaf Lake Township, Otter Tail County, Minnesota**
+**Christ the Redeemer, Rio de Janeiro**
 
-Coordinates: 46.41027778, -95.47055556
+Coordinates: -22.9519, -43.2105
 
-*Leaf Lake Township is a township in Otter Tail County, Minnesota, United States. The population was 637 at the 2020 census.*
+*One of the most photogrammetry-scanned landmarks on Earth, showing up in nearly every 3D Tiles demo reel.*
