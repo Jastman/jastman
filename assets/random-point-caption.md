@@ -1,5 +1,5 @@
-**Christ the Redeemer, Rio de Janeiro**
+**Seattle Space Needle, Washington**
 
-Coordinates: -22.9519, -43.2105
+Coordinates: 47.6205, -122.3493
 
-*One of the most photogrammetry-scanned landmarks on Earth, showing up in nearly every 3D Tiles demo reel.*
+*Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude.*
