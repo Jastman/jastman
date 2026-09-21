@@ -1,5 +1,5 @@
-**Seattle Space Needle, Washington**
+**Mount Aconcagua, Argentina**
 
-Coordinates: 47.6205, -122.3493
+Coordinates: -32.6532, -70.0109
 
-*Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude.*
+*The highest mountain in the Americas and the highest outside of Asia, boasting massive, sweeping scree slopes.*
