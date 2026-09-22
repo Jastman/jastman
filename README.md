@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1790007748656)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1790087436673)
 
-**Mount Aconcagua, Argentina**
+**Åtvidaberg**
 
-Coordinates: -32.6532, -70.0109
+Coordinates: 58.2, 16
 
-*The highest mountain in the Americas and the highest outside of Asia, boasting massive, sweeping scree slopes.*
+*Åtvidaberg is a locality and the seat of Åtvidaberg Municipality, Östergötland County, Sweden with 6,859 inhabitants in 2010.*
 
-*Last generated: Sep 21, 2026 at 12:22 PM EDT*
+*Last generated: Sep 22, 2026 at 10:30 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
