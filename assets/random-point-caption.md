@@ -1,5 +1,5 @@
-**Åtvidaberg**
+**Main (river)**
 
-Coordinates: 58.2, 16
+Coordinates: 49.99444444, 8.29333333
 
-*Åtvidaberg is a locality and the seat of Åtvidaberg Municipality, Östergötland County, Sweden with 6,859 inhabitants in 2010.*
+*The Main (German pronunciation: [ˈmaɪn] ) is a river in central Germany. It is the longest tributary of the Rhine, one of the major European rivers. It rises as the White Main in the Fichtel Mountains of northeastern Bavaria and flows west  for 525 kilometres (326 mi) to meet the Rhine below Rüsselsheim...*
