@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1790174990376)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1790261131469)
 
-**Main (river)**
+**Wembley Stadium, London**
 
-Coordinates: 49.99444444, 8.29333333
+Coordinates: 51.556, -0.2795
 
-*The Main (German pronunciation: [ˈmaɪn] ) is a river in central Germany. It is the longest tributary of the Rhine, one of the major European rivers. It rises as the White Main in the Fichtel Mountains of northeastern Bavaria and flows west  for 525 kilometres (326 mi) to meet the Rhine below Rüsselsheim...*
+*An iconic venue for international soccer tournaments, featuring a massive 133-meter-tall arch.*
 
-*Last generated: Sep 23, 2026 at 10:49 AM EDT*
+*Last generated: Sep 24, 2026 at 10:45 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
