@@ -1,5 +1,5 @@
-**Wembley Stadium, London**
+**Braçanj**
 
-Coordinates: 51.556, -0.2795
+Coordinates: 40.55, 20.98333333
 
-*An iconic venue for international soccer tournaments, featuring a massive 133-meter-tall arch.*
+*Braçanj is a small village located in the Korçë County, Albania. It is part of the former municipality Miras. At the 2015 local government reform it became part of the municipality Devoll.*

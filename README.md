@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1790261131469)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1790348759986)
 
-**Wembley Stadium, London**
+**Braçanj**
 
-Coordinates: 51.556, -0.2795
+Coordinates: 40.55, 20.98333333
 
-*An iconic venue for international soccer tournaments, featuring a massive 133-meter-tall arch.*
+*Braçanj is a small village located in the Korçë County, Albania. It is part of the former municipality Miras. At the 2015 local government reform it became part of the municipality Devoll.*
 
-*Last generated: Sep 24, 2026 at 10:45 AM EDT*
+*Last generated: Sep 25, 2026 at 11:05 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
