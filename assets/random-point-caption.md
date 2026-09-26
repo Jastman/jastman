@@ -1,5 +1,5 @@
-**Braçanj**
+**Seattle Spheres, Washington**
 
-Coordinates: 40.55, 20.98333333
+Coordinates: 47.6158, -122.3396
 
-*Braçanj is a small village located in the Korçë County, Albania. It is part of the former municipality Miras. At the 2015 local government reform it became part of the municipality Devoll.*
+*Three intersecting glass domes serving as an indoor rainforest workspace for Amazon employees in downtown Seattle.*

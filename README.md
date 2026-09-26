@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1790348759986)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1790432210485)
 
-**Braçanj**
+**Seattle Spheres, Washington**
 
-Coordinates: 40.55, 20.98333333
+Coordinates: 47.6158, -122.3396
 
-*Braçanj is a small village located in the Korçë County, Albania. It is part of the former municipality Miras. At the 2015 local government reform it became part of the municipality Devoll.*
+*Three intersecting glass domes serving as an indoor rainforest workspace for Amazon employees in downtown Seattle.*
 
-*Last generated: Sep 25, 2026 at 11:05 AM EDT*
+*Last generated: Sep 26, 2026 at 10:16 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
