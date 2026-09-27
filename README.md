@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1790432210485)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1790521434065)
 
-**Seattle Spheres, Washington**
+**Cromwell Township, Huntingdon County, Pennsylvania**
 
-Coordinates: 47.6158, -122.3396
+Coordinates: 40.23333333, -77.86638889
 
-*Three intersecting glass domes serving as an indoor rainforest workspace for Amazon employees in downtown Seattle.*
+*Cromwell Township is a township in Huntingdon County, Pennsylvania, United States. The population was 1,475 at the 2020 census.*
 
-*Last generated: Sep 26, 2026 at 10:16 AM EDT*
+*Last generated: Sep 27, 2026 at 11:03 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
