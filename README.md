@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1790521434065)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1790618620062)
 
-**Cromwell Township, Huntingdon County, Pennsylvania**
+**CN Tower, Toronto**
 
-Coordinates: 40.23333333, -77.86638889
+Coordinates: 43.6426, -79.3871
 
-*Cromwell Township is a township in Huntingdon County, Pennsylvania, United States. The population was 1,475 at the 2020 census.*
+*Held the record for the world's tallest freestanding structure for over 30 years.*
 
-*Last generated: Sep 27, 2026 at 11:03 AM EDT*
+*Last generated: Sep 28, 2026 at 2:03 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
