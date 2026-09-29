@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1790618620062)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1790699192343)
 
-**CN Tower, Toronto**
+**La Bombonera, Buenos Aires**
 
-Coordinates: 43.6426, -79.3871
+Coordinates: -34.6356, -58.3648
 
-*Held the record for the world's tallest freestanding structure for over 30 years.*
+*A stadium with a highly unusual 'D' shape, known for acoustics so intense the concrete literally vibrates.*
 
-*Last generated: Sep 28, 2026 at 2:03 PM EDT*
+*Last generated: Sep 29, 2026 at 12:26 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

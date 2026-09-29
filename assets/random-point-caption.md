@@ -1,5 +1,5 @@
-**CN Tower, Toronto**
+**La Bombonera, Buenos Aires**
 
-Coordinates: 43.6426, -79.3871
+Coordinates: -34.6356, -58.3648
 
-*Held the record for the world's tallest freestanding structure for over 30 years.*
+*A stadium with a highly unusual 'D' shape, known for acoustics so intense the concrete literally vibrates.*
