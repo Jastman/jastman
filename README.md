@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1790699192343)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1790785312967)
 
-**La Bombonera, Buenos Aires**
+**Doyline, Louisiana**
 
-Coordinates: -34.6356, -58.3648
+Coordinates: 32.525, -93.41166667
 
-*A stadium with a highly unusual 'D' shape, known for acoustics so intense the concrete literally vibrates.*
+*Doyline is a village in southwestern Webster Parish in northwestern Louisiana, United States. As of the 2020 census, Doyline had a population of 674. It is part of the Minden Micropolitan Statistical Area. Under a cited cost-saving realignment plan, the Webster Parish School Board closed Union Elementary...*
 
-*Last generated: Sep 29, 2026 at 12:26 PM EDT*
+*Last generated: Sep 30, 2026 at 12:21 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
