@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1790873941601)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1790957535731)
 
-**Þingvellir Rift, Iceland**
+**Cannonsburg, Kentucky**
 
-Coordinates: 64.2559, -21.1293
+Coordinates: 38.38861111, -82.70277778
 
-*You can literally stand between the North American and Eurasian tectonic plates as they slowly pull apart.*
+*Cannonsburg is a census-designated place (CDP) in Boyd County, Kentucky, United States. As of the 2020 census, Cannonsburg had a population of 862. Cannonsburg is located 8 miles (13 km) southwest of the city of Ashland, a major urban center in northeastern Kentucky. Most of Cannonsburg shares its ZIP...*
 
-*Last generated: Oct 1, 2026 at 12:59 PM EDT*
+*Last generated: Oct 2, 2026 at 12:12 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

@@ -1,5 +1,5 @@
-**Þingvellir Rift, Iceland**
+**Cannonsburg, Kentucky**
 
-Coordinates: 64.2559, -21.1293
+Coordinates: 38.38861111, -82.70277778
 
-*You can literally stand between the North American and Eurasian tectonic plates as they slowly pull apart.*
+*Cannonsburg is a census-designated place (CDP) in Boyd County, Kentucky, United States. As of the 2020 census, Cannonsburg had a population of 862. Cannonsburg is located 8 miles (13 km) southwest of the city of Ashland, a major urban center in northeastern Kentucky. Most of Cannonsburg shares its ZIP...*
