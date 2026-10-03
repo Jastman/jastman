@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1790957535731)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1791038287126)
 
-**Cannonsburg, Kentucky**
+**Palace of Facets**
 
-Coordinates: 38.38861111, -82.70277778
+Coordinates: 55.75027778, 37.61666667
 
-*Cannonsburg is a census-designated place (CDP) in Boyd County, Kentucky, United States. As of the 2020 census, Cannonsburg had a population of 862. Cannonsburg is located 8 miles (13 km) southwest of the city of Ashland, a major urban center in northeastern Kentucky. Most of Cannonsburg shares its ZIP...*
+*The Palace of the Facets (Russian: Грановитая палата, romanized: Granovitaya palata) is a building in the Moscow Kremlin, Russia, which contains what used to be the main banquet reception hall of the Russian tsars. It is the oldest preserved secular building in Moscow. Located on Kremlin Cathedral Square...*
 
-*Last generated: Oct 2, 2026 at 12:12 PM EDT*
+*Last generated: Oct 3, 2026 at 10:38 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

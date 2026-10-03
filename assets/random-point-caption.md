@@ -1,5 +1,5 @@
-**Cannonsburg, Kentucky**
+**Palace of Facets**
 
-Coordinates: 38.38861111, -82.70277778
+Coordinates: 55.75027778, 37.61666667
 
-*Cannonsburg is a census-designated place (CDP) in Boyd County, Kentucky, United States. As of the 2020 census, Cannonsburg had a population of 862. Cannonsburg is located 8 miles (13 km) southwest of the city of Ashland, a major urban center in northeastern Kentucky. Most of Cannonsburg shares its ZIP...*
+*The Palace of the Facets (Russian: Грановитая палата, romanized: Granovitaya palata) is a building in the Moscow Kremlin, Russia, which contains what used to be the main banquet reception hall of the Russian tsars. It is the oldest preserved secular building in Moscow. Located on Kremlin Cathedral Square...*
