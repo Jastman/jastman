@@ -1,5 +1,5 @@
-**Palace of Facets**
+**Morgantown, Indiana**
 
-Coordinates: 55.75027778, 37.61666667
+Coordinates: 39.37444444, -86.25722222
 
-*The Palace of the Facets (Russian: Грановитая палата, romanized: Granovitaya palata) is a building in the Moscow Kremlin, Russia, which contains what used to be the main banquet reception hall of the Russian tsars. It is the oldest preserved secular building in Moscow. Located on Kremlin Cathedral Square...*
+*Morgantown is a town at the intersection of Indiana state routes 135 and 252 in Jackson Township, Morgan County, in the U.S. state of Indiana. The population was 1,014 at the 2020 census.*

@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1791038287126)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1791126893610)
 
-**Palace of Facets**
+**Morgantown, Indiana**
 
-Coordinates: 55.75027778, 37.61666667
+Coordinates: 39.37444444, -86.25722222
 
-*The Palace of the Facets (Russian: Грановитая палата, romanized: Granovitaya palata) is a building in the Moscow Kremlin, Russia, which contains what used to be the main banquet reception hall of the Russian tsars. It is the oldest preserved secular building in Moscow. Located on Kremlin Cathedral Square...*
+*Morgantown is a town at the intersection of Indiana state routes 135 and 252 in Jackson Township, Morgan County, in the U.S. state of Indiana. The population was 1,014 at the 2020 census.*
 
-*Last generated: Oct 3, 2026 at 10:38 AM EDT*
+*Last generated: Oct 4, 2026 at 11:14 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
