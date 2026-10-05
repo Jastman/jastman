@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1791126893610)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1791227524787)
 
-**Morgantown, Indiana**
+**Corcovado**
 
-Coordinates: 39.37444444, -86.25722222
+Coordinates: -22.95241667, -43.21166667
 
-*Morgantown is a town at the intersection of Indiana state routes 135 and 252 in Jackson Township, Morgan County, in the U.S. state of Indiana. The population was 1,014 at the 2020 census.*
+*Corcovado (Brazilian Portuguese pronunciation: [koʁkoˈvadu]; meaning "Hunchback") is a mountain in central Rio de Janeiro, Brazil. It is a 710-metre (2,330-foot) granite peak located in the Tijuca Forest, a national park. Corcovado hill lies just west of the city center but is wholly within the city...*
 
-*Last generated: Oct 4, 2026 at 11:14 AM EDT*
+*Last generated: Oct 5, 2026 at 3:12 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
