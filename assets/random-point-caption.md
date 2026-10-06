@@ -1,5 +1,5 @@
-**Corcovado**
+**St Bride's Church**
 
-Coordinates: -22.95241667, -43.21166667
+Coordinates: 51.51377778, -0.10547222
 
-*Corcovado (Brazilian Portuguese pronunciation: [koʁkoˈvadu]; meaning "Hunchback") is a mountain in central Rio de Janeiro, Brazil. It is a 710-metre (2,330-foot) granite peak located in the Tijuca Forest, a national park. Corcovado hill lies just west of the city center but is wholly within the city...*
+*St Bride's Church is a Church of England church in Fleet Street in the City of London. Likely dedicated to Saint Bridget perhaps as early as the 6th century, the building's most recent incarnation was designed by Sir Christopher Wren in 1672, though Wren's original building was largely gutted by fire...*
