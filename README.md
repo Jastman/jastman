@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1791304708921)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1791393740953)
 
-**St Bride's Church**
+**Ceres Township, Pennsylvania**
 
-Coordinates: 51.51377778, -0.10547222
+Coordinates: 41.95, -78.23305556
 
-*St Bride's Church is a Church of England church in Fleet Street in the City of London. Likely dedicated to Saint Bridget perhaps as early as the 6th century, the building's most recent incarnation was designed by Sir Christopher Wren in 1672, though Wren's original building was largely gutted by fire...*
+*Ceres Township is a township in McKean County, Pennsylvania, United States. The population was 846 at the 2020 census.*
 
-*Last generated: Oct 6, 2026 at 12:38 PM EDT*
+*Last generated: Oct 7, 2026 at 1:22 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

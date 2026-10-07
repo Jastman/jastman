@@ -1,5 +1,5 @@
-**St Bride's Church**
+**Ceres Township, Pennsylvania**
 
-Coordinates: 51.51377778, -0.10547222
+Coordinates: 41.95, -78.23305556
 
-*St Bride's Church is a Church of England church in Fleet Street in the City of London. Likely dedicated to Saint Bridget perhaps as early as the 6th century, the building's most recent incarnation was designed by Sir Christopher Wren in 1672, though Wren's original building was largely gutted by fire...*
+*Ceres Township is a township in McKean County, Pennsylvania, United States. The population was 846 at the 2020 census.*
