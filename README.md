@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1791393740953)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1791480716411)
 
-**Ceres Township, Pennsylvania**
+**Maracanã Stadium, Rio de Janeiro**
 
-Coordinates: 41.95, -78.23305556
+Coordinates: -22.9121, -43.2302
 
-*Ceres Township is a township in McKean County, Pennsylvania, United States. The population was 846 at the 2020 census.*
+*An iconic soccer venue that held nearly 200,000 spectators during the 1950 World Cup final.*
 
-*Last generated: Oct 7, 2026 at 1:22 PM EDT*
+*Last generated: Oct 8, 2026 at 1:31 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
