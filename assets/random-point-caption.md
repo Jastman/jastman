@@ -1,5 +1,5 @@
-**Maracanã Stadium, Rio de Janeiro**
+**Cliffs of Moher, Ireland**
 
-Coordinates: -22.9121, -43.2302
+Coordinates: 52.9715, -9.426
 
-*An iconic soccer venue that held nearly 200,000 spectators during the 1950 World Cup final.*
+*Sea cliffs running for 14 kilometers along the Atlantic Ocean, dropping sharply down to the crashing waves below.*

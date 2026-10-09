@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1791480716411)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1791564913773)
 
-**Maracanã Stadium, Rio de Janeiro**
+**Cliffs of Moher, Ireland**
 
-Coordinates: -22.9121, -43.2302
+Coordinates: 52.9715, -9.426
 
-*An iconic soccer venue that held nearly 200,000 spectators during the 1950 World Cup final.*
+*Sea cliffs running for 14 kilometers along the Atlantic Ocean, dropping sharply down to the crashing waves below.*
 
-*Last generated: Oct 8, 2026 at 1:31 PM EDT*
+*Last generated: Oct 9, 2026 at 12:55 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
