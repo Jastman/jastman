@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1791564913773)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1791647375154)
 
-**Cliffs of Moher, Ireland**
+**Bunker Hill, Kansas**
 
-Coordinates: 52.9715, -9.426
+Coordinates: 38.87472222, -98.70277778
 
-*Sea cliffs running for 14 kilometers along the Atlantic Ocean, dropping sharply down to the crashing waves below.*
+*Bunker Hill is a city in Russell County, Kansas, United States.  As of the 2020 census, the population of the city was 103.*
 
-*Last generated: Oct 9, 2026 at 12:55 PM EDT*
+*Last generated: Oct 10, 2026 at 11:49 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
