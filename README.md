@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1791647375154)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1791834243607)
 
-**Bunker Hill, Kansas**
+**Uyugan**
 
-Coordinates: 38.87472222, -98.70277778
+Coordinates: 20.35, 121.93
 
-*Bunker Hill is a city in Russell County, Kansas, United States.  As of the 2020 census, the population of the city was 103.*
+*Uyugan, officially the Municipality of Uyugan, is a  municipality in the province of Batanes, Philippines. According to the 2024 census, it has a population of 1,466 people.*
 
-*Last generated: Oct 10, 2026 at 11:49 AM EDT*
+*Last generated: Oct 12, 2026 at 3:44 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

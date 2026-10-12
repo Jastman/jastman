@@ -1,5 +1,5 @@
-**Bunker Hill, Kansas**
+**Uyugan**
 
-Coordinates: 38.87472222, -98.70277778
+Coordinates: 20.35, 121.93
 
-*Bunker Hill is a city in Russell County, Kansas, United States.  As of the 2020 census, the population of the city was 103.*
+*Uyugan, officially the Municipality of Uyugan, is a  municipality in the province of Batanes, Philippines. According to the 2024 census, it has a population of 1,466 people.*
