@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1791834243607)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1791912530657)
 
-**Uyugan**
+**Grand Canyon, Arizona**
 
-Coordinates: 20.35, 121.93
+Coordinates: 36.1069, -112.1401
 
-*Uyugan, officially the Municipality of Uyugan, is a  municipality in the province of Batanes, Philippines. According to the 2024 census, it has a population of 1,466 people.*
+*A favorite terrain-tile stress test since it has both massive scale and brutal elevation changes.*
 
-*Last generated: Oct 12, 2026 at 3:44 PM EDT*
+*Last generated: Oct 13, 2026 at 1:28 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

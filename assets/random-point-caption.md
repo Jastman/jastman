@@ -1,5 +1,5 @@
-**Uyugan**
+**Grand Canyon, Arizona**
 
-Coordinates: 20.35, 121.93
+Coordinates: 36.1069, -112.1401
 
-*Uyugan, officially the Municipality of Uyugan, is a  municipality in the province of Batanes, Philippines. According to the 2024 census, it has a population of 1,466 people.*
+*A favorite terrain-tile stress test since it has both massive scale and brutal elevation changes.*
