@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1791912530657)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1791989990937)
 
-**Grand Canyon, Arizona**
+**Camp Nou, Barcelona**
 
-Coordinates: 36.1069, -112.1401
+Coordinates: 41.3809, 2.1228
 
-*A favorite terrain-tile stress test since it has both massive scale and brutal elevation changes.*
+*The largest stadium in Spain and Europe, a legendary stomping ground for some of soccer's greatest players.*
 
-*Last generated: Oct 13, 2026 at 1:28 PM EDT*
+*Last generated: Oct 14, 2026 at 10:59 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

@@ -1,5 +1,5 @@
-**Grand Canyon, Arizona**
+**Camp Nou, Barcelona**
 
-Coordinates: 36.1069, -112.1401
+Coordinates: 41.3809, 2.1228
 
-*A favorite terrain-tile stress test since it has both massive scale and brutal elevation changes.*
+*The largest stadium in Spain and Europe, a legendary stomping ground for some of soccer's greatest players.*
