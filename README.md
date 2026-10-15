@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1791989990937)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1792075690697)
 
-**Camp Nou, Barcelona**
+**Jamestown, Indiana**
 
-Coordinates: 41.3809, 2.1228
+Coordinates: 39.92888889, -86.62416667
 
-*The largest stadium in Spain and Europe, a legendary stomping ground for some of soccer's greatest players.*
+*Jamestown is a town in Jackson Township, Boone County and Eel River Township, Hendricks County, Indiana, United States. The population was 942 at the 2020 census.*
 
-*Last generated: Oct 14, 2026 at 10:59 AM EDT*
+*Last generated: Oct 15, 2026 at 10:48 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
