@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1792244027769)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1792331529806)
 
-**Thanthonimalai**
+**Half Dome, Yosemite**
 
-Coordinates: 10.93333333, 78.08166667
+Coordinates: 37.7459, -119.5383
 
-*Thanthoni is a block in Karur Municipal Corporation in Karur district in the Indian state of Tamil Nadu. As of 2011, the town had a population of 53,854.. Thanthoni Kalyana Venkatesa Perumal temple is a famous temple in this area. Kaliamman Koil at Thanthoni malai was worshipped by king Vikramaditya.*
+*Its granite face has been laser-scanned so many times it practically has its own point cloud fandom.*
 
-*Last generated: Oct 17, 2026 at 9:33 AM EDT*
+*Last generated: Oct 18, 2026 at 9:52 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
