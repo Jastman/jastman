@@ -18,7 +18,7 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1792331529806)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1792428858725)
 
 **Half Dome, Yosemite**
 
@@ -26,7 +26,7 @@ Coordinates: 37.7459, -119.5383
 
 *Its granite face has been laser-scanned so many times it practically has its own point cloud fandom.*
 
-*Last generated: Oct 18, 2026 at 9:52 AM EDT*
+*Last generated: Oct 19, 2026 at 12:54 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
