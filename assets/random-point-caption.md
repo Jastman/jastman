@@ -1,5 +1,5 @@
-**Half Dome, Yosemite**
+**Seattle Space Needle, Washington**
 
-Coordinates: 37.7459, -119.5383
+Coordinates: 47.6205, -122.3493
 
-*Its granite face has been laser-scanned so many times it practically has its own point cloud fandom.*
+*Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude.*

@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1792428858725)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1792507910869)
 
-**Half Dome, Yosemite**
+**Seattle Space Needle, Washington**
 
-Coordinates: 37.7459, -119.5383
+Coordinates: 47.6205, -122.3493
 
-*Its granite face has been laser-scanned so many times it practically has its own point cloud fandom.*
+*Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude.*
 
-*Last generated: Oct 19, 2026 at 12:54 PM EDT*
+*Last generated: Oct 20, 2026 at 10:51 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
