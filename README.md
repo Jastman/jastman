@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1792507910869)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1792594732537)
 
-**Seattle Space Needle, Washington**
+**Youngest Toba eruption**
 
-Coordinates: 47.6205, -122.3493
+Coordinates: 2.6845, 98.8756
 
-*Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude.*
+*The Toba eruption (also called the Toba supereruption and the Youngest Toba eruption) was a large volcanic eruption that occurred around 74,000 years ago during the Late Pleistocene, at the site of present-day Lake Toba in Sumatra, Indonesia. It was the last in a series of at least four caldera-forming...*
 
-*Last generated: Oct 20, 2026 at 10:51 AM EDT*
+*Last generated: Oct 21, 2026 at 10:58 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
