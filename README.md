@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1792681208981)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1792766856067)
 
-**Colosseum, Rome**
+**Kennedy Space Center (Launch Complex 39A)**
 
-Coordinates: 41.8902, 12.4922
+Coordinates: 28.6083, -80.6041
 
-*The largest ancient amphitheater ever built, offering a fascinating structural scan for geospatial visualization.*
+*The historic launch pad where the Apollo 11 mission departed for the moon, now utilized for modern spaceflight.*
 
-*Last generated: Oct 22, 2026 at 11:00 AM EDT*
+*Last generated: Oct 23, 2026 at 10:47 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

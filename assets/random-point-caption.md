@@ -1,5 +1,5 @@
-**Colosseum, Rome**
+**Kennedy Space Center (Launch Complex 39A)**
 
-Coordinates: 41.8902, 12.4922
+Coordinates: 28.6083, -80.6041
 
-*The largest ancient amphitheater ever built, offering a fascinating structural scan for geospatial visualization.*
+*The historic launch pad where the Apollo 11 mission departed for the moon, now utilized for modern spaceflight.*
