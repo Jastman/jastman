@@ -1,5 +1,5 @@
-**Kennedy Space Center (Launch Complex 39A)**
+**Half Dome, Yosemite**
 
-Coordinates: 28.6083, -80.6041
+Coordinates: 37.7459, -119.5383
 
-*The historic launch pad where the Apollo 11 mission departed for the moon, now utilized for modern spaceflight.*
+*Its granite face has been laser-scanned so many times it practically has its own point cloud fandom.*

@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1792766856067)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1792850787803)
 
-**Kennedy Space Center (Launch Complex 39A)**
+**Half Dome, Yosemite**
 
-Coordinates: 28.6083, -80.6041
+Coordinates: 37.7459, -119.5383
 
-*The historic launch pad where the Apollo 11 mission departed for the moon, now utilized for modern spaceflight.*
+*Its granite face has been laser-scanned so many times it practically has its own point cloud fandom.*
 
-*Last generated: Oct 23, 2026 at 10:47 AM EDT*
+*Last generated: Oct 24, 2026 at 10:06 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
