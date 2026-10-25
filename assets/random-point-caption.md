@@ -1,5 +1,5 @@
-**Half Dome, Yosemite**
+**Victoria Falls, Zambia/Zimbabwe**
 
-Coordinates: 37.7459, -119.5383
+Coordinates: -17.9243, 25.856
 
-*Its granite face has been laser-scanned so many times it practically has its own point cloud fandom.*
+*Considered the largest waterfall in the world by the combined width and height of its falling water sheet.*

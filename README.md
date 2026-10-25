@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1792850787803)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1792937614639)
 
-**Half Dome, Yosemite**
+**Victoria Falls, Zambia/Zimbabwe**
 
-Coordinates: 37.7459, -119.5383
+Coordinates: -17.9243, 25.856
 
-*Its granite face has been laser-scanned so many times it practically has its own point cloud fandom.*
+*Considered the largest waterfall in the world by the combined width and height of its falling water sheet.*
 
-*Last generated: Oct 24, 2026 at 10:06 AM EDT*
+*Last generated: Oct 25, 2026 at 10:13 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
