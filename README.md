@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1792937614639)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1793032888649)
 
-**Victoria Falls, Zambia/Zimbabwe**
+**Mykland (village)**
 
-Coordinates: -17.9243, 25.856
+Coordinates: 58.632, 8.288
 
-*Considered the largest waterfall in the world by the combined width and height of its falling water sheet.*
+*Mykland is a rural village in northwestern Froland Municipality in Agder county, Norway. It is located along the Norwegian County Road 42 about 28 kilometres (17 mi) northwest of the village of Blakstad and about 30 kilometres (19 mi) southwest of the village of Åmli. The village is located in a hilly...*
 
-*Last generated: Oct 25, 2026 at 10:13 AM EDT*
+*Last generated: Oct 26, 2026 at 12:41 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
