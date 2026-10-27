@@ -1,0 +1,650 @@
+[
+  {
+    "file": "2026-10-26-Mykland--village-.gif",
+    "date": "2026-10-26",
+    "name": "Mykland (village)",
+    "lat": 58.632,
+    "lon": 8.288,
+    "fact": "Mykland is a rural village in northwestern Froland Municipality in Agder county, Norway. It is located along the Norwegian County Road 42 about 28 kilometres (17 mi) northwest of the village of Blakstad and about 30 kilometres (19 mi) southwest of the village of Åmli. The village is located in a hilly..."
+  },
+  {
+    "file": "2026-10-25-Victoria-Falls--Zambia-Zimbabwe.gif",
+    "date": "2026-10-25",
+    "name": "Victoria Falls, Zambia/Zimbabwe",
+    "lat": -17.9243,
+    "lon": 25.856,
+    "fact": "Considered the largest waterfall in the world by the combined width and height of its falling water sheet."
+  },
+  {
+    "file": "2026-10-24-Half-Dome--Yosemite.gif",
+    "date": "2026-10-24",
+    "name": "Half Dome, Yosemite",
+    "lat": 37.7459,
+    "lon": -119.5383,
+    "fact": "Its granite face has been laser-scanned so many times it practically has its own point cloud fandom."
+  },
+  {
+    "file": "2026-10-23-Kennedy-Space-Center--Launch-Complex-39A.gif",
+    "date": "2026-10-23",
+    "name": "Kennedy Space Center (Launch Complex 39A)",
+    "lat": 28.6083,
+    "lon": -80.6041,
+    "fact": "The historic launch pad where the Apollo 11 mission departed for the moon, now utilized for modern spaceflight."
+  },
+  {
+    "file": "2026-10-22-Colosseum--Rome.gif",
+    "date": "2026-10-22",
+    "name": "Colosseum, Rome",
+    "lat": 41.8902,
+    "lon": 12.4922,
+    "fact": "The largest ancient amphitheater ever built, offering a fascinating structural scan for geospatial visualization."
+  },
+  {
+    "file": "2026-10-21-Youngest-Toba-eruption.gif",
+    "date": "2026-10-21",
+    "name": "Youngest Toba eruption",
+    "lat": 2.6845,
+    "lon": 98.8756,
+    "fact": "The Toba eruption (also called the Toba supereruption and the Youngest Toba eruption) was a large volcanic eruption that occurred around 74,000 years ago during the Late Pleistocene, at the site of present-day Lake Toba in Sumatra, Indonesia. It was the last in a series of at least four caldera-forming..."
+  },
+  {
+    "file": "2026-10-20-Seattle-Space-Needle--Washington.gif",
+    "date": "2026-10-20",
+    "name": "Seattle Space Needle, Washington",
+    "lat": 47.6205,
+    "lon": -122.3493,
+    "fact": "Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude."
+  },
+  {
+    "file": "2026-10-19-Half-Dome--Yosemite.gif",
+    "date": "2026-10-19",
+    "name": "Half Dome, Yosemite",
+    "lat": 37.7459,
+    "lon": -119.5383,
+    "fact": "Its granite face has been laser-scanned so many times it practically has its own point cloud fandom."
+  },
+  {
+    "file": "2026-10-18-Half-Dome--Yosemite.gif",
+    "date": "2026-10-18",
+    "name": "Half Dome, Yosemite",
+    "lat": 37.7459,
+    "lon": -119.5383,
+    "fact": "Its granite face has been laser-scanned so many times it practically has its own point cloud fandom."
+  },
+  {
+    "file": "2026-10-17-Thanthonimalai.gif",
+    "date": "2026-10-17",
+    "name": "Thanthonimalai",
+    "lat": 10.93333333,
+    "lon": 78.08166667,
+    "fact": "Thanthoni is a block in Karur Municipal Corporation in Karur district in the Indian state of Tamil Nadu. As of 2011, the town had a population of 53,854.. Thanthoni Kalyana Venkatesa Perumal temple is a famous temple in this area. Kaliamman Koil at Thanthoni malai was worshipped by king Vikramaditya."
+  },
+  {
+    "file": "2026-10-16-Rieneck-Castle.gif",
+    "date": "2026-10-16",
+    "name": "Rieneck Castle",
+    "lat": 50.09444444,
+    "lon": 9.64611111,
+    "fact": "Rieneck Castle (German: Burg Rieneck) is a hill castle located in the town of Rieneck, in Bavaria, southern Germany. It was built by Ludwig I, Count of Loon and Rieneck, around the year 1150. It is today used by the German Christian Guide and Scout Association. Rieneck Castle sits on a hill in the town..."
+  },
+  {
+    "file": "2026-10-15-Jamestown--Indiana.gif",
+    "date": "2026-10-15",
+    "name": "Jamestown, Indiana",
+    "lat": 39.92888889,
+    "lon": -86.62416667,
+    "fact": "Jamestown is a town in Jackson Township, Boone County and Eel River Township, Hendricks County, Indiana, United States. The population was 942 at the 2020 census."
+  },
+  {
+    "file": "2026-10-14-Camp-Nou--Barcelona.gif",
+    "date": "2026-10-14",
+    "name": "Camp Nou, Barcelona",
+    "lat": 41.3809,
+    "lon": 2.1228,
+    "fact": "The largest stadium in Spain and Europe, a legendary stomping ground for some of soccer's greatest players."
+  },
+  {
+    "file": "2026-10-13-Grand-Canyon--Arizona.gif",
+    "date": "2026-10-13",
+    "name": "Grand Canyon, Arizona",
+    "lat": 36.1069,
+    "lon": -112.1401,
+    "fact": "A favorite terrain-tile stress test since it has both massive scale and brutal elevation changes."
+  },
+  {
+    "file": "2026-10-12-Uyugan.gif",
+    "date": "2026-10-12",
+    "name": "Uyugan",
+    "lat": 20.35,
+    "lon": 121.93,
+    "fact": "Uyugan, officially the Municipality of Uyugan, is a  municipality in the province of Batanes, Philippines. According to the 2024 census, it has a population of 1,466 people."
+  },
+  {
+    "file": "2026-10-10-Bunker-Hill--Kansas.gif",
+    "date": "2026-10-10",
+    "name": "Bunker Hill, Kansas",
+    "lat": 38.87472222,
+    "lon": -98.70277778,
+    "fact": "Bunker Hill is a city in Russell County, Kansas, United States.  As of the 2020 census, the population of the city was 103."
+  },
+  {
+    "file": "2026-10-09-Cliffs-of-Moher--Ireland.gif",
+    "date": "2026-10-09",
+    "name": "Cliffs of Moher, Ireland",
+    "lat": 52.9715,
+    "lon": -9.426,
+    "fact": "Sea cliffs running for 14 kilometers along the Atlantic Ocean, dropping sharply down to the crashing waves below."
+  },
+  {
+    "file": "2026-10-08-Maracan--Stadium--Rio-de-Janeiro.gif",
+    "date": "2026-10-08",
+    "name": "Maracanã Stadium, Rio de Janeiro",
+    "lat": -22.9121,
+    "lon": -43.2302,
+    "fact": "An iconic soccer venue that held nearly 200,000 spectators during the 1950 World Cup final."
+  },
+  {
+    "file": "2026-10-07-Ceres-Township--Pennsylvania.gif",
+    "date": "2026-10-07",
+    "name": "Ceres Township, Pennsylvania",
+    "lat": 41.95,
+    "lon": -78.23305556,
+    "fact": "Ceres Township is a township in McKean County, Pennsylvania, United States. The population was 846 at the 2020 census."
+  },
+  {
+    "file": "2026-10-06-St-Bride-s-Church.gif",
+    "date": "2026-10-06",
+    "name": "St Bride's Church",
+    "lat": 51.51377778,
+    "lon": -0.10547222,
+    "fact": "St Bride's Church is a Church of England church in Fleet Street in the City of London. Likely dedicated to Saint Bridget perhaps as early as the 6th century, the building's most recent incarnation was designed by Sir Christopher Wren in 1672, though Wren's original building was largely gutted by fire..."
+  },
+  {
+    "file": "2026-10-05-Corcovado.gif",
+    "date": "2026-10-05",
+    "name": "Corcovado",
+    "lat": -22.95241667,
+    "lon": -43.21166667,
+    "fact": "Corcovado (Brazilian Portuguese pronunciation: [koʁkoˈvadu]; meaning \"Hunchback\") is a mountain in central Rio de Janeiro, Brazil. It is a 710-metre (2,330-foot) granite peak located in the Tijuca Forest, a national park. Corcovado hill lies just west of the city center but is wholly within the city..."
+  },
+  {
+    "file": "2026-10-04-Morgantown--Indiana.gif",
+    "date": "2026-10-04",
+    "name": "Morgantown, Indiana",
+    "lat": 39.37444444,
+    "lon": -86.25722222,
+    "fact": "Morgantown is a town at the intersection of Indiana state routes 135 and 252 in Jackson Township, Morgan County, in the U.S. state of Indiana. The population was 1,014 at the 2020 census."
+  },
+  {
+    "file": "2026-10-03-Palace-of-Facets.gif",
+    "date": "2026-10-03",
+    "name": "Palace of Facets",
+    "lat": 55.75027778,
+    "lon": 37.61666667,
+    "fact": "The Palace of the Facets (Russian: Грановитая палата, romanized: Granovitaya palata) is a building in the Moscow Kremlin, Russia, which contains what used to be the main banquet reception hall of the Russian tsars. It is the oldest preserved secular building in Moscow. Located on Kremlin Cathedral Square..."
+  },
+  {
+    "file": "2026-10-02-Cannonsburg--Kentucky.gif",
+    "date": "2026-10-02",
+    "name": "Cannonsburg, Kentucky",
+    "lat": 38.38861111,
+    "lon": -82.70277778,
+    "fact": "Cannonsburg is a census-designated place (CDP) in Boyd County, Kentucky, United States. As of the 2020 census, Cannonsburg had a population of 862. Cannonsburg is located 8 miles (13 km) southwest of the city of Ashland, a major urban center in northeastern Kentucky. Most of Cannonsburg shares its ZIP..."
+  },
+  {
+    "file": "2026-10-01--ingvellir-Rift--Iceland.gif",
+    "date": "2026-10-01",
+    "name": "Þingvellir Rift, Iceland",
+    "lat": 64.2559,
+    "lon": -21.1293,
+    "fact": "You can literally stand between the North American and Eurasian tectonic plates as they slowly pull apart."
+  },
+  {
+    "file": "2026-09-30-Doyline--Louisiana.gif",
+    "date": "2026-09-30",
+    "name": "Doyline, Louisiana",
+    "lat": 32.525,
+    "lon": -93.41166667,
+    "fact": "Doyline is a village in southwestern Webster Parish in northwestern Louisiana, United States. As of the 2020 census, Doyline had a population of 674. It is part of the Minden Micropolitan Statistical Area. Under a cited cost-saving realignment plan, the Webster Parish School Board closed Union Elementary..."
+  },
+  {
+    "file": "2026-09-29-La-Bombonera--Buenos-Aires.gif",
+    "date": "2026-09-29",
+    "name": "La Bombonera, Buenos Aires",
+    "lat": -34.6356,
+    "lon": -58.3648,
+    "fact": "A stadium with a highly unusual 'D' shape, known for acoustics so intense the concrete literally vibrates."
+  },
+  {
+    "file": "2026-09-28-CN-Tower--Toronto.gif",
+    "date": "2026-09-28",
+    "name": "CN Tower, Toronto",
+    "lat": 43.6426,
+    "lon": -79.3871,
+    "fact": "Held the record for the world's tallest freestanding structure for over 30 years."
+  },
+  {
+    "file": "2026-09-27-Cromwell-Township--Huntingdon-County--Pe.gif",
+    "date": "2026-09-27",
+    "name": "Cromwell Township, Huntingdon County, Pennsylvania",
+    "lat": 40.23333333,
+    "lon": -77.86638889,
+    "fact": "Cromwell Township is a township in Huntingdon County, Pennsylvania, United States. The population was 1,475 at the 2020 census."
+  },
+  {
+    "file": "2026-09-26-Seattle-Spheres--Washington.gif",
+    "date": "2026-09-26",
+    "name": "Seattle Spheres, Washington",
+    "lat": 47.6158,
+    "lon": -122.3396,
+    "fact": "Three intersecting glass domes serving as an indoor rainforest workspace for Amazon employees in downtown Seattle."
+  },
+  {
+    "file": "2026-09-25-Bra-anj.gif",
+    "date": "2026-09-25",
+    "name": "Braçanj",
+    "lat": 40.55,
+    "lon": 20.98333333,
+    "fact": "Braçanj is a small village located in the Korçë County, Albania. It is part of the former municipality Miras. At the 2015 local government reform it became part of the municipality Devoll."
+  },
+  {
+    "file": "2026-09-24-Wembley-Stadium--London.gif",
+    "date": "2026-09-24",
+    "name": "Wembley Stadium, London",
+    "lat": 51.556,
+    "lon": -0.2795,
+    "fact": "An iconic venue for international soccer tournaments, featuring a massive 133-meter-tall arch."
+  },
+  {
+    "file": "2026-09-23-Main--river-.gif",
+    "date": "2026-09-23",
+    "name": "Main (river)",
+    "lat": 49.99444444,
+    "lon": 8.29333333,
+    "fact": "The Main (German pronunciation: [ˈmaɪn] ) is a river in central Germany. It is the longest tributary of the Rhine, one of the major European rivers. It rises as the White Main in the Fichtel Mountains of northeastern Bavaria and flows west  for 525 kilometres (326 mi) to meet the Rhine below Rüsselsheim..."
+  },
+  {
+    "file": "2026-09-22--tvidaberg.gif",
+    "date": "2026-09-22",
+    "name": "Åtvidaberg",
+    "lat": 58.2,
+    "lon": 16,
+    "fact": "Åtvidaberg is a locality and the seat of Åtvidaberg Municipality, Östergötland County, Sweden with 6,859 inhabitants in 2010."
+  },
+  {
+    "file": "2026-09-21-Mount-Aconcagua--Argentina.gif",
+    "date": "2026-09-21",
+    "name": "Mount Aconcagua, Argentina",
+    "lat": -32.6532,
+    "lon": -70.0109,
+    "fact": "The highest mountain in the Americas and the highest outside of Asia, boasting massive, sweeping scree slopes."
+  },
+  {
+    "file": "2026-09-20-Seattle-Space-Needle--Washington.gif",
+    "date": "2026-09-20",
+    "name": "Seattle Space Needle, Washington",
+    "lat": 47.6205,
+    "lon": -122.3493,
+    "fact": "Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude."
+  },
+  {
+    "file": "2026-09-19-Christ-the-Redeemer--Rio-de-Janeiro.gif",
+    "date": "2026-09-19",
+    "name": "Christ the Redeemer, Rio de Janeiro",
+    "lat": -22.9519,
+    "lon": -43.2105,
+    "fact": "One of the most photogrammetry-scanned landmarks on Earth, showing up in nearly every 3D Tiles demo reel."
+  },
+  {
+    "file": "2026-09-18-Leaf-Lake-Township--Otter-Tail-County--M.gif",
+    "date": "2026-09-18",
+    "name": "Leaf Lake Township, Otter Tail County, Minnesota",
+    "lat": 46.41027778,
+    "lon": -95.47055556,
+    "fact": "Leaf Lake Township is a township in Otter Tail County, Minnesota, United States. The population was 637 at the 2020 census."
+  },
+  {
+    "file": "2026-09-17-Zvolen.gif",
+    "date": "2026-09-17",
+    "name": "Zvolen",
+    "lat": 48.57055556,
+    "lon": 19.1175,
+    "fact": "Zvolen (Slovak pronunciation: [ˈzʋɔlen] ; Latin: Zolium; Hungarian: Zólyom; German: Altsohl) is a city in central Slovakia, situated at the confluence of the Hron and Slatina rivers. It is known for its historical and cultural attractions. It is surrounded by the Poľana mountain to the east, the Kremnické..."
+  },
+  {
+    "file": "2026-09-16-Eastwood--Louisville.gif",
+    "date": "2026-09-16",
+    "name": "Eastwood, Louisville",
+    "lat": 38.2335,
+    "lon": -85.4531,
+    "fact": "Eastwood is a neighborhood of Louisville, Kentucky, centered along Shelbyville Road (US 60) and Johnson Road.  The ZIP Code for Eastwood is 40018."
+  },
+  {
+    "file": "2026-09-15-Wembley-Stadium--London.gif",
+    "date": "2026-09-15",
+    "name": "Wembley Stadium, London",
+    "lat": 51.556,
+    "lon": -0.2795,
+    "fact": "An iconic venue for international soccer tournaments, featuring a massive 133-meter-tall arch."
+  },
+  {
+    "file": "2026-09-14-Mount-Fuji--Japan.gif",
+    "date": "2026-09-14",
+    "name": "Mount Fuji, Japan",
+    "lat": 35.3606,
+    "lon": 138.7274,
+    "fact": "Its near-perfect symmetry makes it one of the most recognizable digital elevation models in any dataset."
+  },
+  {
+    "file": "2026-09-13-Mount-St--Helens--Washington.gif",
+    "date": "2026-09-13",
+    "name": "Mount St. Helens, Washington",
+    "lat": 46.1912,
+    "lon": -122.1927,
+    "fact": "The 1980 eruption blew 1,300 feet off the top of the mountain, leaving a massive, highly-scanned horseshoe crater."
+  },
+  {
+    "file": "2026-09-12-Potala-Palace--Tibet.gif",
+    "date": "2026-09-12",
+    "name": "Potala Palace, Tibet",
+    "lat": 29.658,
+    "lon": 91.1172,
+    "fact": "Sitting at an elevation of 12,100 feet, this massive fortress-like structure dominates the Lhasa valley."
+  },
+  {
+    "file": "2026-09-11-Mont-Blanc--France-Italy.gif",
+    "date": "2026-09-11",
+    "name": "Mont Blanc, France/Italy",
+    "lat": 45.8326,
+    "lon": 6.8644,
+    "fact": "The highest mountain in the Alps, featuring dramatic, deeply crevassed glaciers dominating its flanks."
+  },
+  {
+    "file": "2026-09-10-Eiffel-Tower--Paris.gif",
+    "date": "2026-09-10",
+    "name": "Eiffel Tower, Paris",
+    "lat": 48.8584,
+    "lon": 2.2945,
+    "fact": "Originally intended to be a temporary installation, it is now one of the most recognizable structures on the globe."
+  },
+  {
+    "file": "2026-09-09-Copilco-metro-station.gif",
+    "date": "2026-09-09",
+    "name": "Copilco metro station",
+    "lat": 19.335887,
+    "lon": -99.176652,
+    "fact": "Copilco is a station along Line 3 on the Mexico City Metro. Located in the Coyoacán borough, in the south of Mexico City, on Avenida Enríquez Ureña (Eje 10 Sur). It is the penultimate station along the southern portion of Line 3."
+  },
+  {
+    "file": "2026-09-08-Banff-National-Park--Lake-Louise---Canad.gif",
+    "date": "2026-09-08",
+    "name": "Banff National Park (Lake Louise), Canada",
+    "lat": 51.4254,
+    "lon": -116.1773,
+    "fact": "A glacial lake known for its shocking turquoise color, surrounded by towering, jagged peaks."
+  },
+  {
+    "file": "2026-09-07-Sehome-Hill-Arboretum.gif",
+    "date": "2026-09-07",
+    "name": "Sehome Hill Arboretum",
+    "lat": 48.73333333,
+    "lon": -122.48,
+    "fact": "The Sehome Hill Arboretum is a public park in the Sehome neighborhood of Bellingham, Washington. It comprises 175.5 acres (71.0 ha) of second growth forest on Sehome Hill, adjacent to the campus of Western Washington University. Though called an arboretum, the hilly expanse atop Sehome Hill is not consciously..."
+  },
+  {
+    "file": "2026-09-06-Monte-Cristo-Range--Nevada-.gif",
+    "date": "2026-09-06",
+    "name": "Monte Cristo Range (Nevada)",
+    "lat": 38.139,
+    "lon": -117.788,
+    "fact": "The Monte Cristo Range is located in western Nevada in the United States. The range lies southeast of the Excelsior Mountains and east and north of Highway 95 in Esmeralda County. The Bureau of Land Management manages 99.9% of the range.  Sagebrush scrub makes up 63.1% of the mountains, with Shadscale..."
+  },
+  {
+    "file": "2026-09-05-Mont-Blanc--France-Italy.gif",
+    "date": "2026-09-05",
+    "name": "Mont Blanc, France/Italy",
+    "lat": 45.8326,
+    "lon": 6.8644,
+    "fact": "The highest mountain in the Alps, featuring dramatic, deeply crevassed glaciers dominating its flanks."
+  },
+  {
+    "file": "2026-09-04-Kennedy-Space-Center--Launch-Complex-39A.gif",
+    "date": "2026-09-04",
+    "name": "Kennedy Space Center (Launch Complex 39A)",
+    "lat": 28.6083,
+    "lon": -80.6041,
+    "fact": "The historic launch pad where the Apollo 11 mission departed for the moon, now utilized for modern spaceflight."
+  },
+  {
+    "file": "2026-09-03-White-Cliffs-of-Dover--United-Kingdom.gif",
+    "date": "2026-09-03",
+    "name": "White Cliffs of Dover, United Kingdom",
+    "lat": 51.1276,
+    "lon": 1.3323,
+    "fact": "Iconic chalk cliffs facing the Strait of Dover, composed primarily of microscopic skeletal remains."
+  },
+  {
+    "file": "2026-09-02-Achavanich.gif",
+    "date": "2026-09-02",
+    "name": "Achavanich",
+    "lat": 58.35661111,
+    "lon": -3.38963333,
+    "fact": "Achavanich ( ak-ə-VAN-ik; Scottish Gaelic: Achadh a’ Mhanaich) is an unusual megalithic horseshoe-shaped structure near Loch Stemster in Caithness, Scotland.  Meaning \"field of the stones\", 36 of the original 54 remain today, mostly on the western side of the structure.  The arrangement of these stones..."
+  },
+  {
+    "file": "2026-09-01-Reynolds-Township--Michigan.gif",
+    "date": "2026-09-01",
+    "name": "Reynolds Township, Michigan",
+    "lat": 43.40833333,
+    "lon": -85.47916667,
+    "fact": "Reynolds Township is a civil township of Montcalm County in the U.S. state of Michigan. The population was 5,431 at the 2020 census."
+  },
+  {
+    "file": "2026-08-31-Gothenburg-Concert-Hall.gif",
+    "date": "2026-08-31",
+    "name": "Gothenburg Concert Hall",
+    "lat": 57.69694444,
+    "lon": 11.97916667,
+    "fact": "Gothenburg Concert Hall (Swedish: Göteborgs konserthus) is a concert hall located in Gothenburg, Sweden, built in 1935. The architect for the facility was Nils Einar Ericsson, a major advocate of Functionalism. However, the Concert Hall has a Neo-Classical exterior look, due to the surrounding area at..."
+  },
+  {
+    "file": "2026-08-30-Empire-State-Building--New-York.gif",
+    "date": "2026-08-30",
+    "name": "Empire State Building, New York",
+    "lat": 40.7488,
+    "lon": -73.9857,
+    "fact": "Constructed in just 410 days during the Great Depression, an unbelievable feat of engineering logistics."
+  },
+  {
+    "file": "2026-08-29-Burj-Al-Arab--Dubai.gif",
+    "date": "2026-08-29",
+    "name": "Burj Al Arab, Dubai",
+    "lat": 25.1412,
+    "lon": 55.1852,
+    "fact": "Designed to mimic the sail of a ship, it stands on an artificial island completely separate from the mainland."
+  },
+  {
+    "file": "2026-08-28-Arecibo-Observatory--Puerto-Rico.gif",
+    "date": "2026-08-28",
+    "name": "Arecibo Observatory, Puerto Rico",
+    "lat": 18.3441,
+    "lon": -66.7528,
+    "fact": "Though the massive radio telescope collapsed in 2020, its enormous sinkhole footprint remains a topographical anomaly."
+  },
+  {
+    "file": "2026-08-27-Crooked-River-National-Grassland.gif",
+    "date": "2026-08-27",
+    "name": "Crooked River National Grassland",
+    "lat": 44.54,
+    "lon": -121.11,
+    "fact": "Crooked River National Grassland is a National Grassland located in Jefferson County in the north-central part of the U.S. state of Oregon. It has a land area of 173,629 acres (70,265 ha). It contains two National Wild and Scenic Rivers, the Deschutes River and the Crooked River.  The grassland is managed..."
+  },
+  {
+    "file": "2026-08-26-Cliffs-of-Moher--Ireland.gif",
+    "date": "2026-08-26",
+    "name": "Cliffs of Moher, Ireland",
+    "lat": 52.9715,
+    "lon": -9.426,
+    "fact": "Sea cliffs running for 14 kilometers along the Atlantic Ocean, dropping sharply down to the crashing waves below."
+  },
+  {
+    "file": "2026-08-25-Houghton-le-Side.gif",
+    "date": "2026-08-25",
+    "name": "Houghton-le-Side",
+    "lat": 54.59,
+    "lon": -1.656,
+    "fact": "Houghton-le-Side is a small village in the borough of Darlington and the ceremonial county of County Durham, England. It is situated a few miles to the south-west of Newton Aycliffe. Details are now maintained within the parish of Walworth."
+  },
+  {
+    "file": "2026-08-24-Bobeldijk.gif",
+    "date": "2026-08-24",
+    "name": "Bobeldijk",
+    "lat": 52.65361111,
+    "lon": 5.00444444,
+    "fact": "Bobeldijk is a village in the Dutch province of North Holland. It is a part of the municipality of Koggenland, and lies about 5 km west of Hoorn. The village was first mentioned in 1450 as \"den Boebeldijck\", and means \"dike with spike rushes (Eleocharis)\". Bobeldijk has place name signs. The village..."
+  },
+  {
+    "file": "2026-08-23-Burj-Khalifa--Dubai.gif",
+    "date": "2026-08-23",
+    "name": "Burj Khalifa, Dubai",
+    "lat": 25.1972,
+    "lon": 55.2744,
+    "fact": "Tall enough that its upper floors see the sunset several minutes later than street level."
+  },
+  {
+    "file": "2026-08-22-Battle-of-Hunterstown.gif",
+    "date": "2026-08-22",
+    "name": "Battle of Hunterstown",
+    "lat": 39.88255,
+    "lon": -77.16178333,
+    "fact": "The Battle of Hunterstown was an American Civil War skirmish at Beaverdam Creek near Hunterstown, Pennsylvania, on July 2, 1863, in which Wade Hampton's Confederate cavalry withdrew after engaging George Armstrong Custer's and Elon Farnsworth's Union cavalry."
+  },
+  {
+    "file": "2026-08-21-Empire-State-Building--New-York.gif",
+    "date": "2026-08-21",
+    "name": "Empire State Building, New York",
+    "lat": 40.7488,
+    "lon": -73.9857,
+    "fact": "Constructed in just 410 days during the Great Depression, an unbelievable feat of engineering logistics."
+  },
+  {
+    "file": "2026-08-20-Columbus--Texas.gif",
+    "date": "2026-08-20",
+    "name": "Columbus, Texas",
+    "lat": 29.70583333,
+    "lon": -96.54611111,
+    "fact": "Columbus is a city in and the county seat of Colorado County in southeastern Texas, United States. Its population was 3,699 as of the 2020 census. It is located on the Colorado River. The Colorado County Courthouse is listed on the National Register of Historic Places. A Santa Claus museum is located..."
+  },
+  {
+    "file": "2026-08-19-Half-Dome--Yosemite.gif",
+    "date": "2026-08-19",
+    "name": "Half Dome, Yosemite",
+    "lat": 37.7459,
+    "lon": -119.5383,
+    "fact": "Its granite face has been laser-scanned so many times it practically has its own point cloud fandom."
+  },
+  {
+    "file": "2026-08-19-Angkor-Wat--Cambodia.gif",
+    "date": "2026-08-19",
+    "name": "Angkor Wat, Cambodia",
+    "lat": 13.4125,
+    "lon": 103.867,
+    "fact": "The largest religious monument in the world, spanning a massive temple complex integrated closely with the jungle."
+  },
+  {
+    "file": "2026-08-18-Seattle-Space-Needle--Washington.gif",
+    "date": "2026-08-18",
+    "name": "Seattle Space Needle, Washington",
+    "lat": 47.6205,
+    "lon": -122.3493,
+    "fact": "Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude."
+  },
+  {
+    "file": "2026-08-18-Grand-Prismatic-Spring--Yellowstone.gif",
+    "date": "2026-08-18",
+    "name": "Grand Prismatic Spring, Yellowstone",
+    "lat": 44.5251,
+    "lon": -110.8382,
+    "fact": "The largest hot spring in the US, known for its striking bands of bright colors created by microbial mats."
+  },
+  {
+    "file": "2026-08-18-Christ-the-Redeemer--Rio-de-Janeiro.gif",
+    "date": "2026-08-18",
+    "name": "Christ the Redeemer, Rio de Janeiro",
+    "lat": -22.9519,
+    "lon": -43.2105,
+    "fact": "One of the most photogrammetry-scanned landmarks on Earth, showing up in nearly every 3D Tiles demo reel."
+  },
+  {
+    "file": "2026-08-18-Chich-n-Itz---Mexico.gif",
+    "date": "2026-08-18",
+    "name": "Chichén Itzá, Mexico",
+    "lat": 20.6843,
+    "lon": -88.5678,
+    "fact": "A massive pre-Columbian city built by the Maya people, dominated by the Temple of Kukulcán."
+  },
+  {
+    "file": "2026-08-17-Place-d-Italie-station.gif",
+    "date": "2026-08-17",
+    "name": "Place d'Italie station",
+    "lat": 48.831483,
+    "lon": 2.355692,
+    "fact": "Place d'Italie (French pronunciation: [plas ditali], literally \"Italy Square\") is a rapid transit station of the Paris Métro located in the heart of the 13th arrondissement of Paris, at the Place d'Italie. It is the southern terminus of Line 5 and is also served by Line 6 and Line 7."
+  },
+  {
+    "file": "2026-08-16-Petronas-Twin-Towers--Malaysia.gif",
+    "date": "2026-08-16",
+    "name": "Petronas Twin Towers, Malaysia",
+    "lat": 3.1578,
+    "lon": 101.7115,
+    "fact": "Connected by a double-decker skybridge that is designed to slide in and out of the towers to prevent wind damage."
+  },
+  {
+    "file": "2026-08-15-Victoria-Falls--Zambia-Zimbabwe.gif",
+    "date": "2026-08-15",
+    "name": "Victoria Falls, Zambia/Zimbabwe",
+    "lat": -17.9243,
+    "lon": 25.856,
+    "fact": "Considered the largest waterfall in the world by the combined width and height of its falling water sheet."
+  },
+  {
+    "file": "2026-08-14-Walt-Disney-Concert-Hall--Los-Angeles.gif",
+    "date": "2026-08-14",
+    "name": "Walt Disney Concert Hall, Los Angeles",
+    "lat": 34.0553,
+    "lon": -118.2501,
+    "fact": "Frank Gehry's sweeping metallic surfaces originally reflected so much sunlight they melted nearby traffic cones."
+  },
+  {
+    "file": "2026-08-13-Seattle-Space-Needle--Washington.gif",
+    "date": "2026-08-13",
+    "name": "Seattle Space Needle, Washington",
+    "lat": 47.6205,
+    "lon": -122.3493,
+    "fact": "Built for the 1962 World's Fair, it was designed to withstand winds of 200 mph and earthquakes up to a 9.0 magnitude."
+  },
+  {
+    "file": "2026-08-12-Tenby.gif",
+    "date": "2026-08-12",
+    "name": "Tenby",
+    "lat": 51.6745,
+    "lon": -4.7044,
+    "fact": "Tenby (Welsh: Dinbych-y-pysgod, lit. 'fortlet of the fish') is a seaside town and community in the county of Pembrokeshire, Wales. It lies within Carmarthen Bay. In 2011, it had a population of 4,696. Notable features include three miles (five kilometres) of sandy beaches and the Pembrokeshire Coast..."
+  },
+  {
+    "file": "2026-08-11-Mount-Everest--Himalayas.gif",
+    "date": "2026-08-11",
+    "name": "Mount Everest, Himalayas",
+    "lat": 27.9881,
+    "lon": 86.925,
+    "fact": "Its official height has been re-surveyed multiple times, most recently jointly by Nepal and China in 2020."
+  },
+  {
+    "file": "2026-08-11-Langdon-Place--Kentucky.gif",
+    "date": "2026-08-11",
+    "name": "Langdon Place, Kentucky",
+    "lat": 38.28666667,
+    "lon": -85.585,
+    "fact": "Langdon Place is a home rule-class city in Jefferson County, Kentucky, United States. As of the 2020 census, Langdon Place had a population of 870."
+  }
+]

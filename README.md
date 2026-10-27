@@ -31,6 +31,8 @@ Coordinates: 58.632, 8.288
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
 
+[🌐 Explore the Daily Render Atlas](https://jastman.github.io/jastman/) — spin the globe, preview past renders, and discover their stories.
+
 ---
 
 ### 📫 Connect with me
@@ -42,4 +44,3 @@ Coordinates: 58.632, 8.288
 <p align="center">
   <img width="1600" height="424" alt="motto" src="https://github.com/user-attachments/assets/8c10608b-6936-4756-b213-a2d26e816a3b" width="100%" />
 </p>
-
