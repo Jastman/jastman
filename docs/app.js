@@ -170,7 +170,8 @@ function setupGlobe() {
     geocoder: false, homeButton: false, sceneModePicker: false,
     navigationHelpButton: false, fullscreenButton: false,
     infoBox: false, selectionIndicator: false, baseLayer: false,
-    skyBox: false, scene3DOnly: true
+    skyBox: false, scene3DOnly: true,
+    requestRenderMode: true, maximumRenderTimeChange: Infinity
   });
   viewer.scene.backgroundColor = Cesium.Color.fromCssColorString('#080e19');
   viewer.scene.globe.baseColor = Cesium.Color.fromCssColorString('#183e55');
@@ -217,7 +218,8 @@ function setupGlobe() {
     }
     preview.hidden = false;
     const bounds = byId('globe').getBoundingClientRect();
-    preview.style.left = `${Math.max(8, Math.min(movement.endPosition.x + 18, bounds.width - preview.offsetWidth - 8))}px`;
+    const mainBounds = document.querySelector('main').getBoundingClientRect();
+    preview.style.left = `${bounds.left - mainBounds.left + Math.max(8, Math.min(movement.endPosition.x + 18, bounds.width - preview.offsetWidth - 8))}px`;
     preview.style.top = `${Math.max(8, Math.min(movement.endPosition.y + 18, bounds.height - preview.offsetHeight - 8))}px`;
   }, Cesium.ScreenSpaceEventType.MOUSE_MOVE);
   handler.setInputAction(movement => {

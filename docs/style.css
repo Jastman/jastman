@@ -41,7 +41,7 @@ button:disabled, input:disabled { opacity: .5; cursor: default; }
 nav { display: flex; gap: 1.5rem; font-size: .85rem; }
 nav a { color: var(--muted); text-decoration: none; }
 main { position: relative; height: calc(100dvh - 116px); min-height: 600px; overflow: hidden; }
-#globe { position: absolute; inset: 0; }
+#globe { position: absolute; inset: 0 0 0 350px; }
 .explorer {
   position: absolute;
   top: 2rem;
@@ -108,8 +108,9 @@ h2 { font-size: 1.5rem; letter-spacing: -.03em; margin: 0 0 1rem; }
 .detail-links { display: flex; flex-direction: column; gap: .8rem; font-size: .8rem; margin-top: 1.4rem; }
 footer { min-height: 40px; padding: .7rem 1rem; text-align: center; color: var(--muted); font-size: .65rem; }
 .no-script { position: absolute; right: 2rem; top: 6rem; padding: 1rem; background: var(--panel); }
-.cesium-viewer-bottom { left: auto; right: 8px; max-width: calc(100% - 365px); }
+.cesium-viewer-bottom { max-width: calc(100% - 16px); }
 @media (max-width: 1000px) and (min-width: 701px) {
+  #globe { left: 280px; }
   .explorer { width: 260px; left: 1rem; padding: 1rem; }
   .detail { width: 330px; right: 1rem; }
   .instructions { left: 280px; }
@@ -118,7 +119,7 @@ footer { min-height: 40px; padding: .7rem 1rem; text-align: center; color: var(-
   .masthead { height: auto; min-height: 90px; padding: 1rem; flex-wrap: wrap; }
   nav { gap: 1rem; font-size: .75rem; }
   main { height: auto; min-height: 0; overflow: visible; display: flex; flex-direction: column; }
-  #globe { position: relative; height: 58dvh; min-height: 350px; }
+  #globe { position: relative; inset: auto; width: 100%; height: 58dvh; min-height: 350px; }
   .explorer { position: relative; inset: auto; width: auto; margin: 1rem; max-height: 480px; order: 2; }
   h1 { font-size: 1.7rem; }
   h1 br { display: none; }
