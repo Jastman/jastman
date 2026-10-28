@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1793117622755)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1793205203529)
 
-**McClellanville, South Carolina**
+**Wembley Stadium, London**
 
-Coordinates: 33.08638889, -79.46805556
+Coordinates: 51.556, -0.2795
 
-*McClellanville is a small fishing town in rural Charleston County, South Carolina, United States. The population was 605 at the 2020 census. It is situated on the Atlantic coast, on land surrounded by Francis Marion National Forest and has traditionally derived its livelihood from the Atlantic Ocean...*
+*An iconic venue for international soccer tournaments, featuring a massive 133-meter-tall arch.*
 
-*Last generated: Oct 27, 2026 at 12:13 PM EDT*
+*Last generated: Oct 28, 2026 at 12:33 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

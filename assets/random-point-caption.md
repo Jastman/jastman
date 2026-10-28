@@ -1,5 +1,5 @@
-**McClellanville, South Carolina**
+**Wembley Stadium, London**
 
-Coordinates: 33.08638889, -79.46805556
+Coordinates: 51.556, -0.2795
 
-*McClellanville is a small fishing town in rural Charleston County, South Carolina, United States. The population was 605 at the 2020 census. It is situated on the Atlantic coast, on land surrounded by Francis Marion National Forest and has traditionally derived its livelihood from the Atlantic Ocean...*
+*An iconic venue for international soccer tournaments, featuring a massive 133-meter-tall arch.*
