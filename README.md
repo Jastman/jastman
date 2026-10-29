@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1793205203529)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1793292404107)
 
-**Wembley Stadium, London**
+**Petronas Twin Towers, Malaysia**
 
-Coordinates: 51.556, -0.2795
+Coordinates: 3.1578, 101.7115
 
-*An iconic venue for international soccer tournaments, featuring a massive 133-meter-tall arch.*
+*Connected by a double-decker skybridge that is designed to slide in and out of the towers to prevent wind damage.*
 
-*Last generated: Oct 28, 2026 at 12:33 PM EDT*
+*Last generated: Oct 29, 2026 at 12:46 PM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
