@@ -1,5 +1,5 @@
-**Petronas Twin Towers, Malaysia**
+**Pabianice**
 
-Coordinates: 3.1578, 101.7115
+Coordinates: 51.65, 19.38333333
 
-*Connected by a double-decker skybridge that is designed to slide in and out of the towers to prevent wind damage.*
+*Pabianice [pabʲaˈɲit͡sɛ] is a city in central Poland with 63,023 inhabitants (2021). Situated in the Łódź Voivodeship, it is the capital of Pabianice County. It lies about 10 kilometres (6 miles) southwest of Łódź and belongs to the metropolitan area of that city. It is the third largest city in the...*
