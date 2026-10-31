@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1793378368747)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1793461225109)
 
-**Pabianice**
+**Rynin (crater)**
 
-Coordinates: 51.65, 19.38333333
+Coordinates: 46.78, -103.73
 
-*Pabianice [pabʲaˈɲit͡sɛ] is a city in central Poland with 63,023 inhabitants (2021). Situated in the Łódź Voivodeship, it is the capital of Pabianice County. It lies about 10 kilometres (6 miles) southwest of Łódź and belongs to the metropolitan area of that city. It is the third largest city in the...*
+*Rynin is a lunar impact crater that is located just behind the northwestern limb, on the far side of the Moon. It is located just to the east of the larger crater Stefan and to the southwest of Chapman. This is an older lunar crater with an outer rim worn and rounded due to impact erosion. The edge remains...*
 
-*Last generated: Oct 30, 2026 at 12:39 PM EDT*
+*Last generated: Oct 31, 2026 at 11:40 AM EDT*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
