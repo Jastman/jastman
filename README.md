@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1793461225109)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1793551252683)
 
-**Rynin (crater)**
+**Taj Mahal, India**
 
-Coordinates: 46.78, -103.73
+Coordinates: 27.1751, 78.0421
 
-*Rynin is a lunar impact crater that is located just behind the northwestern limb, on the far side of the Moon. It is located just to the east of the larger crater Stefan and to the southwest of Chapman. This is an older lunar crater with an outer rim worn and rounded due to impact erosion. The edge remains...*
+*An immense mausoleum of white marble, renowned for its perfect symmetry and intricate optical illusions.*
 
-*Last generated: Oct 31, 2026 at 11:40 AM EDT*
+*Last generated: Nov 1, 2026 at 11:40 AM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
