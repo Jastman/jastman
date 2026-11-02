@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1793551252683)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1793649931199)
 
-**Taj Mahal, India**
+**SS Emidio**
 
-Coordinates: 27.1751, 78.0421
+Coordinates: 41.75054444, -124.19665278
 
-*An immense mausoleum of white marble, renowned for its perfect symmetry and intricate optical illusions.*
+*Hammac was a steam tank ship built in 1920–1921 by Bethlehem Shipbuilding Corporation of Alameda for the United States Shipping Board as part of the wartime shipbuilding program of the Emergency Fleet Corporation (EFC) to restore the nation's Merchant Marine. Early in 1923 the vessel together with two...*
 
-*Last generated: Nov 1, 2026 at 11:40 AM EST*
+*Last generated: Nov 2, 2026 at 3:05 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
