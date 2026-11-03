@@ -1,5 +1,5 @@
-**SS Emidio**
+**Cardinal Leger Secondary School**
 
-Coordinates: 41.75054444, -124.19665278
+Coordinates: 43.6842, -79.7516
 
-*Hammac was a steam tank ship built in 1920–1921 by Bethlehem Shipbuilding Corporation of Alameda for the United States Shipping Board as part of the wartime shipbuilding program of the Emergency Fleet Corporation (EFC) to restore the nation's Merchant Marine. Early in 1923 the vessel together with two...*
+*Cardinal Leger Secondary School is a separate school in the downtown sector of Brampton, Ontario, Canada. It is a member of the Dufferin-Peel Catholic District School Board and is connected to both St. Mary's Parish and St. Annes. The school enrolls about 1,233 students.*
