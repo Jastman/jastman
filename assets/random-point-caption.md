@@ -1,5 +1,5 @@
-**McMurdo Station, Antarctica**
+**Cuesmes**
 
-Coordinates: -77.8419, 166.6863
+Coordinates: 50.43611111, 3.92055556
 
-*One of the few places on Earth where satellite imagery updates are more exciting than the local news.*
+*Cuesmes (French pronunciation: [kwɛm] or [kɥɛm]; Walloon: Cweme) is a sub-municipality of the city of Mons located in the province of Hainaut, Wallonia, Belgium. It was a separate municipality until 1972. On 1 January 1972, it was merged into Mons.*
