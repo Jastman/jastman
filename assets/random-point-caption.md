@@ -1,5 +1,5 @@
-**Cuesmes**
+**Lafayette, Colorado**
 
-Coordinates: 50.43611111, 3.92055556
+Coordinates: 40.00333333, -105.10694444
 
-*Cuesmes (French pronunciation: [kwɛm] or [kɥɛm]; Walloon: Cweme) is a sub-municipality of the city of Mons located in the province of Hainaut, Wallonia, Belgium. It was a separate municipality until 1972. On 1 January 1972, it was merged into Mons.*
+*The City of Lafayette ( LA(H)F-ee-ET) is a home rule municipality located in southeastern Boulder County, Colorado, United States. The city population was 30,411 at the 2020 United States census.*

@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1793901452847)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1793985492851)
 
-**Cuesmes**
+**Lafayette, Colorado**
 
-Coordinates: 50.43611111, 3.92055556
+Coordinates: 40.00333333, -105.10694444
 
-*Cuesmes (French pronunciation: [kwɛm] or [kɥɛm]; Walloon: Cweme) is a sub-municipality of the city of Mons located in the province of Hainaut, Wallonia, Belgium. It was a separate municipality until 1972. On 1 January 1972, it was merged into Mons.*
+*The City of Lafayette ( LA(H)F-ee-ET) is a home rule municipality located in southeastern Boulder County, Colorado, United States. The city population was 30,411 at the 2020 United States census.*
 
-*Last generated: Nov 5, 2026 at 12:57 PM EST*
+*Last generated: Nov 6, 2026 at 12:18 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
