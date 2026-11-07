@@ -1,5 +1,5 @@
-**Lafayette, Colorado**
+**Lotus Temple, New Delhi**
 
-Coordinates: 40.00333333, -105.10694444
+Coordinates: 28.5535, 77.2588
 
-*The City of Lafayette ( LA(H)F-ee-ET) is a home rule municipality located in southeastern Boulder County, Colorado, United States. The city population was 30,411 at the 2020 United States census.*
+*A Bahá'í House of Worship composed of 27 free-standing marble-clad 'petals' arranged in clusters.*

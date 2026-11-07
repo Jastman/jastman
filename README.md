@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1793985492851)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1794067959541)
 
-**Lafayette, Colorado**
+**Lotus Temple, New Delhi**
 
-Coordinates: 40.00333333, -105.10694444
+Coordinates: 28.5535, 77.2588
 
-*The City of Lafayette ( LA(H)F-ee-ET) is a home rule municipality located in southeastern Boulder County, Colorado, United States. The city population was 30,411 at the 2020 United States census.*
+*A Bahá'í House of Worship composed of 27 free-standing marble-clad 'petals' arranged in clusters.*
 
-*Last generated: Nov 6, 2026 at 12:18 PM EST*
+*Last generated: Nov 7, 2026 at 11:12 AM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
