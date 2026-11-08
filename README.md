@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1794067959541)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1794155716322)
 
-**Lotus Temple, New Delhi**
+**Arisaig**
 
-Coordinates: 28.5535, 77.2588
+Coordinates: 56.91, -5.843
 
-*A Bahá'í House of Worship composed of 27 free-standing marble-clad 'petals' arranged in clusters.*
+*Arisaig  (Scottish Gaelic: Àrasaig) is a village in Lochaber, Inverness-shire. It lies 7 miles (11 kilometres) south of Mallaig on the west coast of the Scottish Highlands, within the Rough Bounds. Arisaig is also the traditional name for part of the surrounding peninsula south of Loch Morar, extending...*
 
-*Last generated: Nov 7, 2026 at 11:12 AM EST*
+*Last generated: Nov 8, 2026 at 11:35 AM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
