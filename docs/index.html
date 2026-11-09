@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Jake's daily Cesium renders, one corner of the Earth at a time.">
+  <meta name="theme-color" content="#080e19">
+  <title>Daily Render Atlas · Jake Steinerman</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='.9em' font-size='56'%3E🌍%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="https://cesium.com/downloads/cesiumjs/releases/1.120/Build/Cesium/Widgets/widgets.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://cesium.com/downloads/cesiumjs/releases/1.120/Build/Cesium/Cesium.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#locations">Skip to render list</a>
+  <header class="masthead">
+    <a class="wordmark" href="./" aria-label="Daily Render Atlas home"><span aria-hidden="true">◉</span> DAILY RENDER <strong>ATLAS</strong></a>
+    <nav aria-label="External links">
+      <a href="https://github.com/Jastman">Jake's GitHub ↗</a>
+      <a href="https://github.com/Jastman/jastman/tree/main/assets/world-zooms">Archive folder ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <div id="globe" aria-label="Interactive Earth. Drag to rotate and scroll or pinch to zoom."></div>
+    <aside class="explorer" aria-label="Explore daily renders">
+      <p class="eyebrow">A SPATIAL FIELD JOURNAL</p>
+      <h1>Same planet.<br>New perspective.</h1>
+      <p class="intro">One corner of the Earth, rendered daily with CesiumJS. Take the long way around.</p>
+      <p id="status" role="status">Loading the atlas…</p>
+      <label for="search">Find a place</label>
+      <input id="search" type="search" placeholder="A city, landmark, or date…" autocomplete="off" disabled>
+      <p id="result-count" class="muted" aria-live="polite"></p>
+      <ul id="locations" tabindex="-1" aria-label="Archived renders"></ul>
+    </aside>
+
+    <div class="globe-controls" aria-label="Globe controls">
+      <button id="rotation" type="button" disabled aria-pressed="false">Pause rotation</button>
+      <button id="reset" type="button" disabled>Reset view</button>
+    </div>
+    <p class="instructions">Drag to explore · Scroll / pinch to zoom · Hover to preview · Click a point for its story</p>
+
+    <div id="preview" class="preview" hidden aria-hidden="true">
+      <img id="preview-image" alt="" width="800" height="400">
+      <strong id="preview-name"></strong>
+      <span id="preview-date"></span>
+    </div>
+
+    <section id="detail" class="detail" aria-labelledby="detail-name" hidden>
+      <button id="close-detail" class="close" type="button" aria-label="Close location details">✕</button>
+      <p class="eyebrow">FROM THE DAILY RENDER ARCHIVE</p>
+      <h2 id="detail-name" tabindex="-1"></h2>
+      <label for="render-date">Render date</label>
+      <select id="render-date"></select>
+      <img id="detail-image" alt="" width="800" height="400">
+      <p id="image-error" class="muted" hidden>Preview unavailable. Open the archived GIF below to view it.</p>
+      <p id="detail-fact"></p>
+      <p id="detail-coordinates" class="coordinates"></p>
+      <div class="detail-links">
+        <a id="open-gif">Open archived GIF ↗</a>
+        <a id="open-map">View on OpenStreetMap ↗</a>
+      </div>
+    </section>
+    <noscript><p class="no-script">Enable JavaScript to explore the globe, or <a href="https://github.com/Jastman/jastman/tree/main/assets/world-zooms">browse the archive on GitHub</a>.</p></noscript>
+  </main>
+  <footer>Built by <a href="https://github.com/Jastman">Jake Steinerman</a> · Powered by CesiumJS · A little curiosity, every day.</footer>
+</body>
+</html>

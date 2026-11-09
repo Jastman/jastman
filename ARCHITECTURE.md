@@ -11,6 +11,8 @@ This project is a fully autonomous, serverless micro-service running entirely in
 * **Landmark Framing Metadata:** Curated points can set `focusHeight` in meters above the coordinate anchor; the Space Needle uses this to keep its observation deck and needle in view instead of centering only on its base.
 * **Anti-Black Screen Safeguard:** Decodes every screenshot and validates its dimensions and sampled pixel luminance, retries the final capture, falls back to the last verified frame, and validates the encoded GIF's final frame before publishing.
 * **CDN Cache-Busting:** Automatically commits the updated image and caption, appending a dynamic timestamp query (`?v=timestamp`) to force GitHub's CDN to instantly refresh your profile view.
+* **Interactive Archive:** A static CesiumJS app in `docs/` plots archived renders on a slowly rotating globe, with hover GIF previews and a location detail panel. Repeated coordinates share a point with a render-date selector. A searchable list provides keyboard, touch, and non-WebGL access.
+* **Archive Metadata:** Each successful render records its filename, UTC date, name, coordinates, and description in `docs/renders.json`. Existing entries were recovered from original captions or matching curated points in Git history, not guessed from place names. GitHub Pages serves `docs/`; the app fetches the live manifest and on-demand GIFs from `main`, avoiding reliance on Pages rebuilds after bot commits. Local previews use the local manifest.
 
 ## Architecture Diagram
 
@@ -32,8 +34,10 @@ graph TD
         end
 
         subgraph Persistence [State & Version Control]
-            H -->|Saves & Cache-Busts URL| I[assets/random-point.png & markdown caption]
+            H -->|Saves & Cache-Busts URL| I[GIF, PNG, caption & archive metadata]
             I -->|Git Commit & Push| J[GitHub Repository Main Branch]
             J -->|CDN Cache-Busting Query ?v=timestamp| K[User GitHub Profile README.md]
+            J -->|docs/renders.json| L[GitHub Pages / Daily Render Atlas]
+            L -->|On-demand GIFs| M[assets/world-zooms Archive]
         end
     end
