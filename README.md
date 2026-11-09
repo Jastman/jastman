@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1794155716322)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1794256428754)
 
-**Arisaig**
+**White Cliffs of Dover, United Kingdom**
 
-Coordinates: 56.91, -5.843
+Coordinates: 51.1276, 1.3323
 
-*Arisaig  (Scottish Gaelic: Àrasaig) is a village in Lochaber, Inverness-shire. It lies 7 miles (11 kilometres) south of Mallaig on the west coast of the Scottish Highlands, within the Rough Bounds. Arisaig is also the traditional name for part of the surrounding peninsula south of Loch Morar, extending...*
+*Iconic chalk cliffs facing the Strait of Dover, composed primarily of microscopic skeletal remains.*
 
-*Last generated: Nov 8, 2026 at 11:35 AM EST*
+*Last generated: Nov 9, 2026 at 3:33 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

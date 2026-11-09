@@ -1,5 +1,5 @@
-**Arisaig**
+**White Cliffs of Dover, United Kingdom**
 
-Coordinates: 56.91, -5.843
+Coordinates: 51.1276, 1.3323
 
-*Arisaig  (Scottish Gaelic: Àrasaig) is a village in Lochaber, Inverness-shire. It lies 7 miles (11 kilometres) south of Mallaig on the west coast of the Scottish Highlands, within the Rough Bounds. Arisaig is also the traditional name for part of the surrounding peninsula south of Loch Morar, extending...*
+*Iconic chalk cliffs facing the Strait of Dover, composed primarily of microscopic skeletal remains.*
