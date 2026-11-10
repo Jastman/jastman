@@ -1,5 +1,5 @@
-**White Cliffs of Dover, United Kingdom**
+**Patterson Heights, Pennsylvania**
 
-Coordinates: 51.1276, 1.3323
+Coordinates: 40.73916667, -80.32805556
 
-*Iconic chalk cliffs facing the Strait of Dover, composed primarily of microscopic skeletal remains.*
+*Patterson Heights is a borough in north-central Beaver County, Pennsylvania, United States. The population was 639 at the 2020 census. It is a part of the Pittsburgh metropolitan area.*

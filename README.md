@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1794256428754)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1794332195316)
 
-**White Cliffs of Dover, United Kingdom**
+**Patterson Heights, Pennsylvania**
 
-Coordinates: 51.1276, 1.3323
+Coordinates: 40.73916667, -80.32805556
 
-*Iconic chalk cliffs facing the Strait of Dover, composed primarily of microscopic skeletal remains.*
+*Patterson Heights is a borough in north-central Beaver County, Pennsylvania, United States. The population was 639 at the 2020 census. It is a part of the Pittsburgh metropolitan area.*
 
-*Last generated: Nov 9, 2026 at 3:33 PM EST*
+*Last generated: Nov 10, 2026 at 12:36 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
