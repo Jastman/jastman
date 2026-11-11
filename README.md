@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1794332195316)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1794419304084)
 
-**Patterson Heights, Pennsylvania**
+**Benaroya Hall**
 
-Coordinates: 40.73916667, -80.32805556
+Coordinates: 47.608051, -122.336948
 
-*Patterson Heights is a borough in north-central Beaver County, Pennsylvania, United States. The population was 639 at the 2020 census. It is a part of the Pittsburgh metropolitan area.*
+*Benaroya Hall is the home of the Seattle Symphony in Downtown Seattle, Washington, United States. It features two auditoria, the S. Mark Taper Foundation Auditorium, a 2,500-seat performance venue, as well as the Illsley Ball Nordstrom Recital Hall, which seats 536. Opened in September 1998 at a cost...*
 
-*Last generated: Nov 10, 2026 at 12:36 PM EST*
+*Last generated: Nov 11, 2026 at 12:48 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
