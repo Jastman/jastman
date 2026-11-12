@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1794419304084)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1794506510478)
 
-**Benaroya Hall**
+**Eudlo Creek National Park**
 
-Coordinates: 47.608051, -122.336948
+Coordinates: -26.70694444, 152.96194444
 
-*Benaroya Hall is the home of the Seattle Symphony in Downtown Seattle, Washington, United States. It features two auditoria, the S. Mark Taper Foundation Auditorium, a 2,500-seat performance venue, as well as the Illsley Ball Nordstrom Recital Hall, which seats 536. Opened in September 1998 at a cost...*
+*Eudlo Creek is a national park in the south of Palmwoods in the Sunshine Coast Region local government area of South East Queensland, Australia, 85 km north of Brisbane. 456 plant species were discovered in the park, 13 of which are on the list of rare or endangered species. The vulnerable tusked frog...*
 
-*Last generated: Nov 11, 2026 at 12:48 PM EST*
+*Last generated: Nov 12, 2026 at 1:01 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
