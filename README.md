@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1794506510478)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1794591444006)
 
-**Eudlo Creek National Park**
+**McLeod County, Minnesota**
 
-Coordinates: -26.70694444, 152.96194444
+Coordinates: 44.83, -94.27
 
-*Eudlo Creek is a national park in the south of Palmwoods in the Sunshine Coast Region local government area of South East Queensland, Australia, 85 km north of Brisbane. 456 plant species were discovered in the park, 13 of which are on the list of rare or endangered species. The vulnerable tusked frog...*
+*McLeod County ( mək-LOWD) is a county in the U.S. state of Minnesota. At the 2020 census, the population was 36,771. Its county seat is Glencoe. McLeod County comprises the Hutchinson, MN Micropolitan Statistical Area and is part of the Minneapolis-St. Paul, MN-WI Combined Statistical Area.*
 
-*Last generated: Nov 12, 2026 at 1:01 PM EST*
+*Last generated: Nov 13, 2026 at 12:37 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
