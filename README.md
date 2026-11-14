@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1794591444006)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1794673775260)
 
-**McLeod County, Minnesota**
+**Corporation Park, Blackburn**
 
-Coordinates: 44.83, -94.27
+Coordinates: 53.7562, -2.49536
 
-*McLeod County ( mək-LOWD) is a county in the U.S. state of Minnesota. At the 2020 census, the population was 36,771. Its county seat is Glencoe. McLeod County comprises the Hutchinson, MN Micropolitan Statistical Area and is part of the Minneapolis-St. Paul, MN-WI Combined Statistical Area.*
+*Corporation Park is a traditional Victorian park in Blackburn, Lancashire, England. It was landscaped by William Henderson and opened in 1857. Corporation Park is regarded as the main formal park in Blackburn and is used mainly by local people for general recreation, walking and dog walking, as well...*
 
-*Last generated: Nov 13, 2026 at 12:37 PM EST*
+*Last generated: Nov 14, 2026 at 11:29 AM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
