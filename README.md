@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1794673775260)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1794761679707)
 
-**Corporation Park, Blackburn**
+**CERN (The Globe of Science), Switzerland**
 
-Coordinates: 53.7562, -2.49536
+Coordinates: 46.2334, 6.0531
 
-*Corporation Park is a traditional Victorian park in Blackburn, Lancashire, England. It was landscaped by William Henderson and opened in 1857. Corporation Park is regarded as the main formal park in Blackburn and is used mainly by local people for general recreation, walking and dog walking, as well...*
+*The surface-level visitor center sitting directly above the massive subterranean Large Hadron Collider ring.*
 
-*Last generated: Nov 14, 2026 at 11:29 AM EST*
+*Last generated: Nov 15, 2026 at 11:54 AM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
