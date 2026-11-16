@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1794761679707)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1794859629933)
 
-**CERN (The Globe of Science), Switzerland**
+**Apple Park, Cupertino**
 
-Coordinates: 46.2334, 6.0531
+Coordinates: 37.3349, -122.009
 
-*The surface-level visitor center sitting directly above the massive subterranean Large Hadron Collider ring.*
+*Nicknamed 'The Spaceship,' this massive ring-shaped building is a marvel of curved glass.*
 
-*Last generated: Nov 15, 2026 at 11:54 AM EST*
+*Last generated: Nov 16, 2026 at 3:07 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
