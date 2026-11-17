@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1794859629933)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1794942154754)
 
-**Apple Park, Cupertino**
+**Louvre Museum, Paris**
 
-Coordinates: 37.3349, -122.009
+Coordinates: 48.8606, 2.3376
 
-*Nicknamed 'The Spaceship,' this massive ring-shaped building is a marvel of curved glass.*
+*The world's most-visited museum, famous for the stark contrast between its historic palace and modern glass pyramid.*
 
-*Last generated: Nov 16, 2026 at 3:07 PM EST*
+*Last generated: Nov 17, 2026 at 2:02 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
