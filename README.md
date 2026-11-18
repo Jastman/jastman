@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1794942154754)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1795027593301)
 
-**Louvre Museum, Paris**
+**Medina River**
 
-Coordinates: 48.8606, 2.3376
+Coordinates: 29.23444444, -98.40777778
 
-*The world's most-visited museum, famous for the stark contrast between its historic palace and modern glass pyramid.*
+*The Medina River is a river located in south central Texas, United States, in the Medina Valley.  It was also known as the Rio Mariano, Rio San Jose, or Rio de Bagres (Catfish river). Much of the course of the river is owned and operated by the Bexar-Medina-Atascosa Water District to provide irrigation...*
 
-*Last generated: Nov 17, 2026 at 2:02 PM EST*
+*Last generated: Nov 18, 2026 at 1:46 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
