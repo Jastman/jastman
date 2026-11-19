@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1795027593301)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1795114729270)
 
-**Medina River**
+**Machu Picchu, Peru**
 
-Coordinates: 29.23444444, -98.40777778
+Coordinates: -13.1631, -72.545
 
-*The Medina River is a river located in south central Texas, United States, in the Medina Valley.  It was also known as the Rio Mariano, Rio San Jose, or Rio de Bagres (Catfish river). Much of the course of the river is owned and operated by the Bexar-Medina-Atascosa Water District to provide irrigation...*
+*An Incan citadel set high in the Andes Mountains, providing some of the most dramatic 3D terrain elevation data available.*
 
-*Last generated: Nov 18, 2026 at 1:46 PM EST*
+*Last generated: Nov 19, 2026 at 1:58 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

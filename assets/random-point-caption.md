@@ -1,5 +1,5 @@
-**Medina River**
+**Machu Picchu, Peru**
 
-Coordinates: 29.23444444, -98.40777778
+Coordinates: -13.1631, -72.545
 
-*The Medina River is a river located in south central Texas, United States, in the Medina Valley.  It was also known as the Rio Mariano, Rio San Jose, or Rio de Bagres (Catfish river). Much of the course of the river is owned and operated by the Bexar-Medina-Atascosa Water District to provide irrigation...*
+*An Incan citadel set high in the Andes Mountains, providing some of the most dramatic 3D terrain elevation data available.*
