@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1795114729270)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1795199305662)
 
-**Machu Picchu, Peru**
+**Koppenberg, Belgium**
 
-Coordinates: -13.1631, -72.545
+Coordinates: 50.8123, 3.5794
 
-*An Incan citadel set high in the Andes Mountains, providing some of the most dramatic 3D terrain elevation data available.*
+*A notorious, brutally steep cobblestone climb that often forces professional cyclists off their bikes.*
 
-*Last generated: Nov 19, 2026 at 1:58 PM EST*
+*Last generated: Nov 20, 2026 at 1:28 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
