@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1795199305662)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1795281223290)
 
-**Koppenberg, Belgium**
+**Neuschwanstein Castle, Germany**
 
-Coordinates: 50.8123, 3.5794
+Coordinates: 47.5576, 10.7498
 
-*A notorious, brutally steep cobblestone climb that often forces professional cyclists off their bikes.*
+*The ultimate fairytale castle perched on a rugged hill in Bavaria, and the inspiration for Disneyland's Sleeping Beauty Castle.*
 
-*Last generated: Nov 20, 2026 at 1:28 PM EST*
+*Last generated: Nov 21, 2026 at 12:13 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

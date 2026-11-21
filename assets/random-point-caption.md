@@ -1,5 +1,5 @@
-**Koppenberg, Belgium**
+**Neuschwanstein Castle, Germany**
 
-Coordinates: 50.8123, 3.5794
+Coordinates: 47.5576, 10.7498
 
-*A notorious, brutally steep cobblestone climb that often forces professional cyclists off their bikes.*
+*The ultimate fairytale castle perched on a rugged hill in Bavaria, and the inspiration for Disneyland's Sleeping Beauty Castle.*
