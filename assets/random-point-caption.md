@@ -1,5 +1,5 @@
-**Neuschwanstein Castle, Germany**
+**Motnău**
 
-Coordinates: 47.5576, 10.7498
+Coordinates: 45.55638889, 26.91055556
 
-*The ultimate fairytale castle perched on a rugged hill in Bavaria, and the inspiration for Disneyland's Sleeping Beauty Castle.*
+*The Motnău is a left tributary of the river Râmnicul Sărat in Romania. It discharges into the Râmnicul Sărat in Dumitrești. Its length is 19 km (12 mi) and its basin size is 56 km2 (22 sq mi).*
