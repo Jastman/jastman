@@ -1,5 +1,5 @@
-**Motnău**
+**Wycliffe Hall, Oxford**
 
-Coordinates: 45.55638889, 26.91055556
+Coordinates: 51.76302, -1.260095
 
-*The Motnău is a left tributary of the river Râmnicul Sărat in Romania. It discharges into the Râmnicul Sărat in Dumitrești. Its length is 19 km (12 mi) and its basin size is 56 km2 (22 sq mi).*
+*Wycliffe Hall () is a permanent private hall of the University of Oxford affiliated with the Church of England, specialising in philosophy, theology, and religion. It is named after the Bible translator and reformer John Wycliffe, who was master of Balliol College, Oxford in the 14th century. Founded...*

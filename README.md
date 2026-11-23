@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1795369354963)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1795471129259)
 
-**Motnău**
+**Wycliffe Hall, Oxford**
 
-Coordinates: 45.55638889, 26.91055556
+Coordinates: 51.76302, -1.260095
 
-*The Motnău is a left tributary of the river Râmnicul Sărat in Romania. It discharges into the Râmnicul Sărat in Dumitrești. Its length is 19 km (12 mi) and its basin size is 56 km2 (22 sq mi).*
+*Wycliffe Hall () is a permanent private hall of the University of Oxford affiliated with the Church of England, specialising in philosophy, theology, and religion. It is named after the Bible translator and reformer John Wycliffe, who was master of Balliol College, Oxford in the 14th century. Founded...*
 
-*Last generated: Nov 22, 2026 at 12:42 PM EST*
+*Last generated: Nov 23, 2026 at 4:58 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
