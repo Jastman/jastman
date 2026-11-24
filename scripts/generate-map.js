@@ -3,6 +3,7 @@ const path = require('path');
 const fs = require('fs');
 const { execFileSync, execSync } = require('child_process');
 const { PNG } = require('pngjs');
+const { recordRender } = require('./archive-metadata');
 
 // ─── Capture settings ────────────────────────────────────────────────────────
 const GIF_WIDTH = 800;
@@ -313,7 +314,7 @@ async function main() {
     }
   }
 
-  const targetLon = todayPoint.lon || todayPoint.lng;
+  const targetLon = todayPoint.lon ?? todayPoint.lng;
   const targetLat = todayPoint.lat;
   const targetHeight = todayPoint.height || 1500;
   const targetFocusHeight = Number.isFinite(todayPoint.focusHeight)
@@ -376,6 +377,14 @@ async function main() {
     const safeName = locationName.replace(/[^a-zA-Z0-9]/g, '-').slice(0, 40);
     const archivePath = path.join(archiveDir, `${datestamp}-${safeName}.gif`);
     fs.copyFileSync(gifPath, archivePath);
+    recordRender({
+      file: path.basename(archivePath),
+      date: datestamp,
+      name: locationName,
+      lat: targetLat,
+      lon: targetLon,
+      fact
+    });
     console.log(`Archived: ${archivePath}`);
 
     // Save the verified rendered frame, never ffmpeg's palette image.
