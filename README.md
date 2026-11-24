@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1795471129259)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1795552488709)
 
-**Wycliffe Hall, Oxford**
+**CN Tower, Toronto**
 
-Coordinates: 51.76302, -1.260095
+Coordinates: 43.6426, -79.3871
 
-*Wycliffe Hall () is a permanent private hall of the University of Oxford affiliated with the Church of England, specialising in philosophy, theology, and religion. It is named after the Bible translator and reformer John Wycliffe, who was master of Balliol College, Oxford in the 14th century. Founded...*
+*Held the record for the world's tallest freestanding structure for over 30 years.*
 
-*Last generated: Nov 23, 2026 at 4:58 PM EST*
+*Last generated: Nov 24, 2026 at 3:34 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

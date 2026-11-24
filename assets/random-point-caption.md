@@ -1,5 +1,5 @@
-**Wycliffe Hall, Oxford**
+**CN Tower, Toronto**
 
-Coordinates: 51.76302, -1.260095
+Coordinates: 43.6426, -79.3871
 
-*Wycliffe Hall () is a permanent private hall of the University of Oxford affiliated with the Church of England, specialising in philosophy, theology, and religion. It is named after the Bible translator and reformer John Wycliffe, who was master of Balliol College, Oxford in the 14th century. Founded...*
+*Held the record for the world's tallest freestanding structure for over 30 years.*
