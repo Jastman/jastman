@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1795552488709)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1795636291080)
 
-**CN Tower, Toronto**
+**Arecibo Observatory, Puerto Rico**
 
-Coordinates: 43.6426, -79.3871
+Coordinates: 18.3441, -66.7528
 
-*Held the record for the world's tallest freestanding structure for over 30 years.*
+*Though the massive radio telescope collapsed in 2020, its enormous sinkhole footprint remains a topographical anomaly.*
 
-*Last generated: Nov 24, 2026 at 3:34 PM EST*
+*Last generated: Nov 25, 2026 at 2:51 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

@@ -1,5 +1,5 @@
-**CN Tower, Toronto**
+**Arecibo Observatory, Puerto Rico**
 
-Coordinates: 43.6426, -79.3871
+Coordinates: 18.3441, -66.7528
 
-*Held the record for the world's tallest freestanding structure for over 30 years.*
+*Though the massive radio telescope collapsed in 2020, its enormous sinkhole footprint remains a topographical anomaly.*
