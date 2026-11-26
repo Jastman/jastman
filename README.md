@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1795636291080)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1795721381721)
 
-**Arecibo Observatory, Puerto Rico**
+**CERN (The Globe of Science), Switzerland**
 
-Coordinates: 18.3441, -66.7528
+Coordinates: 46.2334, 6.0531
 
-*Though the massive radio telescope collapsed in 2020, its enormous sinkhole footprint remains a topographical anomaly.*
+*The surface-level visitor center sitting directly above the massive subterranean Large Hadron Collider ring.*
 
-*Last generated: Nov 25, 2026 at 2:51 PM EST*
+*Last generated: Nov 26, 2026 at 2:29 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>

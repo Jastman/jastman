@@ -1,5 +1,5 @@
-**Arecibo Observatory, Puerto Rico**
+**CERN (The Globe of Science), Switzerland**
 
-Coordinates: 18.3441, -66.7528
+Coordinates: 46.2334, 6.0531
 
-*Though the massive radio telescope collapsed in 2020, its enormous sinkhole footprint remains a topographical anomaly.*
+*The surface-level visitor center sitting directly above the massive subterranean Large Hadron Collider ring.*
