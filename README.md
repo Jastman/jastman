@@ -18,15 +18,15 @@ I work at the intersection of **3D/geospatial, XR, and dev relations** at [Cesiu
 ---
 ### 🌍 Daily Render: A Random Corner of the Earth, Picked Every Day
 <!-- START_LOCATION -->
-![Cesium Daily World Zoom](assets/random-point.gif?v=1795721381721)
+![Cesium Daily World Zoom](assets/random-point.gif?v=1795807539913)
 
-**CERN (The Globe of Science), Switzerland**
+**Kennedy Space Center (Launch Complex 39A)**
 
-Coordinates: 46.2334, 6.0531
+Coordinates: 28.6083, -80.6041
 
-*The surface-level visitor center sitting directly above the massive subterranean Large Hadron Collider ring.*
+*The historic launch pad where the Apollo 11 mission departed for the moon, now utilized for modern spaceflight.*
 
-*Last generated: Nov 26, 2026 at 2:29 PM EST*
+*Last generated: Nov 27, 2026 at 2:25 PM EST*
 <!-- END_LOCATION -->
 
 <small>Refreshes daily via GitHub Actions + CesiumJS.</small>
